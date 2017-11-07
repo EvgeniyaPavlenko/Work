@@ -1,0 +1,50 @@
+.pages{
+	width:650px;
+	height:35px;
+	background-color: #FAFAFA;
+}
+
+div{
+	display: inline-block;
+	padding: 5px 7px 5px 5px;
+}
+
+.number{
+	height:20px; 
+	width:20px;
+	border:1px solid #DFDFDF;
+	border-radius: 3px;
+	color:#9D29D8;
+	text-align: center;
+	margin-right: 3px;
+}
+
+.number:hover{
+	background-color: #9D29D8;
+	color:#FFFFFF;
+}
+
+.before, .after{
+	color:#9D29D8;
+	text-transform:uppercase;
+}
+
+.after:hover{
+	background-color: #9D29D8;
+	color:#FFFFFF;
+}
+
+.before:hover{
+	background-color: #9D29D8;
+	color:#FFFFFF;
+}
+
+.after:after{
+	content:"\00BB";
+	margin-left: 2px;
+}
+
+.before:before{
+	content:"\00AB";
+	margin-right: 2px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Komposition</title>
+      <meta charset="utf-8">
+      <style type="text/css">
+         table { border-collapse: collapse; width: 400px; height: 500px;}
+         td { border: solid #000; width: 50px; height:50px;}
+         
+         .yellow{
+         	background-color: #fffa69;
+         }
+         .black{
+         	background-color: #000000;
+         }
+         .blue{
+
+        background-color: #074481;
+         }
+    	.red{
+        background-color: #ff5b2d;
+         }
+
+      </style>
+   </head>
+
+   <body>
+      <table>
+         <caption>Komposition</caption>
+         <tr>
+            <!--ряд1-->
+            <td colspan="2">&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+            <td colspan="2" class="yellow">&nbsp;</td>
+         </tr>
+         <tr>
+            <!--ряд2-->
+            <td rowspan="2">&nbsp;</td>
+            <td colspan="4" rowspan="4" class="red">&nbsp;</td>
+            <td colspan="2" rowspan="2" class="yellow">&nbsp;</td>
+         </tr>
+         <tr>
+            <!--ряд3-->
+         </tr>
+         <tr>
+            <!--ряд4-->
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+         </tr>
+         <tr>
+            <!--ряд5-->
+         </tr>
+         <tr>
+            <!--ряд6-->
+            <td colspan="2" class="black">&nbsp;</td>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="2">&nbsp;</td>
+         </tr>
+         <tr>
+            <!--ряд7-->
+            <td rowspan="3" class="yellow">&nbsp;</td>
+            <td colspan="2" class="black">&nbsp;</td>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="2" rowspan="2" class="blue">&nbsp;</td>
+         </tr>
+         <tr>
+            <!--ряд8-->
+            <td rowspan="2" colspan="2">&nbsp;</td>
+            <td colspan="2" class="black">&nbsp;</td>
+         </tr>
+         <tr>
+            <!--ряд9-->
+            <td colspan="4">&nbsp;</td>
+         </tr>
+      </table>
+   </body>
+</html>

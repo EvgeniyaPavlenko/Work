@@ -1,0 +1,7 @@
+p:last-child{
+color:#999;
+}
+
+p:nth-child(2){
+font-size:30px;
+}

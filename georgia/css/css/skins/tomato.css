@@ -1,0 +1,88 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #FF6347; }
+
+p,
+body .main_footer,
+.s_guide li {
+  color: #888; }
+
+.color_element {
+  color: #FF6347; }
+
+.color_bg {
+  background-color: #FF6347; }
+
+.color_border {
+  border-color: #FF6347; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr a {
+    color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+
+svg {
+  z-index: 100; }
+  svg path {
+    fill: #FAFAFA; }
+
+.top_menu a:hover {
+  color: #FF6347; }
+.top_menu a {
+  letter-spacing: 4px; }
+
+.top_wrapper .top_center .top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+.s_descr {
+  letter-spacing: 5px; }
+  .s_descr::after {
+    background-color: #222; }
+
+.s_route a {
+  border: 1px solid #FF6347; }
+  .s_route a:hover {
+    background-color: #FF6347;
+    color: #fff; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+
+.about_me p:nth-child(even) {
+  color: #FF6347; }
+
+.h2_personal {
+  letter-spacing: 2px; }
+
+.contacts_icon, .text-danger {
+  color: #FF6347; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #FF6347; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form button {
+  background-color: #FF6347;
+  letter-spacing: 2px; }
+
+.form-group {
+  color: #888;
+  letter-spacing: 2px; }
+
+.s_sign .section_content .col-md-4 span {
+  color: #FF6347; }
+
+/*# sourceMappingURL=tomato.css.map */

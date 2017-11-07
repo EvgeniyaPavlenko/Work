@@ -1,0 +1,421 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "Raleway", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+
+section
+	padding: 70px 0 90px
+	h2
+		text-align: center
+		font-size: 24px
+		text-transform: uppercase
+		margin: 0 0 15px
+	h3
+		text-align: center
+
+a,
+a:visited,
+a:hover
+	color: #fff
+	font-size: inherit
+	font-family: inherit
+
+button
+	z-index: 1000
+
+button a
+	width: 100%
+
+
+.hidden
+	display: none
+
+.main_head
+	min-height: 20px
+	padding-top: 20px
+	position: relative
+	background: rgba(0,0,0,.4)
+
+.logo_container
+	float: left
+
+
+.loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/ajax-loader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-posirion: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+//TOGGLE MENU
+$w: 34px
+$h: 3px
+
+.toggle_menu
+	background-color: #222
+	width: 60px
+	height: 60px
+	position: fixed
+	float: right
+	z-index: 100
+	border: none
+	outline: none
+	left: 20px
+	top: 20px
+
+.sandwich 
+	width: $w 
+	height: $w
+	position: absolute
+	top: 12px
+	bottom: 0
+	left: 0
+	right: 0
+	margin: auto
+	z-index: 200
+
+.sw-topper
+	position: relative
+	top: 0
+	width: $w 
+	height: $h
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+        
+	/* transition-delay: 0.2s, 0s; */
+
+.sw-bottom
+	position: relative
+	width: $w
+	height: $h
+	top: $h * 2
+	
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+	transition-delay: 0.2s, 0s
+
+.sw-footer
+	position: relative
+	width: $w
+	height: $h
+	top: $h * 4
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: all 0.5s
+	transition-delay: 0.1s
+
+.sandwich.active 
+	.sw-topper
+		top: 10px
+		transform: rotate(-45deg)
+	.sw-bottom
+		top: 6px
+		transform: rotate(45deg)
+	.sw-footer
+		opacity: 0
+		top: 0
+		transform: rotate(180deg)
+
+.top_menu
+	position: fixed
+	width: 100%
+	height: 100%
+	background-color: rgba(0,0,0,.9)
+	z-index: 50
+	right: 0
+	top: 0
+	display: none
+	ul,
+	li
+		list-style-type: none
+		padding: 0
+		margin: 0 
+		&:nth-child(1) a
+			+animation-duration(.5s)
+		&:nth-child(2) a
+			+animation-duration(1s)
+		&:nth-child(3) a
+			+animation-duration(1.5s)
+		&:nth-child(4) a
+			+animation-duration(2s)
+		&:nth-child(5) a
+			+animation-duration(2s)
+		&:nth-child(6) a
+			+animation-duration(2s)
+	ul
+		margin-top: 180px
+		text-align: center
+		a
+			color: #fff
+			display: block
+			text-transform:	uppercase
+			font-size: 12px
+			opacity: 0
+			position: relative
+			height: 60px
+			span
+				display: block
+				position: absolute
+				top: -23px
+				left: 0
+				height: 100%
+				width: 100%
+				@include transition(all 0.5s ease)
+				&:hover
+					background-color: rgba(255,255,255,.05)
+
+.top_wrapper
+	display: table
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 20
+	.top_description
+		display: table-row
+	.top_center
+		display: table-cell
+		text-align: center
+		vertical-align: middle
+		.top_text
+			display: inline-block
+			h1
+				display: inline-block
+				padding: 10px 65px
+				color: #fff
+				border: 8px solid #fff
+				background: rgba(0,0,0,.5)
+				text-transform: uppercase
+				font-weight: 600
+				font-size: 2.8em
+				margin-left: 20px
+				margin-right: 20px
+				+animation-delay(.7s)
+			p
+				margin: 0
+				font-size: 14px
+				text-transform: uppercase
+				+animation-delay(.9s)
+
+.top_order,
+.top_question
+	position: fixed
+	right: 20px
+	width: 150px
+	height: 30px
+	color: #fff
+	background-color: #000
+	border: none
+	outline: none
+	text-transform: uppercase
+
+.top_question
+	right: 190px
+
+.ul_style li
+	line-height: 30px
+	font-size: 17px
+	margin-top: 20px
+	list-style-type: none
+	position: relative
+
+.ul_style li:before
+	content: ''
+	display: inline-block
+	width: 40px	
+	height: 40px
+	background-color: #fff
+	vertical-align: middle
+	margin-right: 20px
+	background-position: 50% 50%
+	background-size: cover
+	border: 1px solid #000
+
+#services .ul_presentations li:first-child:before
+	background-image: url("../../img/icon_partner.png")
+
+#services .ul_presentations li:nth-child(2):before
+	background-image: url("../../img/icon-business.png")
+
+#services .ul_presentations li:nth-child(3):before
+	background-image: url("../../img/icon-education.png")
+
+#services .ul_trainings li:nth-child(1):before
+	background-image: url("../../img/icon-cons.png")
+
+#services .ul_trainings li:nth-child(2):before
+	background-image: url("../../img/icon-training.png")
+
+#mechanic .ul_style li
+	padding-left: 55px
+
+#mechanic .ul_style li:before
+	content: "1"
+	position: absolute
+	left: 0
+	top: -3px
+	color: #000
+	border: 3px solid black
+	font-size: 25px
+	text-align: center
+	background-color: #fff
+
+#mechanic .ul_style li:nth-child(2):before
+	content: "2"
+
+#mechanic .ul_style li:nth-child(3):before
+	content: "3"
+
+#mechanic .container
+	background-color: #fff
+	padding: 50px 0
+
+#mechanic p
+	color: #000
+	font-size: 20px
+	span
+		font-weight: bold
+
+#trainings .col-md-3
+	text-align: center
+	img
+		display: block
+		margin: 10px auto
+		width: 50px
+		border: 3px solid black
+		padding: 5px
+
+#contacts
+	color: #fff
+
+#trainings_format
+	ul
+		li
+			margin-top: 23px
+			list-style-type: none
+			position: relative
+			&:before
+				content: "1"
+				position: absolute
+				vertical-align: top
+				width: 30px
+				height: 30px
+				border: 3px solid #fff
+				text-align: center
+				left: -45px
+				top: 0
+			&:nth-child(2):before
+				content: "2"
+			&:nth-child(3):before
+				content: "3"
+			&:nth-child(4):before
+				content: "4"
+			span
+				display: block
+				
+
+#price
+	h2
+		color: #fff
+	.section_content
+		background-color: #FAFAFA
+		padding: 50px 0
+	.col-md-3	
+		text-align: center
+		background-color: #fff
+		border: 1px solid #000
+		border-collapse: collapse
+		margin-left: 8%
+		padding: 0
+		p
+			padding-top: 0
+		button
+			width: 100%
+			color: #fff
+			background-color: #000
+			border: none
+			outline: none
+			text-transform: uppercase
+			height: 40px
+	p
+		padding-top: 30px
+
+#experiance
+	.col-md-4
+		text-align: center
+		ul
+			text-align: left
+	.logo_container
+		margin: 30px 0
+		padding: 15px 0
+		border-bottom: 1px solid #000
+		border-top: 1px solid #000
+		img
+			width: 60%
+		.freud
+			padding-top: 10px
+
+#contacts
+	.col-md-4
+		text-align: center
+	ul
+		padding: 0
+		li
+			list-style-type: none
+			position: relative
+			margin: 50px 0
+			&:before
+				content: ""
+				width: 30px
+				height: 30px
+				display: block
+				margin: 10px auto
+				background-image: url("../../img/fb_logo.png")
+				background-size: contain
+				background-position: 50% 50%
+				background-repeat: no-repeat
+		li:nth-child(2):before
+			background-image: url("../../img/gmail_logo.png")
+		li:nth-child(3):before
+			background-image: url("../../img/call.png")
+	button
+		width: 165px
+		height: 35px
+		margin: 0 auto
+		color: #000
+		text-transform: uppercase
+		border: none
+		outline: none
+		background-color: #fff
+		margin-bottom: 40px
+		a
+			color: #000

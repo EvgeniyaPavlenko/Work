@@ -1,0 +1,619 @@
+@import "compass/css3";
+@import "compass/utilities";
+
+
+@media screen and (max-width: 980px){
+  .all_pages .header .header_left {
+    width: 100%;
+    text-align: center;
+  }
+  .all_pages .header .header_right {
+    display: block;
+    vertical-align: top;
+    width: 37%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .all_pages .header .header_left img{
+    display: block;
+    margin:0 auto;
+  }
+
+  .all_pages .header h1 {
+    margin-top: 25px;
+  }
+
+  .center {
+    width: 100%;
+    max-width: 966px;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+  }
+
+  .contacts_page main .center .column_2 div {
+    display: block;
+    vertical-align: top;
+    width: 48%;
+  }
+  .commitee main .column_2.right_column {
+    float: none;
+    margin-left: 9.8%;
+    padding-top: 96px;
+    border-bottom: 1px solid #ED3F34;
+    width: 37%;
+    padding-bottom: 82px;
+  }
+  .membership main {
+    padding: 72px 0 70px 0;
+  }
+
+  .donetion_button {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .cmn-toggle-switch {
+    display: inline-block;
+  }
+
+  nav{
+    text-align: right;
+  }
+
+  nav ul li {
+    width: 50%;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    a{
+      display: block;
+      width: 100%;
+    }
+  }
+
+  nav ul li:before {
+    content:none;
+  }
+  nav ul{
+    display: none;
+  }
+  nav{
+    padding: 5px 0 5px 0;
+  }
+
+  nav ul{
+    li{
+      display: block;
+      &:hover{
+        background-color:#fff;
+        color:#E14F4B;
+      }
+    }
+  }
+
+  .main_nav {
+    margin-top: 0px;
+  }
+
+  .contacts_page main .center .column_2 form textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contacts_page main .center .column_2 form input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .all_pages .header .header_right .donetion_button {
+    margin-left: 0;
+  }
+  .all_pages .header .header_left div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 880px){
+  .slider h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slider .center{
+    text-align:center;
+  }
+
+  .slider{
+    background:none;
+  }
+  .slider {
+    padding: 129px 0 89px 0;
+    position: relative;
+  }
+  .main_nav{
+    position:absolute;
+    top:0;
+  }
+
+  main .center .column_2 .member_block {
+    width: 100%;
+  }
+
+  .slider .cotacts_top {
+    padding-left: 3%;
+    padding-top: 25px;
+    position: relative;
+    z-index: 100;
+    margin-top: -142px;
+  }
+
+}
+
+@media screen and (max-width: 780px){
+  footer .center{
+    text-align:center;
+    .column_2 {
+    width: 32%;
+    }
+  }
+  footer .center .column_2.right_column{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .contacts_page main .center .column_2 form input {
+    width: 100%;
+  } 
+  .contacts_page main .center .column_2 form textarea {
+    width: 100%;
+  } 
+  .contacts_page main .center .column_2 form button{
+    margin:0 auto;
+  }
+  .contacts_page main .center .column_2 .second_form_span {
+    text-align: center;
+  }
+  .commitee main .column_2.right_column {
+    padding-top: 108px;
+    padding-bottom: 90px;
+  }
+  .officers{
+    text-align:center;
+  }
+  .commitee main .officers .bold_span {
+    text-align: left;
+  }
+  .commitee main .officers .column_4 {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 670px){
+  .column_2 {
+    width: 100%;
+    display: block;
+  }
+  .contacts_page main .center .column_2 {
+    width: 100%;
+  }
+  .contacts_page main .center .column_2.right_column {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    padding-top: 35px;
+    text-align: center;
+  }
+  .contacts_page main {
+      padding: 47px 0 90px 0;
+  }
+
+  footer .center .column_2 {
+    width: 95%;
+  }
+
+  footer {
+    padding: 47px 0 33px 0;
+  }
+
+  .about_us main .center .column_2 {
+    width: 100%
+  }
+
+  .about_us main .center .column_2 {
+    width: 89%;
+  }
+
+  .about_us .about_us_content ul {
+    margin: 16px 0 0 10px;
+    padding-left: 8%;
+    box-sizing: border-box;
+  }
+
+  .about_us .about_us_content .column_2.right_column {
+    float: none;
+  }
+
+  .about_us .about_us_content h3 {
+    margin-left: 2%;
+  }
+
+  .commitee main .column_2 {
+    width: 94%;
+  }
+  .commitee main .column_2.right_column {
+    padding-top: 108px;
+    padding-bottom: 90px;
+    padding-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+    padding-bottom: 35px;
+    width: 94%;
+  }
+
+  .commitee main .officers .column_4 {
+    width: 48%;
+  }
+
+  .commitee main {
+    padding: 74px 0 86px 0;
+  }
+
+  .current_events main .column_2.right_column {
+    width: 89%;
+    box-sizing: border-box;
+    float: none;
+    margin-left: 6.5%;
+    padding-top: 20px;
+  }
+
+  .current_events main .column_2 {
+    width: 100%;
+  }
+
+  .current_events main .center .pages {
+    text-align: center;
+  }
+
+  .h2_red {
+    text-align: center;
+  }
+
+  .gallery main .center .h2_red {
+    text-align: center;
+  }
+
+  .membership main .center .column_2 {
+    width: 100%;
+  }
+  .membership main .column_2.right_column{
+    width: 100%;
+    width: 89%;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+
+  .membership main {
+    padding: 72px 0 63px 0;
+  }
+
+  footer .right_column .legal {
+    text-align: center;
+  }
+  .about_us .about_us_content ul {
+    text-align: left;
+  }
+  .about_us .about_us_content .column_2.right_column h3:nth-of-type(2) {
+    margin-top: 37px;
+  } 
+  .about_us .about_us_content h3:nth-of-type(3) {
+    margin-top: 0;
+  }
+  .about_us .about_us_content h3{
+    padding-top: 30px;
+  }
+  .about_us .about_us_content h3:nth-of-type(2) {
+    margin-top: 0;
+  }
+  .about_us .about_us_content .column_2.right_column h3:nth-of-type(2) {
+    margin-top: 0;
+  }
+  .about_us .about_us_content {
+    background-color: #F4F3ED;
+    padding-bottom: 50px;
+  }
+  footer .center .column_2 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  main .center .column_2 p {
+    text-align: center;
+  }
+  main .h2_black {
+    text-align: center;
+  }
+  main .center .column_2 .member_block{
+    width: 100%;
+  }
+
+  main .column_2.right_column .column_2{
+    width: 50%;
+    margin:0 auto;
+    text-align:center;
+  }
+   main .column_2.right_column .column_2.right_column{
+    width: 50%;
+    margin:0 auto;
+    text-align:center;
+    float: none;
+  }
+  main .center .right_column{
+    float: none;
+  }
+  main {
+    padding: 81px 0 50px 0;
+  }
+  .contacts_width{
+    width: 109px;
+    margin:0 auto;
+  }
+  main .center .right_column .right_column .contacts {
+    padding-left: 41px;
+  }
+  main .center .right_column .right_column .contacts:before {
+    left: 4px;
+  }
+  .contacts:before {
+    left:4px;
+  }
+  .current_events main{
+    text-align:center;
+  }
+  .current_events main {
+    padding: 72px 0 61px 0;
+  }
+  .current_events main .column_2 .event_title.next_title {
+    margin-top: 24px;
+  }
+  .about_us main .center .column_2 {
+    width: 100%;
+  }
+  .about_us main .center .column_2.right_column{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .all_pages .header img{
+    display: block;
+    margin:0 auto;
+    margin-bottom: 17px;
+  }
+  .all_pages .header .header_right .donetion_button{
+    margin-left: 0;
+  }
+  .all_pages .header .header_right{
+    width: 57%;
+  }
+  .all_pages .header h1{
+    padding-left:0;
+  }
+  .all_pages .header .header_left div span{
+    margin-left: 15px;
+  }
+  nav ul li:before{
+    content: none;
+  }
+  .gallery main .load_photos{
+    width: 37%;
+  }
+  .main_column{
+    width: 100%;
+    text-align:center;
+    .contacts, .letter{
+      width: 109px;
+      margin: 0 auto;
+    }
+  }
+  .column_2.right_column{
+    text-align: center;
+  }
+  main .center .right_column .right_column .contacts {
+    padding-left: 29px;
+    margin: 0 auto;
+    width: 109px;
+  }
+  main .center .right_column .right_column span{
+    padding-left:0;
+  }
+
+  footer .center .column_2 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  footer .right_column .legal {
+    text-align: center;
+  }
+  footer .legal {
+    margin-top: 30px;
+  }
+  .h2_black{
+    text-align: center;
+  }
+  main .center .column_2 p {
+    line-height: 30px;
+    margin-top: 28px;
+    text-align: center;
+  }
+  main .center .column_2 .member_block{
+    width: 100%;
+  }
+  .contacts_page main .center .column_2 .form_span {
+    font-family: "DroidSansRegular";
+    display: block;
+    margin-top: 29px;
+  }
+  .about_us .about_us_content h3 {
+    padding-top: 0;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .contacts_page main .center .column_2 p {
+    width: 100%;
+  }
+  .contacts_page main .center .column_2 {
+    width: 100%;
+    text-align: center;
+  }
+  .contacts_page main .center .column_2 div {
+    display: block;
+    vertical-align: top;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .contacts_page main .center .column_2 .left_column{
+    margin-right: 0;
+    margin-left: 0;
+    margin:0 auto;
+  }
+  .commitee main .officers .bold_span {
+    text-align: center;
+  }
+
+  .commitee main .bold_span.comittee_span {
+    text-align: center;
+  }
+
+  .commitee main .comittee_span + span {
+    width: 100%;
+    text-align: center;
+  } 
+
+  .commitee main .center span {
+    font-size: 14px;
+    display: block;
+    font-family: "OpenSansRegular";
+    text-align: center;
+  }
+
+  .about_us main .center .column_2 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .about_us main .column_2.right_column {
+    padding-top:33px;
+  }
+  .about_us .about_us_content h3 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .about_us .about_us_content .column_2.right_column h3:nth-of-type(2) {
+    padding-top: 37px;
+  }
+
+  .about_us .about_us_content h3:nth-of-type(3) {
+    padding-top: 37px;
+  }
+
+  .about_us .about_us_content h3{
+    padding-top: 37px;
+  }
+
+  .about_us .about_us_content {
+    background-color: #F4F3ED;
+    padding-bottom: 47px;
+  }
+
+  .current_events main .column_2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .current_events main {
+    padding: 72px 0 44px 0;
+  }
+
+  nav ul li {
+    display: block;
+  }
+  .contacts_page main .center .column_2 form button {
+    margin-top: 34px;
+  }
+
+  .slider .donetion_button{
+    width: 50%;
+    margin:0 auto;
+    margin-top:20px;
+    text-align: center;
+  }
+  .slider .cotacts_top {
+    padding-left: 3%;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  .slider .cotacts_top li:before{
+    content:none;
+  }
+
+  .slider .logo {
+    margin-top: 11px;
+    text-align: center;
+  }
+  .slider .cotacts_top {
+    padding-left: 3%;
+    text-align: center;
+  }
+
+  .slider .logo {
+    margin-top: 65px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  nav ul li {
+    width: 80%;
+  }
+  .contacts_page main {
+    padding: 47px 0 40px 0;
+  }
+  .slider .cotacts_top {
+    padding-left: 0%;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .letter:before {
+    content:none;
+  }
+  .letter{
+    padding-left:0;
+  }
+  .slider h1{
+    padding-top:10px;
+  }
+  .slider .cotacts_top li{
+    margin-right: 2.3%;
+  }
+  .slider .cotacts_top {
+    padding-left: 0%;
+  }
+
+  .slider .cotacts_top li {
+    margin-right: 2.3%;
+  }
+
+}

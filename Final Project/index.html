@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Pavlenko Studio</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+      <link rel = "stylesheet" href = "stylesheet.css">
+      <link rel = "stylesheet" href = "fonts.css">
+      <link rel = "stylesheet" href = "animate.css">
+      <link rel = "stylesheet" href = "media.css">
+      <link rel="stylesheet" href="animate.min.css">
+      <link rel="stylesheet" href="slider/css/jquery.bxslider.css">
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.js"></script>
+      <script src = "slider/js/jquery.bxslider.js"></script>
+      <script src = "script.js"></script>
+      <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+      <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://maps.googleapis.com/maps/api/js"></script>
+      <script>
+         function initialize() {
+           var mapCanvas = document.getElementById('map-canvas');
+           var mapOptions = {
+             center: new google.maps.LatLng(44.5403, -78.5463),
+             zoom: 8,
+             mapTypeId: google.maps.MapTypeId.ROADMAP
+           }
+           var map = new google.maps.Map(mapCanvas, mapOptions)
+         }
+         google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
+   </head>
+   <body>
+      <header>
+         <ul class = "nav">
+            <li class = "header_nav">
+               <p class = "header_p"><a href = "#about_us" class = "actice_a">ABOUT US</a></p>
+            </li>
+            <li class = "header_nav">
+               <p class = "header_p"><a href = "#facts" class = "actice_a">FACTS</a></p>
+            </li>
+            <li class = "header_nav">
+               <p class = "header_p"><a href = "#portfolio" class = "actice_a">OUR WORKS</a></p>
+            </li>
+            <li class = "header_nav">
+               <p class = "header_p"><a href = "#team" class = "actice_a">OUR TEAM</a></p>
+            </li>
+            <li class = "header_nav">
+               <p class = "header_p"><a href = "#contacts" class = "actice_a">CONTACT US</a></p>
+            </li>
+         </ul>
+      </header>
+
+      <!--section about us START-->
+
+      <section class = "about_us" id = "about_us">
+         <h3 class = "important_h3 h3_normal name">PAVLENKO WEB STUDIO</h3>
+         <h2 class= "normal_h2 important h2_black">ABOUT US</h2>
+         <hr/>
+         <div class = "about_us_content">
+            <div class = "about_us_block about_us_img about_us_img_young"></div>
+            <div class = "about_us_block about_us_txt">
+               <h3 class = "important_h3 h3_normal">WE ARE YOUNG</h3>
+               <p class = "about_us_p_margins">and we are able to realize the most courageous and innovative projects ever</p>
+               <p class = "about_us_p_margins">WHY EXACTLY WE?</p>
+               <p class = "about_us_p_margins">because we are young and always looking for new opportunities for your business!</p>
+            </div>
+            <div class = "about_us_block about_us_img about_us_img_creative"></div>
+            <div class = "about_us_block about_us_txt">
+               <h3 class = "important_h3 h3_normal">WE ARE CREATIVE</h3>
+               <p class = "about_us_p_margins">and we feel the balance between effective and art</p>
+               <p>HOW CAN WE PROVE IT?</p>
+               <p class = "about_us_p_margins">we already won the Effie Awards 2015!</p>
+            </div>
+            <div class = "about_us_block about_us_img about_us_img_partner"></div>
+            <div class = "about_us_block about_us_txt">
+               <h3 class = "important_h3 h3_normal">WE ARE MORE THAN STUDIO</h3>
+               <p class = "about_us_p_margins">we are partners</p>
+               <p class = "about_us_p_margins">WHAT IS THE DIFFERENCE?</p>
+               <p class = "about_us_p_margins">we are worried about your business! And we are able to propose you the most effective decisions!</p>
+            </div>
+         </div>
+         <div class = "clearfix"></div>
+      </section>
+
+      <!--about us END-->
+
+      <div class = "clearfix"></div>
+
+      <!--section FACTS START-->
+
+      <section class = "about_facts" id = "facts">
+         <h2 class= "normal_h2 important h2_white">SOME FACTS ABOUT US</h2>
+         <hr class = "hr_white">
+         <div class = "raw">
+            <div class = "container_facts">
+               <div class = "col-sm-4 text-center animate_fact animated animate_fact_hidden">
+                  <div class = "icon_facts"><i class="fa fa-suitcase"></i></div>
+                  <br/>
+                  <p class = "facts_figures">55</p>
+                  <p class = "facts_p">projects per year</p>
+               </div>
+               <div class = "col-sm-4 text-center animate_fact animated animate_fact_hidden">
+                  <div class = "icon_facts"><i class="fa fa-desktop"></i></div>
+                  <br/>
+                  <p class = "facts_figures">24/7</p>
+                  <p class = "facts_p">connection</p>
+               </div>
+               <div class = "col-sm-4 text-center animate_fact animated animate_fact_hidden">
+                  <div class = "icon_facts"><i class="fa fa-trophy"></i></div>
+                  <br/>
+                  <p class = "facts_figures">5</p>
+                  <p class = "facts_p">best agencies in Ukraine</p>
+               </div>
+            </div>
+         </div>
+         <div class = "clearfix"></div>
+      </section>
+
+      <!--FACTS END-->
+
+      <div class = "clearfix"></div>
+
+      <!--section PORTFOLIO start-->
+
+      <section class = "portfolio" id = "portfolio">
+         <div class = "clearfix"></div>
+         <h2 class= "normal_h2 important h2_black">OUR PROJECTS</h2>
+         <hr/>
+         <div id = "portfolio_tab_container">
+            <ul class = "nav navbar-nav">
+               <li><a href="#portfolio_tab" class = "tab_a">PORTFOLIO</a></li>
+               <li><a href="#social" class = "tab_a">SOCIAL</a></li>
+               <li><a href="#culture" class = "tab_a">ART</a></li>
+               <li><a href="#commerce" class = "tab_a">COMMERCE</a></li>
+            </ul>
+            <div class = "clearfix"></div>
+            <div class = "portfolio_tab_content">
+               <div id = "portfolio_tab">
+                  <h3 class = "important_h3 h3_normal h3_portfolio">WE DO OUR PROJECTS WITH:</h3>
+                  <div>
+                     <i class="fa fa-hourglass-o i_for_mobile"></i>
+                     <p class = "portfolio_1page_p">Dead-line control</p>
+                  </div>
+                  <div>
+                     <i class="fa fa-balance-scale i_for_mobile"></i>
+                     <p class = "portfolio_1page_p">Art and effect</p>
+                  </div>
+                  <div>
+                     <i class="fa fa-users i_for_mobile"></i>
+                     <p class = "portfolio_1page_p">The best team ever</p>
+                  </div>
+                  <div>
+                     <i class="fa fa-star-o i_for_mobile"></i>
+                     <p class = "portfolio_1page_p">Bright ideas</p>
+                  </div>
+                  <div>
+                     <i class="fa fa-bug i_for_mobile"></i>
+                     <p class = "portfolio_1page_p">No bags!</p>
+                  </div>
+               </div>
+               <div id = "social">
+                  <h3 class = "important_h3 h3_normal">VixKids - Blog</h3>
+                  <p class = "portfolio_tab_content_txt">
+                     n less than two centuries of industrial revolution, the man has managed to deteriorate his habitat, the Earth, beautiful and fragile result of millions of years or evolution.
+                     We are totally convinced that time has come to act, to repair what can be repaired to prepare the future, so that humanity will have further progressed in its evolution in a more conscious and fair world, the Earth will still be capable of providing a shelter for its inhabitants.
+                     Today, our planet is running out of steam because it doesn't have any longer its own natural means to compensate men's ecological print.
+                     The point of alter is reached. Natural balances prove to be more fragile than men have been used to imagine for decades. The erosion of biodiversity has reached a level unique in life's history on Earth.
+                     Destructions of forests take such proportion that, every single year, more than twelve million hectares disappear, which is the equivalent of four times the total surface of Belgium.
+                     No one can ignore this implacable fact: the Earth has reached an unprecedented point of vulnerability and now the damage is visible to the naked eye.
+                  </p>
+                  <img src = "images/portfolio_social.jpeg" class = "portfolio_tab_content_img" alt = "social_project">
+               </div>
+               <div id = "culture">
+                  <h3 class = "important_h3 h3_normal">Staatstheater Mainz – Spielzeitheft 2015/16</h3>
+                  <p class = "portfolio_tab_content_txt">
+                     Bruch—Idee&amp;Form was commissioned to create a new branding for Merkscha Furnierwerke—a veneer mill that produces a wide range of wood veneers. To strenghten the value and the quality of the product line we developed a design concept that plays with a natural color palette and combinations of seals and stamps for a simple and efficient use throughout all printing materials. Each printing uses a different paper, like each type of wood has its own color and grain. 
+                     Veneer manufacturing is an elaborating process and hard work – the wood steams, the air is full of dust, little light gets through dimmish air – impressions we wanted to make sure to communicate in the imagery.
+                  </p>
+                  <img src = "images/portfolio_art1.jpg" class = "portfolio_tab_content_img" alt = "art_project">
+               </div>
+               <div id = "commerce">
+                  <h3 class = "important_h3 h3_normal">Pandora — Website</h3>
+                  <p class = "portfolio_tab_content_txt">
+                     Story has always had an artistic side; we just never had an official home for it until now. Welcome to Pandora; a place to explore, inspire and showcase our creativity. One of our first projects was for the Drouot video art auction in Paris and since then many ideas have grown and flourished.
+                  </p>
+                  <img src = "images/portfolio_commerse1.jpg" class = "portfolio_tab_content_img" alt = "commerce_project">
+               </div>
+            </div>
+         </div>
+         <div class = "clearfix"></div>
+      </section>
+      <!--portfolio END-->
+      <div class = "clearfix"></div>
+      </section>
+
+      <!--section TEAM Start-->
+
+      <section class = "team" id = "team">
+         <h2 class= "normal_h2 important h2_black">OUR TEAM</h2>
+         <hr/>
+         <div class = "container">
+            <ul class = "bxslider my_slider">
+               <li>
+                  <div class = "col-xs-6 col-xs-6_mobile">
+                     <img src = "slider/images/creative_group1.jpg" alt = "creative group">
+                  </div>
+                  <div class = "col-xs-6 col-xs-6_mobile_txt">
+                     <h3 class = "important_h3 h3_normal">CREATIVE GROUP</h3>
+                     <p>Masha&amp;Pasha</p>
+                     <hr>
+                     <p class = "our_team_skills"><i class="fa fa-calendar"></i>Experience more than 8 years</p>
+                     <p class = "our_team_skills"><i class="fa fa-pencil-square-o"></i> Perfect in art</p>
+                     <p class = "our_team_skills"><i class="fa fa-lightbulb-o"></i>Perfect in creating ideas&amp;stragegies
+                     <p>
+                     <p class = "our_team_skills"><i class="fa fa-trophy"></i>Winners Propeller 2014, 2015</p>
+                  </div>
+               </li>
+               <li>
+                  <div class = "col-xs-6 col-xs-6_mobile">
+                     <img src = "slider/images/management_group1.jpg" alt = "management group">
+                  </div>
+                  <div class = "col-xs-6 col-xs-6_mobile_txt">
+                     <h3 class = "important_h3 h3_normal">WEB DESIGNERS GROUP</h3>
+                     <p>Alena&amp;Sergey</p>
+                     <hr>
+                     <p class = "our_team_skills"><i class="fa fa-calendar"></i>Experience more than 5 years</p>
+                     <p class = "our_team_skills"><i class="fa fa-desktop"></i>Perfect in web design</p>
+                     <p class = "our_team_skills"><i class="fa fa-clock-o"></i>Perfect time-management
+                     <p>
+                     <p class = "our_team_skills"><i class="fa fa-trophy"></i>Winners Effie Awards 2015</p>
+                  </div>
+               </li>
+               <li>
+                  <div class = "col-xs-6 col-xs-6_mobile">
+                     <img src = "slider/images/manager.jpg" alt = "managemer">
+                  </div>
+                  <div class = "col-xs-6 col-xs-6_mobile_txt">
+                     <h3 class = "important_h3 h3_normal">ACCOUNT MANAGER</h3>
+                     <p>Aleksandra</p>
+                     <hr>
+                     <p class = "our_team_skills"><i class="fa fa-calendar"></i>Experience more than 7 years</p>
+                     <p class = "our_team_skills"><i class="fa fa-child"></i>Perfect client service</p>
+                     <p class = "our_team_skills"><i class="fa fa-comments-o"></i>Perfect articulate
+                     <p>
+                     <p class = "our_team_skills"><i class="fa fa-heart-o"></i>Loves her work 24/7</p>
+                  </div>
+               </li>
+               <li>
+                  <div class = "col-xs-6 col-xs-6_mobile">
+                     <img src = "slider/images/photografer.jpg" alt = "photographer">
+                  </div>
+                  <div class = "col-xs-6 col-xs-6_mobile_txt">
+                     <h3 class = "important_h3 h3_normal">PHOTOGRAFER</h3>
+                     <p>VERA</p>
+                     <hr>
+                     <p class = "our_team_skills"><i class="fa fa-calendar"></i>Experience more than 5 years</p>
+                     <p class = "our_team_skills"><i class="fa fa-camera"></i>Perfect sense of beauty</p>
+                     <p class = "our_team_skills"><i class="fa fa-clock-o"></i>Perfect time-management
+                     <p>
+                     <p class = "our_team_skills"><i class="fa fa-trophy"></i>Winner Montier-en-Der 2014</p>
+                  </div>
+               </li>
+               <li>
+                  <div class = "col-xs-6 col-xs-6_mobile">
+                     <img src = "slider/images/ceo.jpg" alt = "CEO">
+                  </div>
+                  <div class = "col-xs-6 col-xs-6_mobile_txt">
+                     <h3 class = "important_h3 h3_normal">CEO</h3>
+                     <p>JENIYA</p>
+                     <hr>
+                     <p class = "our_team_skills"><i class="fa fa-calendar"></i>Experience more than 6 years</p>
+                     <p class = "our_team_skills"><i class="fa fa-bullhorn"></i>Perfect in management</p>
+                     <p class = "our_team_skills"><i class="fa fa-compass"></i>Perfect in strategies
+                     <p>
+                     <p class = "our_team_skills"><i class="fa fa-trophy"></i>Winners Effie Awards 2014,2015</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="clearfix"></div>
+      </section>
+      <div class="clearfix"></div>
+
+      	<!--section contacts Start-->
+
+      <section class = "contacts" id = "contacts">
+         <h2 class= "normal_h2 important h2_black">CONTACT US</h2>
+         <hr/>
+         <div class = "contacts_container">
+            <div class = "raw">
+               <div class = "container_facts contacts_info"></div>
+               <div class = "col-sm-4 text-center contacts_div" id="map-canvas">
+               </div>
+               <div class = "col-sm-3 text-center contacts_div contacts_contacts">
+                  <p><i class="fa fa-mobile"></i>&nbsp;+38(093) 111-22-33</p>
+                  <P><i class="fa fa-phone"></i>&nbsp;+3 (044) 222-33-77</P>
+                  <p><i class="fa fa-envelope-o"></i>&nbsp;studio@gmail.com</p>
+                  <p><i class="fa fa-home"></i>&nbsp;Ukraine Kyiv city</p>
+               </div>
+               <div class = "col-sm-5 text-center contacts_div">
+                  <form action="#top" class = "contacts_form" method="get">
+                     <h3 class = "important_h3 h3_normal h3_form">CONTACT US</h3>
+                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="name">
+                        <label class="mdl-textfield__label" for="name">Name</label>
+                     </div>
+                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="phone">
+                        <label class="mdl-textfield__label" for="phone">Phone</label>
+                     </div>
+                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="email" id="email">
+                        <label class="mdl-textfield__label" for="email">Email</label>
+                     </div>
+                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <textarea class="mdl-textfield__input" rows= "1" id="comments"></textarea>
+                        <label class="mdl-textfield__label" for="comments">Your Comments</label>
+                     </div>
+                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                     SEND
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="clearfix"></div>
+      </section>
+      <div class="clearfix"></div>
+      <footer>
+         <div class = "footer_social_container">
+            <p class = "footer_p">CONTACT US:</p>
+            <i class="fa fa-facebook fa_footer"></i>
+            <i class="fa fa-vk fa_footer"></i>
+            <i class="fa fa-twitter fa_footer"></i>
+         </div>
+      </footer>
+      <!--arrow to up-->
+      <div id="top"></div>
+   </body>
+</html>

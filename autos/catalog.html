@@ -1,0 +1,415 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>Autozapchasti catalog</title>
+      <link href="css/normalize.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <link rel="stylesheet" href="css/owl.theme.css">
+      <link rel="stylesheet" href="css/owl.transitions.css">
+      <link rel="stylesheet" href="css/nice-select.css">
+      <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+      <link rel="stylesheet" href="css/popup.css">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/media.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="center">
+            <div class="column_4 logo">
+               <a href="#"><img src="images/logo.png" alt="logo V6NSK"></a>
+            </div>
+            <div class="column_4 contacts">
+               <span>Телефон в Новосибирске</span>
+               <span class="phone_number"><a href="tel:+383123456">+ (383) 123 456</a></span>
+               <span class="call_me"><a href="#">Заказать звонок</a> <a href="#">whats app</a></span>
+            </div>
+            <div class="column_4 enter">
+               <div class="user_enter">
+                  <span class="user_name">Молчанов Алексей</span>
+                  <a href="#" class="user_exit">Выйти</a>
+               </div>
+               <a class="popup-with-form entrance" href=".enter_form">Вход</a>
+               <form id="test-form" class="white-popup-block mfp-hide enter_form">
+                  <h3>Вход</h3>
+                  <fieldset style="border:0;">
+                     <input type="text" name="email" placeholder="Email (используется как логин)">
+                     <input type="password"  placeholder="Пароль">
+                     <a href="#" class="form_register a_enter red_button">Войти</a>
+                     <p>Войти с помощью</p>
+                     <a href="#" class="social_enter"><img src="images/vk_enter.jpg" alt="vk"></a>
+                     <a href="#" class="social_enter"><img src="images/fb_enter.jpg" alt="fb"></a>
+                     <span>Нет аккаунта? <a href="#" class="form_enter">Регистрация</a></span>
+                  </fieldset>
+               </form>
+               <span>или</span>
+               <a class="popup-with-form" href=".registration_form">Регистрация</a>
+               <form id="test-form" class="white-popup-block mfp-hide registration_form">
+                  <h3>Регистрация</h3>
+                  <fieldset style="border:0;">
+                     <input type="text" name="name" placeholder="Имя">
+                     <input type="text" name="email" placeholder="Email (используется как логин)">
+                     <input type="password"  placeholder="Пароль">
+                     <input type="password" name="password_repeat"  placeholder="Повторите пароль">
+                     <a href="#" class="form_register a_registration red_button">Зарегистрироваться</a>
+                     <span>Уже с нами? <a href="#" class="form_enter">Войти</a></span>
+                  </fieldset>
+               </form>
+            </div>
+            <div class="column_4 basket">
+               <span>Моя корзина:</span>
+               <span class="basket_number">3</span>
+               <span class="basket_price">12 678 руб.</span>
+               <a href="basket.html" class="red_button">оформить</a>
+            </div>
+         </div>
+         <nav>
+            <div class="center">
+               <button class="cmn-toggle-switch cmn-toggle-switch__htx">
+               <span>toggle menu</span>
+               </button>
+               <ul>
+                  <li><a href="#">Toyota</a></li>
+                  <li><a href="#">Lexus</a></li>
+                  <li><a href="#">Расходные материалы</a></li>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Статьи</a></li>
+                  <li><a href="#">Новости</a></li>
+                  <li><a href="#">Контакты</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <div class="catalog">
+         <div class="search_block">
+            <div class="center">
+               <form action="#" method="post">
+                  <input type="search" placeholder="Поиск">
+                  <a href="#" class="button_search">Поиск</a>
+                  <p>Например VIN или название запчасти</p>
+                  <div class="column_4">
+                     <h4>Марка</h4>
+                     <select>
+                        <option value="1">Toyota</option>
+                        <option value="2">марка 2</option>
+                        <option value="3" disabled>марка 3</option>
+                        <option value="4">марка 4</option>
+                     </select>
+                  </div>
+                  <div class="column_4">
+                     <h4>Модельный ряд</h4>
+                     <select>
+                        <option value="1">Все модели</option>
+                        <option value="2">модель 1</option>
+                        <option value="3" disabled>модель 2</option>
+                        <option value="4">модель 3</option>
+                     </select>
+                  </div>
+                  <div class="column_4">
+                     <h4>Год выпуска</h4>
+                     <select>
+                        <option value="1">1998</option>
+                        <option value="2">модель 2</option>
+                        <option value="3" disabled>модель 3</option>
+                        <option value="4">модель 4</option>
+                     </select>
+                  </div>
+                  <a href="#" class="red_button red_button_circle">ПОКАЗАТЬ</a>
+               </form>
+            </div>
+         </div>
+         <div class="navigation">
+            <div class="center">
+               <a href="#">Главная<span>&#8250;</span></a><a href="#">Уровень1<span>&#8250;</span></a><a href="#">Уровень2</a>
+            </div>
+         </div>
+         <div class="main">
+            <div class="center">
+               <h3>Toyota</h3>
+               <div class="column_6">
+                  <h4>4</h4>
+                  <ul>
+                     <li><a href="#">4Runner</a></li>
+                  </ul>
+                  <h4>А</h4>
+                  <ul>
+                     <li><a href="#"> Allex</a></li>
+                     <li><a href="#"> Allion</a></li>
+                     <li><a href="#"> Alphard</a></li>
+                     <li><a href="#"> Altezza</a></li>
+                     <li><a href="#"> Aqua</a></li>
+                     <li><a href="#"> Aristo</a></li>
+                     <li><a href="#"> Auris</a></li>
+                     <li><a href="#"> Avalon</a></li>
+                     <li><a href="#"> Avensis</a></li>
+                  </ul>
+                  <h4>B</h4>
+                  <ul>
+                     <li><a href="#">bB</a></li>
+                     <li><a href="#">Belta</a></li>
+                     <li><a href="#">Blade</a></li>
+                     <li><a href="#">Brevis</a></li>
+                  </ul>
+                  <h4>C</h4>
+                  <ul>
+                     <li><a href="#">Caldina</a></li>
+                     <li><a href="#">Cami</a></li>
+                     <li><a href="#">Camry</a></li>
+                     <li><a href="#">Camry Gracia</a></li>
+                     <li><a href="#">Carina</a></li>
+                     <li><a href="#">Carina ED</a></li>
+                     <li><a href="#">Cavalier</a></li>
+                     <li><a href="#">Celica</a></li>
+                     <li><a href="#">Celsior</a></li>
+                     <li><a href="#">Century</a></li>
+                     <li><a href="#">Chaser</a></li>
+                     <li><a href="#">Corolla</a></li>
+                     <li><a href="#">Corolla Axio</a></li>
+                     <li><a href="#">Corolla Ceres</a></li>
+                     <li><a href="#">Corolla Fielder</a></li>
+                     <li><a href="#">Corolla FX</a></li>
+                     <li><a href="#">Corolla II</a></li>
+                     <li><a href="#">Corolla Levin</a></li>
+                     <li><a href="#">Corolla Rumion</a></li>
+                     <li><a href="#">Corolla Runx</a></li>
+                     <li><a href="#">Corolla Spacio</a></li>
+                     <li><a href="#">Corolla Verso</a></li>
+                     <li><a href="#">Corona</a></li>
+                     <li><a href="#">Corona Exiv</a></li>
+                     <li><a href="#">Corona Premio</a></li>
+                     <li><a href="#">Corsa</a></li>
+                     <li><a href="#">Cresta</a></li>
+                     <li><a href="#">Crown</a></li>
+                     <li><a href="#">Crown Majesta</a></li>
+                     <li><a href="#">Curren</a></li>
+                     <li><a href="#">Cynos</a></li>
+                  </ul>
+                  <h4>D</h4>
+                  <ul>
+                     <li><a href="#">Duet</a>
+                  </ul>
+                  <h4>E</h4>
+                  <ul>
+                     <li><a href="#">Echo</a></li>
+                     <li><a href="#">Esquire</a></li>
+                     <li><a href="#">Estima</a></li>
+                     <li><a href="#">Estima Emina</a></li>
+                     <li><a href="#">Estima Lucida</a></li>
+                  </ul>
+                  <h4>F</h4>
+                  <ul>
+                     <li><a href="#">FJ Cruiser</a></li>
+                     <li><a href="#">Fortuner</a></li>
+                     <li><a href="#">Funcargo</a></li>
+                  </ul>
+               </div>
+               <div class="column_6">
+                  <h4>G</h4>
+                  <ul>
+                     <li><a href="#">Gaia</a></li>
+                     <li><a href="#">Grand Hiace</a></li>
+                     <li><a href="#">Granvia</a></li>
+                     <li><a href="#">GT 86</a></li>
+                  </ul>
+                  <h4>H</h4>
+                  <ul>
+                     <li><a href="#">Harrier</a></li>
+                     <li><a href="#">Hiace</a></li>
+                     <li><a href="#">Hiace Regius</a></li>
+                     <li><a href="#">Highlander</a></li>
+                     <li><a href="#">Hilux Pick Up</a></li>
+                     <li><a href="#">Hilux Surf</a></li>
+                  </ul>
+                  <h4>I</h4>
+                  <ul>
+                     <li><a href="#">Ipsum</a></li>
+                     <li><a href="#">iQ</a></li>
+                     <li><a href="#">Isis</a></li>
+                     <li><a href="#">ist</a></li>
+                  </ul>
+                  <h4>K</h4>
+                  <ul>
+                     <li><a href="#">Kluger V</a></li>
+                  </ul>
+                  <h4>L</h4>
+                  <ul>
+                     <li><a href="#">Land Cruiser</a></li>
+                     <li><a href="#">Land Cruiser Cygnus</a></li>
+                     <li><a href="#">Land Cruiser Prado</a></li>
+                     <li><a href="#">Lite Ace</a></li>
+                     <li><a href="#">Lite Ace Noah</a></li>
+                     <li><a href="#">Lite Ace Truck</a></li>
+                  </ul>
+                  <h4>M</h4>
+                  <ul>
+                     <li><a href="#">Mark II</a></li>
+                     <li><a href="#">Mark II Wagon Blit</a></li>
+                     <li><a href="#">Mark II Wagon Qualis</a></li>
+                     <li><a href="#">Mark X</a></li>
+                     <li><a href="#">Mark X Zio</a></li>
+                     <li><a href="#">Master Ace Surf</a></li>
+                     <li><a href="#">Matrix</a></li>
+                     <li><a href="#">Mega Cruiser</a></li>
+                     <li><a href="#">Mirai</a></li>
+                     <li><a href="#">MR-S</a></li>
+                     <li><a href="#">MR2</a></li>
+                  </ul>
+                  <h4>N</h4>
+                  <ul>
+                     <li><a href="#">Nadia</a></li>
+                     <li><a href="#">Noah</a></li>
+                  </ul>
+                  <h4>O</h4>
+                  <ul>
+                     <li><a href="#">Opa</a></li>
+                     <li><a href="#">Origin</a></li>
+                  </ul>
+                  <h4>P</h4>
+                  <ul>
+                     <li><a href="#">Passo</a></li>
+                     <li><a href="#">Passo Sette</a></li>
+                     <li><a href="#">Pixis Epoch</a></li>
+                     <li><a href="#">Pixis Mega</a></li>
+                     <li><a href="#">Pixis Space</a></li>
+                     <li><a href="#">Pixis Truck</a></li>
+                     <li><a href="#">Pixis Van</a></li>
+                     <li><a href="#">Platz</a></li>
+                     <li><a href="#">Porte</a></li>
+                     <li><a href="#">Premio</a></li>
+                     <li><a href="#">Prius</a></li>
+                     <li><a href="#">Prius a</a></li>
+                     <li><a href="#">Prius C</a></li>
+                     <li><a href="#">Prius PHV</a></li>
+                     <li><a href="#">Prius v</a></li>
+                     <li><a href="#">Probox</a></li>
+                     <li><a href="#">Progres</a></li>
+                     <li><a href="#">Pronard</a></li>
+                  </ul>
+               </div>
+               <div class="column_6">
+                  <h4>R</h4>
+                  <ul>
+                     <li><a href="#">Ractis</a></li>
+                     <li><a href="#">Raum</a></li>
+                     <li><a href="#">RAV4</a></li>
+                     <li><a href="#">Regius</a></li>
+                     <li><a href="#">Regius Ace</a></li>
+                     <li><a href="#">Rush</a></li>
+                  </ul>
+                  <h4>S</h4>
+                  <ul>
+                     <li><a href="#">Sai</a></li>
+                     <li><a href="#">Scepter</a></li>
+                     <li><a href="#">Sequoia</a></li>
+                     <li><a href="#">Sera</a></li>
+                     <li><a href="#">Sienna</a></li>
+                     <li><a href="#">Sienta</a></li>
+                     <li><a href="#">Soarer</a></li>
+                     <li><a href="#">Solara</a></li>
+                     <li><a href="#">Spade</a></li>
+                     <li><a href="#">Sparky</a></li>
+                     <li><a href="#">Sprinter</a></li>
+                     <li><a href="#">Sprinter Carib</a></li>
+                     <li><a href="#">Sprinter Marino</a></li>
+                     <li><a href="#">Sprinter Trueno</a></li>
+                     <li><a href="#">Starlet</a></li>
+                     <li><a href="#">Succeed</a></li>
+                     <li><a href="#">Supra</a></li>
+                  </ul>
+                  <h4>T</h4>
+                  <ul>
+                     <li><a href="#">Tacoma</a></li>
+                     <li><a href="#">Tercel</a></li>
+                     <li><a href="#">Touring Hiace</a></li>
+                     <li><a href="#">Town Ace</a></li>
+                     <li><a href="#">Town Ace Noah</a></li>
+                     <li><a href="#">Town Ace Truck</a></li>
+                     <li><a href="#">Tundra</a></li>
+                  </ul>
+                  <h4>V</h4>
+                  <ul>
+                     <li><a href="#">Vanguard</a></li>
+                     <li><a href="#">Vellfire</a></li>
+                     <li><a href="#">Venza</a></li>
+                     <li><a href="#">Verossa</a></li>
+                     <li><a href="#">Verso</a></li>
+                     <li><a href="#">Vista</a></li>
+                     <li><a href="#">Vista Ardeo</a></li>
+                     <li><a href="#">Vitz</a></li>
+                     <li><a href="#">Voltz</a></li>
+                     <li><a href="#">Voxy</a></li>
+                  </ul>
+                  <h4>W</h4>
+                  <ul>
+                     <li><a href="#">WiLL Cypha</a></li>
+                     <li><a href="#">WiLL Vi</a></li>
+                     <li><a href="#">WiLL VS</a></li>
+                     <li><a href="#">Windom</a></li>
+                     <li><a href="#">Wish</a></li>
+                  </ul>
+                  <h4>Y</h4>
+                  <ul>
+                     <li><a href="#">Yaris</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="center">
+            <div class="column_5">
+               <a href="#"><img src="images/logo_black.png" alt="logo"></a>
+               <span class="letter"><a href="mailto:почта@gmail.com">почта@gmail.com</a></span>
+               <span>© 2015, V6NSK</span>
+               <span>Все права защищены</span>
+            </div>
+            <div class="column_5">
+               <h4>Компания</h4>
+               <ul>
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">О нас</a></li>
+                  <li><a href="#">Новости</a></li>
+               </ul>
+            </div>
+            <div class="column_5">
+               <h4>Каталог</h4>
+               <ul>
+                  <li><a href="#">Toyota</a></li>
+                  <li><a href="#">Lexus</a></li>
+                  <li><a href="#">Расходные материалы</a></li>
+                  <li><a href="#">Акции</a></li>
+                  <li><a href="#">Новинки</a></li>
+               </ul>
+            </div>
+            <div class="column_5">
+               <h4>Сервис</h4>
+               <ul>
+                  <li><a href="#">Доставка </a></li>
+                  <li><a href="#">Оплата</a></li>
+                  <li><a href="#">Гарантии </a></li>
+                  <li><a href="#">Оптовикам</a></li>
+               </ul>
+            </div>
+            <div class="column_5">
+               <h4>Контактная информация</h4>
+               <span class="contacts_span"><a href="tel:+383123456">+ (383) 123 456</a></span>
+               <span class="call_me"><a href="#">Заказать звонок</a> <a href="#">whats app</a></span>
+               <div class="social">
+                  <ul>
+                     <li><a href="#"></a></li>
+                     <li><a href="#"></a></li>
+                     <li><a href="#"></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+      <script type="text/javascript" src="js/popup.js"></script>
+      <script type="text/javascript" src="js/jquery.nice-select.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+   </body>
+</html>

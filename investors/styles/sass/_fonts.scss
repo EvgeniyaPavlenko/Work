@@ -1,0 +1,40 @@
+/* font-family: "ArialRegular"; */
+@font-face {
+    font-family: "ArialRegular";
+    src: url("../fonts/Arial/ArialRegular/ArialRegular.eot");
+    src: url("../fonts/Arial/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Arial/ArialRegular/ArialRegular.woff") format("woff"),
+    url("../fonts/Arial/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialBold"; */
+@font-face {
+    font-family: "ArialBold";
+    src: url("../fonts/Arial/ArialBold/ArialBold.eot");
+    src: url("../fonts/Arial/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Arial/ArialBold/ArialBold.woff") format("woff"),
+    url("../fonts/Arial/ArialBold/ArialBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "TimesNewRomanRegular"; */
+@font-face {
+    font-family: "TimesNewRomanRegular";
+    src: url("../fonts/TimesNewRoman/TimesNewRomanRegular/TimesNewRomanRegular.eot");
+    src: url("../fonts/TimesNewRoman/TimesNewRomanRegular/TimesNewRomanRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/TimesNewRoman/TimesNewRomanRegular/TimesNewRomanRegular.woff") format("woff"),
+    url("../fonts/TimesNewRoman/TimesNewRomanRegular/TimesNewRomanRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src: url("../fonts/verdana/7fonts.ru_Verdanakz.ttf");
+    src: url("../fonts/verdana/7fonts.ru_Verdanakz.ttf")format("embedded-opentype"),
+    url("../fonts/verdana/7fonts.ru_Verdanakz.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

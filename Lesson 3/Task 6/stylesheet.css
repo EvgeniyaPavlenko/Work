@@ -1,0 +1,64 @@
+.red{
+	background-color: red;
+	border-radius: 5px;
+	padding: 2px;
+	color:white;
+	text-align: center;
+}
+
+.green{
+	background-color: green;
+	border-radius: 5px;
+	padding: 2px;
+	color:white;
+	text-align: center;
+}
+
+.blue{
+	background-color: blue;
+	border-radius: 5px;
+	padding: 2px;
+	color:white;
+	text-align: center;
+}
+
+label:first-of-type{
+	color:red;
+}
+
+label:nth-of-type(2){
+	color:green;
+}
+
+label:nth-of-type(3){
+	color:blue;
+}
+
+.red{
+	display:none;
+}
+
+.green{
+	display:none;
+}
+
+
+.blue{
+	display:none;
+}
+
+#red:checked~.red{
+	display: inline-block;
+}
+
+#green:checked~.green{
+	display: inline-block;
+}
+
+#blue:checked~.blue{
+	display: inline-block;
+}
+
+input{
+	visibility: hidden;
+}

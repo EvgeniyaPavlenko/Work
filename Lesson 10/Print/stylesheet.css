@@ -1,0 +1,480 @@
+/* font-family: "FuturaRegular"; */
+@font-face {
+    font-family: "FuturaRegular";
+    src: url("fonts/FuturaRegular/FuturaRegular.eot");
+    src: url("fonts/FuturaRegular/FuturaRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/FuturaRegular/FuturaRegular.woff") format("woff"),
+    url("fonts/FuturaRegular/FuturaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "FuturaBold"; */
+@font-face {
+    font-family: "FuturaBold";
+    src: url("fonts/FuturaBold/FuturaBold.eot");
+    src: url("fonts/FuturaBold/FuturaBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/FuturaBold/FuturaBold.woff") format("woff"),
+    url("fonts/FuturaBold/FuturaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "trebuchet_regular";
+    src: url("fonts/trebuchet_regular.ttf");
+}
+
+@font-face {
+    font-family: 'Futura-Book-Regular';
+    src: url('fonts/futuraBookBT/Futura-Book-Regular.eot');
+    src: url('fonts/futuraBookBT/Futura-Book-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futuraBookBT/Futura-Book-Regular.woff') format('woff'),
+         url('fonts/futuraBookBT/Futura-Book-Regular.ttf') format('truetype'),
+         url('fonts/futuraBookBT/Futura-Book-Regular.svg#Futura-Book-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.wrapper{
+	width: 1400px;
+	height: 2523px;
+}
+
+header{
+	width: 1400px;
+	height: 80px;
+}
+
+.specialist{
+	width: 1400px;
+	height: 230px;
+}
+
+
+.item{
+	width: 1400px;
+	height: 500px;
+}
+
+
+.banner{
+	width: 1400px;
+	height: 570px;
+}
+
+.offers{
+	width: 1400px;
+	height: 662px;
+}
+
+.contacts{
+	width: 1400px;
+	height: 416px;
+}
+
+.logo{
+	 font-family: "FuturaRegular";
+	 color:#FF8218;
+	 font-size: 36px;
+	 text-align: center;
+	 line-height: 145px;
+}
+
+.logo_blue{
+	font-family: "FuturaBold";
+	color:#0070AB;
+	font-size: 36px;
+}
+
+.specialist{
+	text-align: center;	
+}
+
+.specialist_span{
+	font-family: 'Futura-Book-Regular';
+	font-size: 16px;
+}
+
+.specialist_p{
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: 'Futura-Book-Regular';
+}
+
+.item_h3{
+ 	font-size: 40px;
+ 	font-family:  'Futura-Book-Regular';
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	color:#35515C;
+ 	text-align: center;
+}
+
+.item div{
+	display: inline-block;
+	width: 337px;
+	height: 367px;
+	margin-right:35px;
+}
+
+.protect{
+	margin-left:155px;
+}
+
+.protect div{
+	width: 140px;
+	height: 140px;
+	background-image: url(images/lock.png);
+	background-repeat: no-repeat;
+	margin-left: 30%;
+}
+
+.alert div{
+	width: 140px;
+	height: 140px;
+	background-image: url(images/moln.png);
+	background-repeat: no-repeat;
+	margin-left: 30%;
+}
+
+.detect div{
+	width: 140px;
+	height: 140px;
+	background-image: url(images/phone.png);
+	background-repeat: no-repeat;
+	margin-left: 30%;
+}
+
+.item_h{
+	text-align: center;
+	font-family: 'Futura-Book-Regular';
+	font-size: 34px;
+	color: #0070AB;
+}
+
+.item_p{
+	text-align: center;
+	margin-top: -25px;
+	padding: 10px;
+	font-size: 18px;
+	font-family: "OpenSansRegular";
+	color:#B2B2B2;
+}
+
+.banner_color{
+	width: 1023px;
+	height: 570px;
+	background-color: #C7C4C5;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner_h{
+	font-size: 26px;
+	font-family: 'Futura-Book-Regular';
+	text-transform: uppercase;
+	line-height: 1.846;
+	color:#C24F00;
+	padding-top: 45px;
+	margin-left: 30px;
+}
+
+.italic{
+	font-style: italic;
+	font-size: 24px;
+	margin-left: 30px;
+}
+
+li{
+	font-family: "OpenSansRegular";
+	font-size: 20px;
+	line-height: 40px;
+	margin-left: 20px;
+}
+
+li:nth-child(2){
+	color:blue;
+}
+
+.list{
+	color:#040404;
+}
+
+
+.orange{
+	font-size: 36px;
+	font-family: "FuturaRegular";
+	text-transform: uppercase;
+	line-height: 1.846;
+	color:#EE8129;
+}
+
+.white{
+	font-size: 19px;
+	font-family: "OpenSansRegular";
+	color:#ffffff;
+ 	font-style: italic;
+  	line-height: 1.579;
+}
+
+.midul{
+	width: 700px;
+	font-size: 14px;
+	font-family: "OpenSansRegular";
+	color:#606161;
+	line-height: 2.143;
+}
+
+.midul li:hover{
+	color:#3070A8;
+}
+
+.offers{
+	width: 1200px;
+	height: 700px;
+	position: relative;
+	margin-top: 0;
+	margin-left: 70px;
+}
+
+.colors{
+	position: relative;
+	width: 1000px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.colors > div{
+	display: inline-block;
+}
+
+.form{
+	width: 291px;
+	height: 464px;
+	border-radius: 5px;
+	border: 1px solid #EAECED;
+}
+
+
+.form > div{
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+.best{
+	width: 280px;
+	height: 468px;
+	z-index: 10;
+	position: absolute;
+	border:5px solid #EE8129;
+	top:-10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.blue{
+	position: relative;
+	left:10px;
+}
+
+.green{
+	position: relative;
+	right:-290px;
+}
+
+.offerheader{
+	width: 100%;
+	height:77px;
+}
+
+h2{
+	color:#ffffff;
+	text-transform: uppercase;
+	font-family: "FuturaBold";
+	font-size: 24px;
+	line-height: 47px;
+	text-align: center;
+}
+
+.offers h1{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: "trebuchet_regular";
+	font-weight: bold;
+	color:#41525C;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.general{
+	width: 100%;
+	height:350px;
+	background-color: #ffffff;
+}
+
+.iconic{
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 23px;
+	padding-bottom: 26px;
+	font-size: 25px;
+	color:#35495A;
+	font-family: trebuchet_bold;
+}
+
+.ye{
+	font-size: 24px;
+	display: inline-block;
+	padding-left: 70px;
+	vertical-align: top;
+	color:#35495A;
+	font-family: trebuchet_regular;
+}
+
+.price{
+	font-size: 72px;
+	font-weight: bold;
+	vertical-align: bottom;
+	color:#35495A;
+	font-family: "FuturaBold";
+}
+
+.month{
+	font-family: t"FuturaBold";
+	color:#35495A;
+	font-family: trebuchet_bold;
+	font-size: 20px;
+}
+
+table{
+	width: 259px;
+	height:152px;
+	margin-right: auto;
+	margin-left: auto;
+	color:#959AA2;
+	margin-top: 20px;
+	text-align: left;
+}
+
+tr:nth-child(odd){
+	background-color: #EDF5FD;
+	background-image: url(images/icon.png);
+	background-repeat: no-repeat;
+	background-position: 39px;
+	background-size: 20px;
+	font-family: trebuchet_regular;
+	font-size: 18px;
+}
+
+tr:nth-child(even){
+	background-color: #F5F5F6;
+	background-image: url(images/icon.png);
+	background-repeat: no-repeat;
+	background-position: 39px;
+	background-size: 20px;
+	font-family: trebuchet_regular;
+	font-size: 18px;
+}
+
+td{
+	padding-left: 73px;
+}
+
+.enroll{
+	width: 253px;
+	height:38px;
+	color:#2F70A8;
+	background-color: #2F70A8;
+	border-radius: 5px;
+	border-bottom: 3px solid #00335F;
+	color:#ffffff;
+	font-family: "OpenSansRegular";
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	margin-right: 7%;
+	margin-left:7%;
+	margin-top: 10px;
+	line-height: 10px;
+}
+
+.blue .offerheader{
+	background-color: #2BC2D5;
+}
+
+.green .offerheader{
+	background-color: #00B89A;
+}
+
+.best .offerheader{
+	background-color: #EE8129;
+	height: 88px;
+}
+
+.orangeClick{
+	background-color: #EE8129;
+	border-bottom:4px solid #AC4700;
+	width: 253px;
+	height:38px;
+	border-radius: 5px;
+	color:#ffffff;
+	font-family: "OpenSansRegular";
+	vertical-align: middle;
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+	margin-right: 7%;
+	margin-left:7%;
+	cursor: pointer;
+	line-height: 10px;
+}
+
+.contacts{
+	line-height: 30px;
+	font-family: 'OpenSansRegular';
+	color: #8C8C8C;
+	font-size: 14px;
+}
+
+.contacts div{
+	display: inline-block;
+}
+
+.phones{
+	width: 350px;
+}
+
+ .position{
+ list-style-image:url(images/position.png);
+}
+
+ .phone{
+ list-style-image:url(images/phone_f.png);
+}
+
+ .letter{
+ list-style-image:url(images/letter.png);
+}
+
+
+.map{
+	width: 644px;
+	height: 346px;
+	background-image: url(images/map.png);
+	float:right;
+	margin-right: 200px;
+}
+

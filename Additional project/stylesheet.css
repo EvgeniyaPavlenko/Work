@@ -1,0 +1,325 @@
+@font-face {
+    font-family: "HamLake";
+    src: url("fonts/hamlake.ttf");
+}
+
+@font-face {
+    font-family: "Alef";
+    src: url("fonts/Alef-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Advent Pro";
+    src: url("fonts/AdventPro-Regular.ttf");
+}
+
+
+div, p, header, footer, li, ul, img, h2{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 515px;
+	background-image:url(images/header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.logo{
+	width: 310px;
+	height: 310px;
+	position: absolute;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	left:35%;
+	top:26px;
+}
+
+.navigation{
+	list-style-type: none;
+}
+
+.navigation li{
+	display: inline-block;
+	font-family: "HamLake";
+	font-size: 36px;
+	margin-left: 80px;
+	padding-top: 67px;
+	color: #2D251E;
+	cursor: pointer;
+}
+
+.navigation li:nth-child(3){
+	margin-left: 320px;
+}
+
+.navigation li:hover{
+	color: #664F22;
+}
+
+
+.about_us{
+	width: 100%;
+	height: 850px;
+	background-color: gray;
+	background-image:url(images/about.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+
+.open{	
+	width: 213px;
+	height: 88px;
+	position: absolute;
+	top:230px;
+	left: 540px;
+	text-align: center;
+	line-height: 88px;
+	font-family: "HamLake";
+	font-size: 46px;
+	color:#2D251E;
+	cursor: pointer;
+}
+
+.open_p{
+	display: block;
+	visibility: visible;
+	margin-left: -15px;
+	margin-top: 8px;
+}
+
+.open_p:hover{
+	visibility: hidden;
+}
+
+.open_p:hover + p{
+	display: block;
+}
+
+.about_us_p{
+	width: 233px;
+	height: 88px;
+	position: absolute;
+	top:7px;
+	left: -19px;
+	text-align: center;
+	line-height: 88px;
+	font-family: "HamLake";
+	font-size: 38px;
+	color:#2D251E;
+	cursor: pointer;
+	display: none;
+}
+
+
+.appear{
+	width: 470px;
+	height: 400px;
+	display: block;
+	position: relative;
+	left:-440px;
+	righrt:1px;
+	top:41px;
+	transition: left 1s ease;
+}
+
+.littable{
+	z-index: 2;
+	position: relative;
+}
+
+.appear img{
+	display: inline-block;
+	margin-left: -85px;
+}
+
+.open:hover > div{
+	left:-1020px;
+}
+
+.caffeMenu{
+	width: 1300px;
+	height: 1105px;
+}
+
+.caffeMenu div{
+	height: 100%;
+	width: 625px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.food{
+	background-image:url(images/food.png);
+	position: relative;
+}
+
+.food div{
+	margin:0;
+	padding: 0;
+	position: absolute;
+	top:40px;
+	left: 16px;
+	opacity: 0;
+	transition: opacity 3s;
+}
+
+.food:hover > div{
+	opacity: .9;
+}
+
+.food_points{
+	z-index: 2;
+}
+
+.food_points_ul li{
+	cursor: pointer;
+} 
+
+.food_points_ul li:hover{
+	font-size: 45px;
+	color:#CAA162;
+	margin-left: -20px;
+} 
+
+.food_points_ul li:hover:after{
+	content: " ";    
+    float: right;  
+    position: relative;  
+    top: 20px;  
+    background: url(images/arrows.png); 
+    background-repeat: no-repeat;
+    display: block;  
+    height: 35px;  
+    width: 55px;  
+    background-size: cover;
+}
+
+.price{
+	background-image:url(images/price.png);
+	margin-left: 26px;
+	position: relative;
+}
+
+.price .price_info{
+	position: absolute;
+	width: 500px;
+	font-family: 'Indie Flower', cursive;
+	left:105px;
+	top:225px;
+}
+
+
+.price_right{
+	padding-left:85px; 
+}
+
+.price_right, .price_left{
+	color:#42372A;
+	font-size: 40px;
+	font-family: "HamLake";
+}
+
+.food_points{
+	position: absolute;
+	font-family: "HamLake";
+	font-size: 30px;
+	line-height: 60px;
+	right:123px;
+	top:100px;
+	width: 400px;
+}
+
+section li:hover > div{
+	background-color: green;
+}
+
+.food_points_h2{
+	font-size: 80px;
+	padding-left: 20px;
+	width: 100%;
+	text-align: center;
+	color:#EEDEC7;
+	padding-bottom: 80px;
+	font-family: "HamLake";
+	font-weight: normal;
+}
+
+.price_info_p{
+	color:#968370;
+	font-size: 25px;
+	font-family: "HamLake";
+}
+
+.food_points_ul li{
+	color:#EEDEC7;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.bookTable{
+	width: 100%;
+	height: 980px;
+	background-image:url(images/table.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.breakfest_proposal{
+	width: 100%;
+	height: 935px;
+	background-color: pink;
+	background-image:url(images/breakfest.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer{
+	width: 100%;
+	height: 880px;
+	background-color: gray;
+	background-image:url(images/footer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+.baloon{
+	position: absolute;
+	left: 50px;
+	bottom:60px;
+	animation: move 5s infinite alternate-reverse;
+}
+
+@keyframes move{
+
+0% { bottom: 150px; }
+50% { bottom: 550px; } 
+100% { bottom: 150px; }
+
+}
+
+.baloon{
+	animation:move 10s infinite alternate;
+}

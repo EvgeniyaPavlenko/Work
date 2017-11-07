@@ -1,0 +1,1599 @@
+/*general*/
+section, footer {
+  width: 1358px;
+  background-color: #fff;
+  margin: 0 auto; }
+
+body {
+  background-color: #282828; }
+
+h2 {
+  font-family: "MyriadProCondBold";
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 57px; }
+
+.h2_black {
+  color: #000000;
+  font-family: "MyriadProCondRegular"; }
+
+.h2_white {
+  color: #fff; }
+
+.h2_crimson {
+  color: #AB3953; }
+
+h3 {
+  font-family: "MyriadProRegular";
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 57px;
+  color: #AB3953; }
+
+.container {
+  width: 831px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding-left: 220px; }
+
+section, footer {
+  text-align: center; }
+
+hr {
+  width: 52px;
+  border: 5px solid #AB3953; }
+
+.hr_white {
+  width: 52px;
+  border: 5px solid #fff; }
+
+/*/general*/
+/*main*/
+.main {
+  height: 922px;
+  background-image: url(../../images/main_background.jpg);
+  background-size: cover;
+  background-position: 90% 50%;
+  position: relative; }
+  .main .nav_fixed {
+    width: 220px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 1; }
+    .main .nav_fixed .nav_contacts {
+      width: 100%;
+      height: 35px;
+      background-color: #414141;
+      margin-top: 100px;
+      color: #fff;
+      font-family: "MyriadProBold";
+      line-height: 35px; }
+    .main .nav_fixed .nav_p {
+      font-size: 10px;
+      color: #7A7A7A;
+      margin-top: 5px; }
+    .main .nav_fixed .nav_diary {
+      width: 170px;
+      height: 70px;
+      margin-top: 72px;
+      margin-left: 30px; }
+      .main .nav_fixed .nav_diary .nav_diary_date {
+        width: 33px;
+        height: 25px;
+        background-color: #A42C40;
+        border-radius: 5px 5px 0 0; }
+        .main .nav_fixed .nav_diary .nav_diary_date p {
+          color: #fff;
+          font-size: 10px;
+          line-height: 20px; }
+      .main .nav_fixed .nav_diary .nav_diary_info {
+        width: 100%;
+        height: 45px;
+        background-color: #555555;
+        border-radius: 0 5px 5px 5px;
+        background-image: url(../../images/nav_camera.png);
+        background-repeat: no-repeat;
+        background-position: 92% 50%; }
+        .main .nav_fixed .nav_diary .nav_diary_info .nav_diary_info_txt {
+          height: 100%;
+          width: 123px;
+          border-radius: 5px 5px 5px 5px;
+          background-color: #E4B839;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box; }
+          .main .nav_fixed .nav_diary .nav_diary_info .nav_diary_info_txt p {
+            margin: 0;
+            padding: 0;
+            line-height: 15px;
+            box-sizing: border-box;
+            padding-top: 8px; }
+    .main .nav_fixed ul {
+      width: 170px;
+      height: 380px; }
+      .main .nav_fixed ul li {
+        display: block;
+        list-style-type: none;
+        text-align: left;
+        font-family: "MyriadProRegular";
+        font-size: 15.6px;
+        height: 35px; }
+        .main .nav_fixed ul li a {
+          text-decoration: none;
+          color: #fff; }
+  .main header {
+    height: 100px;
+    width: 100%; }
+    .main header .header_logo {
+      width: 265px;
+      height: 100px;
+      background-color: #B63146;
+      z-index: 2;
+      position: relative;
+      border-radius: 0 0 10px 0;
+      background-image: url(../../images/logo.png);
+      background-size: 90%;
+      background-repeat: no-repeat;
+      background-position: 35% 30%;
+      right: 458px;
+      display: inline-block; }
+    .main header .header_contacts {
+      width: 155px;
+      height: 55px;
+      display: inline;
+      float: right;
+      margin-right: 20px; }
+      .main header .header_contacts p {
+        text-align: left;
+        font-size: 16px; }
+  .main .main_info {
+    width: 556px;
+    height: 297px;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto; }
+    .main .main_info div {
+      width: 100%; }
+    .main .main_info .main_info_main_txt {
+      height: 142px;
+      padding-top: 8px;
+      margin: 0;
+      box-sizing: border-box; }
+      .main .main_info .main_info_main_txt .main_p {
+        text-transform: uppercase;
+        font-size: 22.5px;
+        color: #282828; }
+    .main .main_info .main_info_middle_txt {
+      height: 57px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.8);
+      position: relative; }
+      .main .main_info .main_info_middle_txt .main_info_middle_txt_absolute {
+        position: absolute;
+        width: 244px;
+        height: 93px;
+        border-radius: 10px;
+        background-color: #fff;
+        right: 153px;
+        top: -5px; }
+        .main .main_info .main_info_middle_txt .main_info_middle_txt_absolute .main_price {
+          width: 100%;
+          height: 60px;
+          background-color: #FCCC40;
+          border-radius: 10px 10px 0 0;
+          padding-top: 8px;
+          margin: 0;
+          box-sizing: border-box;
+          font-size: 30px;
+          font-family: "MyriadProBold";
+          line-height: 1px; }
+        .main .main_info .main_info_middle_txt .main_info_middle_txt_absolute .main_about_prise {
+          font-size: 18px;
+          box-sizing: border-box;
+          font-family: "MyriadProBold";
+          margin: 0;
+          line-height: 1px; }
+    .main .main_info .main_info_bottom_txt {
+      height: 97px;
+      background-color: RGBA(56, 59, 61, 0.8);
+      border-radius: 0 0 6px 6px;
+      padding-top: 50px;
+      margin: 0;
+      box-sizing: border-box; }
+      .main .main_info .main_info_bottom_txt .main_p_bottom {
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        font-size: 11px; }
+  .main .main_form_for_viewing {
+    width: 1358px;
+    height: 96px;
+    background-color: #B33045;
+    bottom: 1px;
+    position: absolute;
+    z-index: 2; }
+    .main .main_form_for_viewing div {
+      float: left;
+      box-sizing: border-box; }
+    .main .main_form_for_viewing .main_form_for_viewing_book {
+      width: 220px;
+      background-color: #545454;
+      height: 100%; }
+      .main .main_form_for_viewing .main_form_for_viewing_book p {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #fff;
+        font-size: 14px;
+        padding-top: 39px; }
+      .main .main_form_for_viewing .main_form_for_viewing_book .hr_main {
+        width: 140px;
+        border: 1px dotted #fff;
+        margin-right: 27px; }
+    .main .main_form_for_viewing .main_form_for_viewing_txt {
+      width: 345px;
+      height: 100%; }
+      .main .main_form_for_viewing .main_form_for_viewing_txt .main_p {
+        text-align: right;
+        color: #fff;
+        padding-right: 20px;
+        padding-top: 15px; }
+    .main .main_form_for_viewing .main_form_for_viewing_form {
+      width: 735px;
+      height: 100%;
+      margin-top: 30px; }
+      .main .main_form_for_viewing .main_form_for_viewing_form input {
+        display: inline-block;
+        width: 210px;
+        height: 38px;
+        border-radius: 5px;
+        background-color: #731B27;
+        color: #fff;
+        border: none;
+        outline: none;
+        padding-left: 10px; }
+      .main .main_form_for_viewing .main_form_for_viewing_form .button_submit {
+        background-color: #DEB337;
+        color: #1D1D1D;
+        font-weight: bold;
+        text-transform: uppercase; }
+
+/*/main*/
+/*reason_to_buy*/
+.reason_to_buy {
+  height: 882px; }
+  .reason_to_buy .container {
+    width: 895px; }
+    .reason_to_buy .container .reason_to_buy_items {
+      width: 298px;
+      height: 238px;
+      float: left; }
+      .reason_to_buy .container .reason_to_buy_items .reason_to_buy_items_berry {
+        width: 277px; }
+      .reason_to_buy .container .reason_to_buy_items .reason_to_buy_items_square {
+        width: 62px;
+        height: 62px;
+        border: 1px solid #AB3953;
+        border-radius: 15%;
+        -moz-transform: rotate(45deg);
+        /* Firefox */
+        -o-transform: rotate(45deg);
+        /* Opera */
+        -webkit-transform: rotate(45deg);
+        /* Safari y Chrome */
+        margin-right: 118px;
+        margin-left: 118px;
+        margin-top: 50px;
+        text-align: center; }
+        .reason_to_buy .container .reason_to_buy_items .reason_to_buy_items_square .reason_to_buy_items_img {
+          width: 40px;
+          line-height: 62px;
+          padding-top: 9px;
+          padding-right: 9px;
+          -moz-transform: rotate(-45deg);
+          /* Firefox */
+          -o-transform: rotate(-45deg);
+          /* Opera */
+          -webkit-transform: rotate(-45deg);
+          /* Safari y Chrome */ }
+      .reason_to_buy .container .reason_to_buy_items p {
+        font-family: "MyriadProRegular";
+        font-size: 16px;
+        line-height: 1.304;
+        text-align: center;
+        width: 244px;
+        margin-right: 27px;
+        margin-left: 27px; }
+
+/*/reason_to_buy*/
+/*for_kids*/
+.for_kids {
+  height: 598px;
+  background-image: url(../../images/kids_back.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+  .for_kids .kids_content {
+    width: 365px;
+    height: 351px; }
+    .for_kids .kids_content div {
+      width: 100%;
+      height: 117px;
+      box-sizing: border-box; }
+    .for_kids .kids_content .kids_img {
+      width: 65px;
+      height: 100%;
+      float: left;
+      margin-right: 25px; }
+      .for_kids .kids_content .kids_img img {
+        margin-top: 30px; }
+    .for_kids .kids_content .kids_txt {
+      margin-left: 20px; }
+      .for_kids .kids_content .kids_txt .kids_h2 {
+        color: #0E4666;
+        text-decoration: uppercase;
+        margin: 0;
+        text-align: left;
+        padding-top: 20px;
+        font-family: "MyriadProCondBold"; }
+      .for_kids .kids_content .kids_txt .kids_p {
+        text-align: left;
+        font-size: 20px;
+        padding: 0;
+        margin: 0; }
+
+/*/for_kids*/
+/*no_boring*/
+.no_boring {
+  height: 919px; }
+  .no_boring .no_boring_buildings {
+    width: 100%;
+    height: 453px;
+    margin-top: 100px; }
+    .no_boring .no_boring_buildings div {
+      float: left; }
+    .no_boring .no_boring_buildings .no_boring_buildings_baskethall {
+      width: 567px;
+      height: 100%;
+      margin-left: 220px;
+      background-image: url(../../images/boring_hall.jpg);
+      background-size: cover;
+      position: relative; }
+    .no_boring .no_boring_buildings .no_boring_buildings_redmoskow {
+      width: 567px;
+      height: 100%;
+      background-image: url(../../images/boring_moskow.jpg);
+      background-size: cover; }
+    .no_boring .no_boring_buildings .boring_absolute {
+      position: absolute;
+      width: 8px;
+      height: 897px;
+      background-color: #AB3953;
+      right: -6px;
+      top: -55px; }
+  .no_boring .no_boring_info {
+    width: 100%;
+    height: 229px; }
+    .no_boring .no_boring_info div {
+      float: left; }
+    .no_boring .no_boring_info .no_boring_buildings_baskethall_txt {
+      width: 50%;
+      height: 100%; }
+      .no_boring .no_boring_info .no_boring_buildings_baskethall_txt .h2_boring {
+        color: #AB3953;
+        text-align: left; }
+      .no_boring .no_boring_info .no_boring_buildings_baskethall_txt p {
+        text-align: left;
+        font-family: "MyriadProCondRegular";
+        font-size: 23px;
+        width: 358px;
+        line-height: 35px; }
+    .no_boring .no_boring_info .no_boring_buildings_redmoskow_txt {
+      width: 50%;
+      height: 100%;
+      padding-left: 100px;
+      box-sizing: border-box; }
+      .no_boring .no_boring_info .no_boring_buildings_redmoskow_txt .h2_boring {
+        color: #AB3953;
+        text-align: left; }
+      .no_boring .no_boring_info .no_boring_buildings_redmoskow_txt p {
+        text-align: left;
+        font-family: "MyriadProCondRegular";
+        font-size: 23px;
+        width: 400px;
+        line-height: 35px; }
+
+/*/no_boring*/
+/*transport*/
+.transport {
+  height: 609px; }
+  .transport .hr_transport_position {
+    margin-top: 104px; }
+  .transport h2 {
+    margin-top: 18px;
+    margin-bottom: 15px; }
+
+/*/transport*/
+/*walls*/
+.walls {
+  height: 820px;
+  background-image: url(../../images/wals_back.jpg);
+  background-size: cover; }
+  .walls .p_white {
+    color: #fff;
+    line-height: 25px;
+    width: 775px;
+    font-weight: normal;
+    margin-top: 50px;
+    font-family: "MyriadProRegular"; }
+  .walls .walls_images {
+    height: 470px;
+    width: 100%; }
+    .walls .walls_images div {
+      float: left;
+      background-size: cover;
+      background-position: 50% 50%; }
+    .walls .walls_images .walls_images_description {
+      height: 100%;
+      width: 445px;
+      background-image: url(../../images/walls_wall_description.jpg); }
+    .walls .walls_images .walls_images_wall_img {
+      width: 300px;
+      height: 100%;
+      background-image: url(../../images/walls_wall.jpg);
+      float: right;
+      padding-bottom: 25px; }
+
+/*/walls*/
+/*windows*/
+.windows {
+  height: 638px;
+  background-image: url(../../images/windows_back.png);
+  background-size: cover; }
+  .windows .container .windows_content {
+    width: 100%;
+    height: 415px;
+    margin-top: 41px; }
+    .windows .container .windows_content div {
+      height: 100%;
+      width: 50%;
+      float: left;
+      box-sizing: border-box; }
+    .windows .container .windows_content .windows_content_img img {
+      height: 400px;
+      text-align: left;
+      margin-left: -200px; }
+    .windows .container .windows_content .windows_content_txt .windows_content_txt_p {
+      text-align: left;
+      margin-top: 133px;
+      width: 357px; }
+
+/*/windows*/
+/*roof*/
+.roof {
+  height: 750px;
+  background-image: url(../../images/roof_back.jpg);
+  background-size: cover;
+  background-position: 50% 50%; }
+  .roof .container .roof_img {
+    float: right;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -108px; }
+    .roof .container .roof_img img {
+      width: 650px;
+      position: absolute;
+      right: -96px; }
+  .roof .container .roof_content .roof_p {
+    width: 563px;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 50px; }
+
+/*/roof*/
+/*communication*/
+.communication {
+  height: 505px; }
+  .communication .communication_content {
+    height: 370px;
+    width: 100%;
+    margin-top: 50px; }
+    .communication .communication_content p {
+      font-size: 25px; }
+    .communication .communication_content .communication_items {
+      height: 225px; }
+      .communication .communication_content .communication_items .communication_items_item {
+        float: left;
+        height: 100%;
+        width: 25%;
+        text-align: center;
+        margin-top: 40px; }
+        .communication .communication_content .communication_items .communication_items_item .communication_items_item_img {
+          width: 133px;
+          height: 133px;
+          background-color: #3F4044;
+          margin-left: 37px;
+          border-radius: 50%; }
+          .communication .communication_content .communication_items .communication_items_item .communication_items_item_img img {
+            height: 66px;
+            vertical-align: middle;
+            margin-top: 30px; }
+
+/*/communication*/
+/*reports*/
+#reports {
+  height: 1870px; }
+  #reports .hr_gray {
+    width: 52px;
+    border: 5px solid #A6A6A6;
+    margin-top: 45px; }
+  #reports .p_gray {
+    font-family: "MyriadProCondBold";
+    color: #A6A6A6;
+    padding: 0;
+    font-size: 16px; }
+  #reports h3 {
+    margin-top: -20px;
+    font-size: 23px; }
+  #reports .reports_hr {
+    margin-top: 45px;
+    margin-bottom: 45px; }
+  #reports .hr_gray_second {
+    width: 52px;
+    border: 5px solid #A6A6A6;
+    margin-top: -10px; }
+  #reports .reports_video_photo {
+    width: 100%;
+    height: 485px;
+    margin-top: 45px; }
+    #reports .reports_video_photo .reports_video {
+      float: left;
+      width: 637px;
+      height: 100%; }
+    #reports .reports_video_photo .reports_photo {
+      width: 176px;
+      height: 100%;
+      margin-left: 10px;
+      float: right; }
+      #reports .reports_video_photo .reports_photo .reports_photo_img_div.arrow {
+        width: 100%;
+        height: 20px;
+        font-size: 20px; }
+      #reports .reports_video_photo .reports_photo .reports_photo_img_div.arrow.down {
+        font-size: 30px; }
+      #reports .reports_video_photo .reports_photo .reports_photo_img {
+        width: 100%;
+        height: 95px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        background-image: url(../../images/reports_photo4.jpg);
+        background-repeat: no-repeat 0 0;
+        cursor: pointer; }
+      #reports .reports_video_photo .reports_photo .report_photo2 {
+        background-position: 0 -123px; }
+      #reports .reports_video_photo .reports_photo .report_photo3 {
+        background-position: 0 -247px; }
+      #reports .reports_video_photo .reports_photo .report_photo4 {
+        background-position: 0 -372px; }
+  #reports .video_info {
+    text-align: justify;
+    font-size: 14px;
+    font-family: "MyriadProRegular"; }
+
+/*/reports*/
+/*gallery*/
+.gallery {
+  height: 645px; }
+  .gallery .photo_gallery {
+    width: 100%;
+    height: 580px;
+    margin-top: 45px;
+    float: left; }
+
+/*/gallery*/
+/*choose_house*/
+.choose_house {
+  height: 1196px; }
+  .choose_house .choose_txt {
+    margin-top: 40px; }
+    .choose_house .choose_txt p {
+      font-family: "MyriadProCondRegular";
+      font-size: 18px;
+      line-height: 32px; }
+      .choose_house .choose_txt p span {
+        color: #AB3953; }
+      .choose_house .choose_txt p strong {
+        color: #AB3953;
+        font-size: 22px;
+        font-family: "MyriadProCondBold"; }
+      .choose_house .choose_txt p em {
+        font-size: 15px; }
+  .choose_house .choose_content {
+    width: 831px;
+    height: 628px; }
+    .choose_house .choose_content div {
+      float: left;
+      height: 100%; }
+      .choose_house .choose_content div p {
+        text-align: left; }
+    .choose_house .choose_content .choose_content_left {
+      width: 336px;
+      margin-right: 15px; }
+      .choose_house .choose_content .choose_content_left div {
+        background-position: 50% 50%;
+        background-size: cover; }
+      .choose_house .choose_content .choose_content_left .choose_content_left_img_top {
+        width: 100%;
+        height: 250px;
+        background-image: url(../../images/choose_face.jpg);
+        margin-bottom: 15px;
+        position: relative; }
+        .choose_house .choose_content .choose_content_left .choose_content_left_img_top .choose_view_face {
+          position: absolute;
+          width: 98px;
+          height: 25px;
+          background-color: #363636;
+          color: #FCCC40; }
+          .choose_house .choose_content .choose_content_left .choose_content_left_img_top .choose_view_face p {
+            margin: 0;
+            font-family: "MyriadProCondBold";
+            font-size: 16px;
+            text-align: center;
+            padding-top: 3px; }
+      .choose_house .choose_content .choose_content_left .choose_content_left_img_bottom {
+        width: 100%;
+        height: 314px;
+        background-image: url(../../images/choose_plan1floor.png);
+        margin-bottom: 20px; }
+      .choose_house .choose_content .choose_content_left p {
+        font-family: "MyriadProCondBold";
+        font-size: 16px; }
+    .choose_house .choose_content .choose_content_right {
+      width: 478px; }
+      .choose_house .choose_content .choose_content_right .choose_content_right_img_top {
+        width: 100%;
+        height: 357px;
+        background-image: url(../../images/choose_back.jpg);
+        margin-bottom: 15px;
+        position: relative; }
+        .choose_house .choose_content .choose_content_right .choose_content_right_img_top .choose_view_face {
+          position: absolute;
+          width: 98px;
+          height: 25px;
+          background-color: #363636;
+          color: #FCCC40;
+          position: absolute;
+          bottom: 0;
+          right: 0; }
+          .choose_house .choose_content .choose_content_right .choose_content_right_img_top .choose_view_face p {
+            margin: 0;
+            font-family: "MyriadProCondBold";
+            font-size: 16px;
+            text-align: center;
+            padding-top: 3px; }
+      .choose_house .choose_content .choose_content_right .choose_content_right_img_bottom {
+        width: 100%;
+        height: 209px;
+        padding-bottom: 20px; }
+        .choose_house .choose_content .choose_content_right .choose_content_right_img_bottom .choose_content_right_img_bottom_img {
+          width: 329px;
+          height: 100%;
+          background-image: url(../../images/choose_plan2floor.png); }
+        .choose_house .choose_content .choose_content_right .choose_content_right_img_bottom .choose_content_right_img_bottom_txt {
+          width: 145px; }
+          .choose_house .choose_content .choose_content_right .choose_content_right_img_bottom .choose_content_right_img_bottom_txt .choose_about_house {
+            font-size: 14px;
+            line-height: 20px;
+            padding-left: 20px;
+            font-family: "MyriadProCondRegular";
+            font-size: 15px;
+            width: 95px; }
+      .choose_house .choose_content .choose_content_right p {
+        font-family: "MyriadProCondBold";
+        font-size: 16px; }
+  .choose_house .choose_form {
+    width: 100%;
+    height: 170px;
+    background-color: #AB3953;
+    margin-top: 50px; }
+    .choose_house .choose_form .h3_choose_form {
+      color: #fff;
+      font-size: 25px;
+      font-family: "MyriadProCondBold";
+      padding-top: 20px; }
+    .choose_house .choose_form span {
+      color: #FCCC40; }
+    .choose_house .choose_form form input {
+      width: 220px;
+      height: 38px;
+      border-radius: 5px;
+      padding-left: 10px;
+      margin-left: 20px;
+      outline: none; }
+    .choose_house .choose_form form .button_submit {
+      background-color: #FCCC40; }
+
+/*/choose_house*/
+/*dooplex*/
+.dooplex {
+  height: 1165px; }
+  .dooplex .dooplex_txt {
+    margin-top: 40px; }
+    .dooplex .dooplex_txt p {
+      font-family: "MyriadProCondRegular";
+      font-size: 18px;
+      line-height: 32px; }
+      .dooplex .dooplex_txt p span {
+        color: #AB3953; }
+      .dooplex .dooplex_txt p strong {
+        color: #AB3953;
+        font-size: 22px;
+        font-family: "MyriadProCondBold"; }
+      .dooplex .dooplex_txt p em {
+        font-size: 15px; }
+  .dooplex .dooplex_content {
+    width: 831px;
+    height: 623px; }
+    .dooplex .dooplex_content div {
+      float: left;
+      height: 100%; }
+      .dooplex .dooplex_content div p {
+        text-align: left; }
+    .dooplex .dooplex_content .dooplex_content_left {
+      width: 336px; }
+      .dooplex .dooplex_content .dooplex_content_left div {
+        background-position: 50% 50%;
+        background-size: cover; }
+      .dooplex .dooplex_content .dooplex_content_left .dooplex_content_left_img_top {
+        width: 100%;
+        height: 250px;
+        background-image: url(../../images/dooplex_back.jpg);
+        margin-bottom: 15px;
+        position: relative; }
+        .dooplex .dooplex_content .dooplex_content_left .dooplex_content_left_img_top .choose_view_face {
+          position: absolute;
+          width: 98px;
+          height: 25px;
+          background-color: #363636;
+          color: #FCCC40; }
+          .dooplex .dooplex_content .dooplex_content_left .dooplex_content_left_img_top .choose_view_face p {
+            margin: 0;
+            font-family: "MyriadProCondBold";
+            font-size: 16px;
+            text-align: center;
+            padding-top: 3px; }
+      .dooplex .dooplex_content .dooplex_content_left .dooplex_content_left_img_bottom {
+        width: 100%;
+        height: 314px;
+        background-image: url(../../images/dooplex_plan2floor.png);
+        background-position: 112% 50%;
+        margin-bottom: 20px; }
+      .dooplex .dooplex_content .dooplex_content_left p {
+        font-family: "MyriadProCondBold";
+        font-size: 16px;
+        text-align: right; }
+    .dooplex .dooplex_content .dooplex_content_right {
+      width: 478px;
+      margin-right: 15px; }
+      .dooplex .dooplex_content .dooplex_content_right .dooplex_content_right_img_top {
+        width: 100%;
+        height: 357px;
+        background-image: url(../../images/dooplex_face.jpg);
+        margin-bottom: 15px;
+        position: relative; }
+        .dooplex .dooplex_content .dooplex_content_right .dooplex_content_right_img_top .choose_view_face {
+          position: absolute;
+          width: 98px;
+          height: 25px;
+          background-color: #363636;
+          color: #FCCC40;
+          bottom: 1px; }
+          .dooplex .dooplex_content .dooplex_content_right .dooplex_content_right_img_top .choose_view_face p {
+            margin: 0;
+            font-family: "MyriadProCondBold";
+            font-size: 16px;
+            text-align: center;
+            padding-top: 3px; }
+      .dooplex .dooplex_content .dooplex_content_right p {
+        font-family: "MyriadProCondBold";
+        font-size: 16px;
+        text-align: right; }
+      .dooplex .dooplex_content .dooplex_content_right .dooplex_content_right_img_bottom {
+        width: 100%;
+        height: 209px;
+        margin-bottom: 20px; }
+        .dooplex .dooplex_content .dooplex_content_right .dooplex_content_right_img_bottom .dooplex_content_right_img_bottom_img {
+          width: 329px;
+          height: 100%;
+          background-image: url(../../images/dooplex_plan1floor.png); }
+        .dooplex .dooplex_content .dooplex_content_right .dooplex_content_right_img_bottom .dooplex_content_right_img_bottom_txt {
+          width: 145px; }
+          .dooplex .dooplex_content .dooplex_content_right .dooplex_content_right_img_bottom .dooplex_content_right_img_bottom_txt .dooplex_about_house {
+            font-size: 14px;
+            line-height: 20px;
+            padding-right: 20px; }
+          .dooplex .dooplex_content .dooplex_content_right .dooplex_content_right_img_bottom .dooplex_content_right_img_bottom_txt p {
+            font-family: "MyriadProCondRegular";
+            font-size: 15px;
+            width: 95px; }
+  .dooplex .choose_form {
+    width: 100%;
+    height: 170px;
+    background-color: #555555;
+    margin-top: 50px; }
+    .dooplex .choose_form .h3_choose_form {
+      color: #fff;
+      font-size: 25px;
+      font-family: "MyriadProCondBold";
+      padding-top: 20px; }
+    .dooplex .choose_form span {
+      color: #FCCC40; }
+    .dooplex .choose_form form input {
+      width: 220px;
+      height: 38px;
+      border-radius: 5px;
+      padding-left: 10px;
+      margin-left: 20px;
+      outline: none; }
+    .dooplex .choose_form form .button_submit {
+      background-color: #FCCC40; }
+
+/*/dooplex*/
+/*layout*/
+.layout {
+  height: 717px;
+  background-image: url(../../images/layout_back.png);
+  background-size: cover;
+  margin-top: -170px; }
+  .layout .container hr {
+    margin-bottom: 40px; }
+  .layout .container h2 {
+    padding-top: 190px; }
+  .layout .container p {
+    font-family: "MyriadProRegular";
+    font-size: 18px;
+    width: 590px;
+    margin-left: 100px; }
+  .layout .container .p_strong_color {
+    font-family: "MyriadProBold";
+    font-size: 21px;
+    color: #B23045;
+    margin-top: 50px; }
+  .layout .container strong {
+    font-family: "MyriadProBold";
+    margin-top: 50px; }
+
+/*/layout*/
+/*exchange*/
+.exchange {
+  height: 816px;
+  background-image: url(../../images/exchange_back.jpg); }
+  .exchange p {
+    color: #fff;
+    text-align: center;
+    font-family: "MyriadProRegular";
+    font-size: 18px;
+    margin-top: 36px; }
+  .exchange .exchange_content {
+    width: 100%;
+    height: 290px;
+    margin-top: 50px; }
+    .exchange .exchange_content div {
+      width: 290px;
+      height: 290px;
+      border-radius: 50%;
+      float: left; }
+    .exchange .exchange_content .exchange_content_old {
+      float: left;
+      background-image: url(../../images/exchange_old.png); }
+    .exchange .exchange_content .exchange_content_new {
+      float: right;
+      background-image: url(../../images/exchange_new.png); }
+    .exchange .exchange_content .echange_arrows {
+      width: 100px;
+      height: 100px;
+      border-radius: 0;
+      margin-left: 70px;
+      margin-top: 100px; }
+      .exchange .exchange_content .echange_arrows img {
+        margin: 0;
+        padding: 0; }
+        .exchange .exchange_content .echange_arrows img:first-child {
+          margin-bottom: -43px; }
+
+.exchange_form {
+  width: 100%;
+  height: 150px; }
+  .exchange_form h3 {
+    color: #fff;
+    font-family: "MyriadProCondRegular";
+    font-size: 25px;
+    text-transform: uppercase; }
+  .exchange_form form input {
+    width: 220px;
+    height: 38px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 20px;
+    outline: none; }
+  .exchange_form form .button_submit {
+    background-color: #FCCC40; }
+
+/*/exchange*/
+/*infrastructure*/
+.infrastructure {
+  height: 631px;
+  background-image: url(../../images/infastructure_back.jpg);
+  background-size: cover;
+  background-position: 50% 50%; }
+
+/*/infrastructure*/
+/*general_plan*/
+.general_plan {
+  height: 839px;
+  background-image: url(../../images/plan_back.jpg);
+  background-position: 91% 380%; }
+  .general_plan .p_white {
+    color: #fff;
+    text-align: center;
+    width: 630px;
+    font-size: 20px;
+    padding-left: 120px;
+    margin-top: 50px; }
+  .general_plan .plan_items {
+    width: 80%;
+    height: 153px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url(../../images/plan_items.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-top: 390px; }
+
+/*/general_plan*/
+/*documents*/
+.documents {
+  height: 1063px; }
+  .documents hr {
+    margin-bottom: 50px; }
+  .documents .container div {
+    width: 270px;
+    height: 458px;
+    float: left; }
+    .documents .container div:hover > .documents_img_pdf_hidden {
+      display: block; }
+  .documents .container .documents_img_frame {
+    width: 100%;
+    height: 319px;
+    background-image: url(../../images/documents_frame.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+    .documents .container .documents_img_frame img {
+      margin-top: 48px; }
+  .documents .container .documents_img_txt {
+    width: 100%;
+    height: 48px; }
+    .documents .container .documents_img_txt p {
+      text-align: center;
+      font-family: "MyriadProRegular";
+      font-size: 14px;
+      width: 245px;
+      padding-left: 12px; }
+  .documents .container .documents_img_pdf_hidden {
+    width: 131px;
+    height: 28px;
+    border: 2px solid #A62D46;
+    margin-left: 69px;
+    margin-top: 10px;
+    display: none;
+    cursor: pointer; }
+    .documents .container .documents_img_pdf_hidden p {
+      text-align: center;
+      color: #A62D46;
+      font-family: "MyriadProCondRegular";
+      font-size: 15px;
+      line-height: 0px; }
+
+/*/documents*/
+/*reliable_developer*/
+.reliable_developer {
+  height: 296px;
+  background-color: #F6F6F6; }
+  .reliable_developer .container .reliable_content {
+    height: 201px;
+    width: 100%;
+    margin-top: 47px; }
+    .reliable_developer .container .reliable_content div {
+      display: inline-block;
+      height: 100%; }
+    .reliable_developer .container .reliable_content .reliable_developer_logo {
+      width: 227px;
+      height: 100%;
+      background-image: url(../../images/reliable_logo.png);
+      background-size: 210px;
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    .reliable_developer .container .reliable_content .reliable_developer_description {
+      width: 420px;
+      margin-left: 43px; }
+      .reliable_developer .container .reliable_content .reliable_developer_description .black_h2 {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: left;
+        font-size: 32px; }
+      .reliable_developer .container .reliable_content .reliable_developer_description p {
+        text-align: left;
+        font-size: 17px; }
+
+/*/variable_developer*/
+/*our_objects*/
+.our_objects {
+  height: 1485px;
+  background-color: #E2E2E2; }
+  .our_objects .container hr {
+    margin-bottom: 60px; }
+  .our_objects .container .objects_img {
+    height: 313px;
+    width: 50%;
+    float: left;
+    background-size: cover;
+    background-position: 50% 50%; }
+  .our_objects .container .objects_txt {
+    height: 313px;
+    width: 50%;
+    float: left;
+    text-align: left; }
+    .our_objects .container .objects_txt em {
+      font-size: 10px; }
+    .our_objects .container .objects_txt p {
+      font-size: 14px; }
+    .our_objects .container .objects_txt h3 {
+      font-size: 25px; }
+  .our_objects .container .objects_txt.left {
+    text-align: left; }
+    .our_objects .container .objects_txt.left h3 {
+      text-align: left;
+      padding-left: 50px; }
+    .our_objects .container .objects_txt.left p {
+      margin-left: 50px;
+      width: 280px; }
+  .our_objects .container .objects_txt.right {
+    text-align: right; }
+    .our_objects .container .objects_txt.right h3 {
+      text-align: right;
+      margin-right: 50px; }
+    .our_objects .container .objects_txt.right p {
+      width: 280px;
+      margin-left: 87px; }
+  .our_objects .container .objects_img.family {
+    background-image: url(../../images/objects_family.jpg); }
+  .our_objects .container .objects_img.panorama {
+    background-image: url(../../images/objects_panorama.jpg); }
+  .our_objects .container .objects_img.club {
+    background-image: url(../../images/objects_club.jpg); }
+  .our_objects .container .objects_img.malinovka {
+    background-image: url(../../images/objects_malinovka.jpg); }
+
+/*/our_objects*/
+/*installments*/
+.installments {
+  height: 794px;
+  background-image: url(../../images/installments_back.jpg);
+  background-size: cover;
+  background-position: 50% 50%; }
+  .installments .installments_consultation_block {
+    width: 554px;
+    height: 527px;
+    margin: 0 auto;
+    margin-top: 121px; }
+    .installments .installments_consultation_block div {
+      width: 100%; }
+    .installments .installments_consultation_block .installments_consultation_block_main {
+      height: 230px;
+      background-color: rgba(255, 255, 255, 0.8); }
+      .installments .installments_consultation_block .installments_consultation_block_main h2 {
+        padding-top: 30px;
+        margin-bottom: 0; }
+      .installments .installments_consultation_block .installments_consultation_block_main ul {
+        margin-left: 54px; }
+        .installments .installments_consultation_block .installments_consultation_block_main ul li {
+          list-style-type: none;
+          text-align: left;
+          font-size: 20px;
+          font-family: "MyriadProRegular";
+          letter-spacing: 1px;
+          line-height: 25px; }
+        .installments .installments_consultation_block .installments_consultation_block_main ul li:before {
+          content: "\2713";
+          color: #B23045;
+          margin-right: 20px;
+          font-size: 20px; }
+    .installments .installments_consultation_block .installments_consultation_block_ask_consultant {
+      height: 63px;
+      background-color: #FCCC40; }
+      .installments .installments_consultation_block .installments_consultation_block_ask_consultant p {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        line-height: 67px;
+        font-family: "MyriadProCondBold";
+        font-size: 23px; }
+    .installments .installments_consultation_block .installments_consultation_block_form {
+      height: 232px;
+      background-color: #B43148; }
+      .installments .installments_consultation_block .installments_consultation_block_form p {
+        color: #fff;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "MyriadProRegular";
+        font-size: 22px;
+        font-weight: normal;
+        padding-top: 18px;
+        padding-bottom: 18px; }
+      .installments .installments_consultation_block .installments_consultation_block_form form input {
+        display: block;
+        width: 255px;
+        height: 30px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        font-family: "MyriadProRegular";
+        font-size: 13px;
+        outline: none; }
+      .installments .installments_consultation_block .installments_consultation_block_form form .button_submit {
+        background-color: #FCCC40;
+        outline: none;
+        font-family: "MyriadProCondBold";
+        font-size: 19px;
+        padding-top: 4px; }
+
+/*/installments*/
+/*footer*/
+footer {
+  height: 183px;
+  background-color: #fff; }
+  footer .container div {
+    float: left;
+    height: 122px;
+    margin-top: 30px; }
+  footer .container .footer_logo {
+    background-image: url(../../images/logo_footer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 227px; }
+  footer .container .footer_address {
+    width: 223px;
+    text-align: center;
+    margin-left: 50px; }
+    footer .container .footer_address p {
+      font-size: 13px;
+      font-family: "MyriadProRegular";
+      vertical-align: middle;
+      padding-top: 30px; }
+  footer .container .footer_logo_today {
+    background-image: url(../../images/footer_today.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 79px;
+    margin-left: 50px; }
+  footer .container .footer_logo_contacts {
+    width: 144px;
+    margin-left: 50px;
+    margin-top: 45px; }
+    footer .container .footer_logo_contacts p {
+      text-align: left;
+      font-family: "MyriadProRegular";
+      font-size: 16px; }
+      footer .container .footer_logo_contacts p strong {
+        font-family: "MyriadProBold"; }
+
+/*/footer*/
+#top {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #A62D46;
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+  font-size: 150%;
+  position: fixed;
+  right: 35px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px; }
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadPro/MyriadProBold/MyriadProBold.eot");
+  src: url("../fonts/MyriadPro/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProBold/MyriadProBold.woff") format("woff"), url("../fonts/MyriadPro/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "MyriadProCondBold";
+  src: url("../fonts/MyriadProCond/MyriadProCondBold/MyriadProCondBold.eot");
+  src: url("../fonts/MyriadProCond/MyriadProCondBold/MyriadProCondBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProCond/MyriadProCondBold/MyriadProCondBold.woff") format("woff"), url("../fonts/MyriadProCond/MyriadProCondBold/MyriadProCondBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "MyriadProCondRegular";
+  src: url("../fonts/MyriadProCond/MyriadProCondRegular/MyriadProCondRegular.eot");
+  src: url("../fonts/MyriadProCond/MyriadProCondRegular/MyriadProCondRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProCond/MyriadProCondRegular/MyriadProCondRegular.woff") format("woff"), url("../fonts/MyriadProCond/MyriadProCondRegular/MyriadProCondRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/*# sourceMappingURL=style.css.map */

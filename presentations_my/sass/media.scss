@@ -1,0 +1,138 @@
+@media screen and (max-width: 720px) {  
+	
+	.container{
+		text-align: center;
+	}
+
+	h1{
+		font-size: 40px;
+		padding-bottom: 30px;
+	}
+
+	h2{
+		font-size: 35px;
+		padding-bottom: 0;
+	}
+
+	h2 span {
+	    font-size: 30px;
+	    text-transform: none;
+	    line-height: 60px;
+	}
+
+	button{
+		width: 100%;
+	}
+
+	.image_div{
+		display: none;
+	}
+
+	.main span{
+		font-size: 30px;
+	}
+
+	.about_me .container .row .col-md-4 img {
+	    display: none;
+	}
+
+	.about_me .container .row .col-md-7 .about_me_content p {
+	    padding-top: 10px;
+	}
+
+	.clients .container .clients_content .row {
+	    padding-top: 0;
+	}
+
+	.clients_content .row .col-md-4 .img_icon{
+		display: none;
+	}
+
+	.clients .container .logos .row div img {
+	    width: 30%;
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	}
+
+	.education {
+		.col-md-6{
+			margin:30px 0;
+		}
+	}
+
+	.mechanic h2{
+		padding-bottom: 20px;
+	}
+
+	.mechanic .container .col-md-7 ul li:before {
+	    display: block;
+	    position:static;
+	    margin: 0 auto;
+	}
+
+	.mechanic .container .col-md-7 ul li{
+		padding-left: 0;
+		padding-top: 20px;
+	}
+
+	.mechanic .container .col-md-7 ul{
+		padding-bottom: 7px;
+	}
+
+	.mechanic .container .col-md-7 p {
+	    padding-bottom: 0;
+	}
+
+	.trainings .container ul {
+	    margin-left: 0;
+	}
+
+	.trainings .container ul li:before {
+		position: static;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 12px;
+	}
+
+	.trainings .container ul li{
+		padding-bottom: 0px;
+        padding-top: 16px;
+	}
+
+	.trainings_details .container .col-md-6 ul li:before {
+		display: block;
+	    position: static;
+	    margin: 0 auto;
+	    margin-bottom: 7px;
+	}
+
+	.trainings_details .container .col-md-6 ul li {
+		margin-left: 0;
+		padding-top: 0;
+	}
+
+	.price .container .col-md-7 ul li:before{
+		position: static;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.price .container .col-md-7 ul li {
+		padding-left: 0;
+		padding-bottom: 30px;
+	}
+
+	.price h2{
+		padding-bottom: 20px;
+	}
+
+	.contacts h2{
+		padding-bottom: 20px;
+	}
+
+	.contacts ul{
+		text-align:left;
+	}
+
+}

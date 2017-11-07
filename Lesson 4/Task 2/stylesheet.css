@@ -1,0 +1,31 @@
+.menu{
+	height: 40px;
+	width: 100%;
+	background-color: #A64DFF;
+	border:2px solid #B672FB;
+	margin:0;
+	padding:0;
+}
+.button{
+	float: left;
+	height: 40px;
+	width: 130px;
+	color:white;
+	font-family: Impact;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.button:last-child{
+	float:right;
+}
+
+
+.button:hover{
+	background-color: #EEEEEE;
+	color:#9F9FA5;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}

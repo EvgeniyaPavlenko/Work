@@ -1,0 +1,64 @@
+th{
+	background-color: #7BC043;
+}
+
+tr{
+	background-color: #DEF3CA;
+	border:1px solid white;
+}
+
+tr{
+	width: 140px;
+	height: 40px;
+}
+
+.left{
+	width: 140px;
+	height: 40px;
+	color:white;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-right:3px solid #9ED929;
+	background: linear-gradient(to left, #7BC043, #97D231);
+}
+
+.up{
+	width: 140px;
+	height: 40px;
+	color:white;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom:3px solid #9ED929;
+	background: linear-gradient(to top, #7BC043, #97D231);
+}
+
+
+td{
+	text-align: center;
+	color:#666666;
+	font-weight: bold;
+}
+
+
+.last td{
+	font-size: 30px;
+	background-color: white;
+	color:#9CD009;
+	text-shadow: 0.5px 0.5px 1px black, 0 0 0.1em black;
+}
+
+.last th{
+	background-color: white;
+	color:#666695;
+}
+
+.php td{
+	background-image: url(./check.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+tr .empty{
+	background-color: white;
+}

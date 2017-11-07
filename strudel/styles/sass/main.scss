@@ -1,0 +1,318 @@
+/* font-family: "SansationRegular"; */
+@font-face {
+    font-family: "SansationRegular";
+    src: url("../../fonts/SansationRegular/SansationRegular.eot");
+    src: url("../../fonts/SansationRegular/SansationRegular.eot?#iefix")format("embedded-opentype"),
+    url("../../fonts/SansationRegular/SansationRegular.woff") format("woff"),
+    url("../../fonts/SansationRegular/SansationRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SansationBold"; */
+@font-face {
+    font-family: "SansationBold";
+    src: url("../../fonts/SansationBold/SansationBold.eot");
+    src: url("../../fonts/SansationBold/SansationBold.eot?#iefix")format("embedded-opentype"),
+    url("../../fonts/SansationBold/SansationBold.woff") format("woff"),
+    url("../../fonts/SansationBold/SansationBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+section, 
+div,
+p,
+h1, 
+h2, 
+h3,
+ul,
+li{
+	padding: 0;
+	margin: 0;
+}
+
+a,
+a:visited,
+a:link,
+a:hover{
+	text-decoration: none;
+	color:inherit;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+section{
+	width: 100%;
+}
+
+.container{
+	max-width:1140px;
+	margin: 0 auto;
+}
+
+.row{
+	width: 100%;
+	clear: both;
+}
+
+/*HEADER*/
+
+header{
+	background-image: url(../../img/top_back.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 74px;
+	.logo_section{
+		position: absolute;
+		top:1px;
+		img{
+			padding-top: 10px;
+		}
+	}
+	h1{
+		font-family: "SansationBold";
+		color:#fff;
+		font-size: 45px;
+		line-height: 58px;
+		text-align: center;
+		padding:100px 0 159px 0;
+	}
+}
+/*HEADER_END*/
+
+/*ADVANTAGES*/
+	.advantages{
+		padding-top: 150px;
+		.container{
+			.advantages_items{
+				text-align: center;
+				font-family: "SansationRegular";
+				color:#393F4B;
+				font-size: 24px;
+				line-height: 30px;
+				p{
+					font-size: 18px;
+				}
+				h3{
+					padding-bottom: 30px;
+					padding-top: 30px;
+				}
+				.point{
+					width: 105px;
+					height: 105px;
+					background-color:#F68C2F;
+					border-radius:50%;
+					margin: 0 auto;
+					color:#fff;
+					i{
+						font-size: 40px;
+						padding-top: 28px;
+					}
+				}
+				&:nth-of-type(2){
+					.point{
+						background-color:#266C66;
+					}
+				}
+				&:nth-of-type(3){
+					.point{
+						background-color:#DB3928;
+					}
+				}
+			}
+			.row{
+				padding: 90px;
+				p{
+					text-align: center;
+					font-size: 24px;
+					font-family: "SansationRegular";
+					color:#2F3542;
+					position: relative;
+					&:after{
+						content:"";
+						width: 150px;
+						height: 5px;
+						background-color: #DB3928;
+						display: block;
+						margin:30px auto;
+					}
+				}
+			}
+		}
+	}
+/*ADVANTAGES_END*/
+
+/*SERVICES*/
+	.services{
+		.container{
+			.left-section{
+				h2{
+					font-family: "SansationBold";
+					font-size: 26px;
+					color:#2F3542;
+					text-transform: uppercase;
+					line-height: 30px;
+					padding-bottom: 50px;
+				}
+				ul{
+					margin-left: 25px;
+					li{
+						font-family: "SansationRegular";
+						font-size: 16px;
+						list-style-type: disc;
+						line-height:30px;
+					}
+				}
+				p{
+					color:#2F3542;
+					text-decoration: underline;
+					font-family: "SansationBold";
+					font-size: 22px;
+					text-align: center;
+					margin-bottom: 50px;
+					margin-top: 50px;
+				}
+			}
+			.right-section{
+				height: 600px;
+				background: url(../../img/back_3.jpg) no-repeat 50%;
+				background-size:contain;
+			}
+		}
+	}
+
+	/*SERVICES_END*/
+
+	/*MISSION*/
+	.mission{
+		padding-bottom: 250px;
+		color:#fff;
+		font-family: "SansationBold";
+		font-size: 37px;
+		background: url(../../img/back_4.jpg) no-repeat 50%;
+		background-size: cover;
+		padding-top: 70px;
+		.container{
+			/*background: url(../../img/back_4.jpg) no-repeat 50%;
+		    background-size: cover;
+		    padding-top: 131px;
+		    padding-bottom: 143px;*/
+			p{
+				font-size: 20px;
+				line-height: 35px;
+				padding-top: 41px;
+			}
+			.left_column{
+				text-align: left;
+			}
+			.right_column{
+				text-align: right;
+			}
+			.middle_column{
+				text-align: center;
+				padding-top: 85px;
+			}
+		}
+	}
+	/*MISSION_end*/
+
+	/*TEAM*/
+	.team{
+		background: url(../../img/back_5.jpg) no-repeat;
+		background-size:cover;
+		padding-top: 50px;
+		margin-top: 20px;
+		.container{
+			padding-bottom: 180px;
+			h2{
+				font-family: "SansationBold";
+				font-size: 24px;
+				line-height: 35px;
+				padding-left: 15%;
+				text-transform: uppercase;
+				padding-bottom: 125px;
+			}
+			.team_item{
+				text-align: center;
+				h4{
+					font-family: "SansationBold";
+					font-size: 22px;
+				}
+				p{
+					font-family: "SansationRegular";
+					line-height: 35px;
+					font-size: 20px;
+				}
+				img{
+					width: 100%;
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+	/*TEAM END*/
+
+	/*LASKOM*/
+	.laskom{
+		margin-top: 20px;
+		padding-bottom: 100px;
+		.top_div{
+			color:#fff;
+			font-family: "SansationBold";
+			background: url(../../img/back_6.jpg) no-repeat;
+			padding-top: 45px;
+    		padding-bottom: 50px;
+    		.top_div_content{
+    			width: 60%;
+    			margin-left: 35%;
+    			h3{
+    				text-transform: uppercase;
+    				font-size: 24px;
+    				line-height: 35px;
+    			}
+    			p{
+    				font-size: 14px;
+    				font-family: "SansationRegular";
+    				line-height: 25px;
+    				margin-top: 30px;
+    				margin-bottom: 50px;
+    			}
+    			a{
+    				font-size: 22px;
+    				font-family: "SansationBold";
+    				text-decoration: underline;
+    				float: right;
+    			}
+    		}
+		}
+		.bottom_div{
+			font-size: 16px;
+			font-family: "SansationRegular";
+			line-height: 20px;
+		}
+		.img_div{
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+	/*LASKOM_END*/
+
+	/*FOOTER*/
+	footer{
+		background: #2B0F26 url(../../img/footer.png) no-repeat;
+		.container{
+			color:#fff;
+			font-family: "SansationRegular";
+			h3{
+				font-size: 24px;
+				font-family: "SansationBold";
+				padding-bottom: 35px;
+				text-transform: uppercase;
+			}
+			p{
+				font-size: 16px;
+				line-height: 25px;
+			}
+		}
+	}
+
+	/*FOOTER_END*/

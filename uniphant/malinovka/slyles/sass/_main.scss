@@ -1,0 +1,1558 @@
+/*general*/
+
+	$black_h2 : #000000;
+	$white_h2 : #fff;
+	$crimson: #AB3953;
+
+	html, body{
+		width: 100%;
+	}
+
+	section, footer{
+		width: 2000px;
+		background-color:#fff;
+		margin:0 auto;
+	}
+
+	body{
+		background-color:green;
+	}
+
+	h2{
+		 font-family: "MyriadProCondBold";
+		 font-size: 34px;
+		 font-weight: bold;
+		 text-transform: uppercase;
+		 text-align: center;
+		 margin-top: 57px;
+	}
+
+	.h2_black{
+		color:$black_h2;
+		font-family: "MyriadProCondRegular";
+	}
+
+	.h2_white{
+		color:$white_h2;
+	}
+
+	.h2_crimson{
+		color:$crimson;
+	}
+
+	h3{
+		 font-family: "MyriadProRegular";
+		 font-size: 18px;
+		 font-weight: bold;
+		 text-align: center;
+		 margin-top: 57px;
+		 color:$crimson;
+	}
+
+	.container{
+		width: 831px;
+		height: 40px;
+		margin-left:auto;
+		margin-right: auto;
+		display: inline-block;
+		padding-left:220px;
+	}
+
+	section, footer{
+		text-align: center;
+	}
+
+	hr{
+	  	width: 52px;
+	  	border:5px solid $crimson;
+  }
+
+  .hr_white{
+	  	width: 52px;
+	  	border:5px solid $white_h2;
+  }
+
+
+/*/general*/
+
+/*main*/
+	.main{
+		height: 922px;
+		background-image:url(../../images/main_background.jpg);
+		background-size: cover;
+		background-position:90% 50%;
+		position:relative;
+
+		.nav_fixed{
+			width: 220px;
+			height: 100%;
+			background-color:rgba(0.16, 0.16, 0.16, .8);
+			position: fixed;
+			z-index: 1;
+				.nav_contacts{
+					width: 100%;
+					height: 35px;
+					background-color:#414141;
+					margin-top: 100px;
+					color:#fff;
+					font-family: "MyriadProBold";
+					line-height: 35px;
+				}
+				.nav_p{
+					font-size: 10px;
+					color:#7A7A7A;
+					margin-top: 5px;
+				}
+				.nav_diary{
+					width: 170px;
+					height: 70px;
+					margin-top: 72px;
+					margin-left: 30px;
+						.nav_diary_date{
+							width: 33px;
+							height: 25px;
+							background-color:#A42C40;
+							border-radius:5px 5px 0 0;
+									p{
+										color:#fff;
+										font-size: 10px;
+										line-height: 20px;
+									}
+						}
+						.nav_diary_info{
+							width: 100%;
+							height: 45px;
+							background-color:#555555;
+							border-radius:0 5px 5px 5px;
+							background-image:url(../../images/nav_camera.png);
+							background-repeat: no-repeat;
+							background-position:92% 50%;
+								.nav_diary_info_txt{
+									height: 100%;
+									width: 123px;
+									border-radius:5px 5px 5px 5px;
+									background-color:#E4B839;
+									margin:0;
+									padding:0;
+									box-sizing:border-box;
+										p{
+											margin:0;
+											padding:0;
+											line-height: 15px;
+											box-sizing:border-box;
+											padding-top:8px;
+										}
+								}
+						}
+				}
+				ul{
+					width: 170px;
+					height: 380px;
+						li{
+							display: block;
+							list-style-type: none;
+							text-align: left;
+							font-family: "MyriadProRegular";
+							font-size: 15.6px;
+							height: 35px;
+								a{
+									text-decoration:none;
+									color:#fff;
+								}
+							}
+				}
+		}
+
+		header{
+			height: 100px;
+			width: 100%;
+				.header_logo{
+					width: 265px;
+					height: 100px;
+					background-color:#B63146;
+					z-index: 2;
+					position:relative;
+					border-radius:0 0 10px 0;
+					background-image:url(../../images/logo.png);
+					background-size:90%;
+					background-repeat:no-repeat;
+					background-position: 35% 30%;
+					right: 458px;
+					display: inline-block;
+				}
+				.header_contacts{
+					width: 155px;
+					height: 55px;
+					display: inline;
+					float: right;
+					margin-right: 20px;
+							p{
+								text-align: left;
+								font-size: 16px;
+							}
+				}
+		}
+
+
+		.main_info{
+			width: 556px;
+			height: 297px;
+			border:4px solid #fff;
+			border-radius:10px;
+			margin-right: auto;
+			margin-left: auto;
+				div{
+					width: 100%;
+				}
+				.main_info_main_txt{
+					height: 142px;
+					padding-top:8px;
+							margin:0;
+							box-sizing:border-box;
+						.main_p{
+							text-transform: uppercase;
+							font-size: 22.5px;
+							color:#282828;
+						}
+				}
+				.main_info_middle_txt{
+					height: 57px;
+					width: 100%;
+					background-color:rgba(255, 255, 255, .8);
+					position:relative;
+						.main_info_middle_txt_absolute{
+							position:absolute;
+							width: 244px;
+							height: 93px;
+							border-radius:10px;
+							background-color:#fff;
+							right: 153px;
+							top:-5px;
+								.main_price{
+									width: 100%;
+									height: 60px;
+									background-color:#FCCC40;
+									border-radius:10px 10px 0 0;
+									padding-top:8px;
+									margin:0;
+									box-sizing:border-box;
+									font-size: 30px;
+									font-family: "MyriadProBold";
+									line-height: 1px;
+								}
+								.main_about_prise{
+									font-size: 18px;
+									box-sizing:border-box;
+									font-family: "MyriadProBold";
+									margin:0;
+									line-height: 1px;
+
+								}
+						}
+				}
+
+				.main_info_bottom_txt{
+					height: 97px;
+					background-color:RGBA(56, 59, 61, .8);
+					border-radius: 0 0 6px 6px;
+					padding-top:50px;
+					margin:0;
+					box-sizing:border-box;
+						.main_p_bottom{
+							color:#fff;
+							margin:0;
+							padding:0;
+							font-size:11px;
+						}
+				}
+			}
+
+			.main_form_for_viewing{
+				width: 1358px;
+				height: 96px;
+				background-color:#B33045;
+				bottom:1px;
+				position: absolute;
+				z-index: 2;
+					div{
+						float:left;
+						box-sizing:border-box;
+					}
+				.main_form_for_viewing_book{
+					width: 220px;
+					background-color:#545454;
+					height: 100%;
+						p{
+							margin:0;
+							padding:0;
+							box-sizing:border-box;
+							color:#fff;
+							font-size: 14px;
+							padding-top:39px;
+						}
+						.hr_main{
+							width: 140px;
+							border:1px dotted #fff;
+							margin-right: 27px;
+
+						}
+				}
+				.main_form_for_viewing_txt{
+					width: 345px;
+					height: 100%;
+						.main_p{
+							text-align: right;
+							color:#fff;
+							padding-right:20px;
+							padding-top: 15px;
+						}
+				}
+				.main_form_for_viewing_form{
+					width: 735px;
+					height: 100%;
+					margin-top: 30px;
+						input{
+							display: inline-block;
+							width: 210px;
+							height: 38px;
+							border-radius:5px;
+							background-color:#731B27;
+							color:#fff;
+							border:none;
+							outline: none;
+							padding-left:10px;
+						}
+						.button_submit{
+							background-color:#DEB337;
+							color:#1D1D1D;
+							font-weight: bold;
+							text-transform:uppercase;
+						}
+				}
+
+
+			}
+
+	}
+
+/*/main*/
+
+/*reason_to_buy*/
+	.reason_to_buy{
+		height: 882px;
+		.container{
+			width: 895px;
+			.reason_to_buy_items{
+				width: 298px;
+				height: 238px;
+				float: left;
+				.reason_to_buy_items_berry{
+						width: 277px;
+				}
+				.reason_to_buy_items_square{
+					width: 62px;
+					height: 62px;
+					border: 1px solid $crimson;
+					border-radius:15%;
+					 -moz-transform: rotate(45deg);  /* Firefox */
+  					-o-transform: rotate(45deg);  /* Opera */
+  					-webkit-transform: rotate(45deg);  /* Safari y Chrome */
+  					margin-right: 118px;
+  					margin-left:118px;
+  					margin-top: 50px;
+  					text-align: center;
+  						.reason_to_buy_items_img{
+  							width: 40px;
+  							line-height: 62px;
+  							padding-top: 9px;
+  							padding-right:9px;
+  							-moz-transform: rotate(-45deg);  /* Firefox */
+  							-o-transform: rotate(-45deg);  /* Opera */
+  							-webkit-transform: rotate(-45deg);  /* Safari y Chrome */
+  						}
+					}
+				p{
+					font-family: "MyriadProRegular";
+					font-size: 16px;
+					line-height: 1.304;
+					text-align: center;
+					width: 244px;
+					margin-right: 27px;
+  					margin-left:27px;
+				}
+			}
+		}
+	}
+/*/reason_to_buy*/
+
+/*for_kids*/
+.for_kids{
+		height: 598px;
+		background-image:url(../../images/kids_back.jpg);
+		background-size:cover;
+		background-position:50% 50%;
+		background-repeat:no-repeat;
+			.kids_content{
+				width: 365px;
+				height: 351px;
+					div{
+						width: 100%;
+						height: 117px;
+						box-sizing:border-box;
+					}
+					.kids_img{
+						width: 65px;
+						height: 100%;
+						float:left;
+						margin-right: 25px;
+							img{
+								margin-top: 30px;
+							}
+					}
+
+					.kids_txt{
+						margin-left:20px;
+					.kids_h2{
+						color:#0E4666;
+						text-decoration: uppercase;
+						margin:0;
+						text-align: left;
+						padding-top:20px;
+						font-family: "MyriadProCondBold";
+					}
+					.kids_p{
+								text-align: left;
+								font-size:20px;
+								padding:0;
+								margin:0;
+							}
+
+				    }
+			}
+}
+/*/for_kids*/
+
+/*no_boring*/
+.no_boring{
+		height: 919px;
+			.no_boring_buildings{
+				width: 100%;
+				height: 453px;
+				margin-top: 100px;
+					div{
+						float:left;
+					}
+					.no_boring_buildings_baskethall{
+						width: 567px;
+						height: 100%;
+						margin-left: 220px;
+						background-image:url(../../images/boring_hall.jpg);
+						background-size: cover;
+						position:relative;
+					}
+				.no_boring_buildings_redmoskow{
+					width: 567px;
+					height: 100%;
+					background-image:url(../../images/boring_moskow.jpg);
+					background-size:cover;
+				}
+				.boring_absolute{
+					position: absolute;
+					width: 8px;
+					height: 897px;
+					background-color:#AB3953;
+					right: -6px;
+					top:-55px;
+				}
+			}
+			.no_boring_info{
+				width: 100%;
+				height: 229px;
+					div{
+						float: left;
+					}
+					.no_boring_buildings_baskethall_txt{
+						width: 50%;
+						height: 100%;
+						.h2_boring{
+									color:#AB3953;
+									text-align: left;
+								}
+								p{
+									text-align: left;
+									font-family: "MyriadProCondRegular";
+									font-size: 23px;
+									width: 358px;
+									line-height: 35px;
+								}
+					}
+					.no_boring_buildings_redmoskow_txt{
+						width: 50%;
+						height: 100%;
+						padding-left:100px;
+						box-sizing:border-box;
+								.h2_boring{
+									color:#AB3953;
+									text-align: left;
+								}
+								p{
+									text-align: left;
+									font-family: "MyriadProCondRegular";
+									font-size: 23px;
+									width: 400px;
+									line-height: 35px;
+								}
+					}
+			}
+
+		}
+/*/no_boring*/
+
+/*transport*/
+	.transport{
+		height: 609px;
+		.hr_transport_position{
+			margin-top:104px;
+		}
+		h2{
+			margin-top: 18px;
+    		margin-bottom: 15px;
+		}
+	}
+/*/transport*/
+
+/*walls*/
+.walls{
+		height: 820px;
+		background-image:url(../../images/wals_back.jpg);
+		background-size:cover;
+			.p_white{
+				color:#fff;
+				line-height: 25px;
+				width: 775px;
+				font-weight: normal;
+				margin-top: 50px;
+				font-family: "MyriadProRegular";
+			}
+			.walls_images{
+				height: 470px;
+				width: 100%;
+				div{
+					float:left;
+					background-size:cover;
+					background-position:50% 50%;
+				}
+				.walls_images_description{
+					height: 100%;
+					width: 445px;
+					background-image:url(../../images/walls_wall_description.jpg)
+				}
+				.walls_images_wall_img{
+					width: 300px;
+					height: 100%;
+					background-image:url(../../images/walls_wall.jpg);
+					float:right;
+					padding-bottom: 25px;
+				}
+			}
+	}
+/*/walls*/
+
+/*windows*/
+.windows{
+		height: 638px;
+		background-image:url(../../images/windows_back.png);
+		background-size:cover;
+			.container{
+				.windows_content{
+					width: 100%;
+					height: 415px;
+					margin-top: 41px;
+						div{
+							height: 100%;
+							width: 50%;
+							float:left;
+							box-sizing:border-box;
+						}
+						.windows_content_img{
+							img{
+								height: 400px;
+								text-align: left;
+								margin-left: -200px;
+							}
+							}
+							.windows_content_txt{
+								.windows_content_txt_p{
+									text-align: left;
+									margin-top: 133px;
+									width: 357px;
+								}
+						}
+				}
+			}
+	}
+/*/windows*/
+
+/*roof*/
+.roof{
+		height: 750px;
+		background-image:url(../../images/roof_back.jpg);
+		background-size: cover;
+		background-position: 50% 50%;
+			.container{
+				.roof_img{
+					float:right;
+					position: relative;
+					height: 100%;
+					width: 100%;
+					top:-108px;
+						img{
+							width: 650px;
+							position: absolute;
+							right: -96px;
+						}
+					}
+				.roof_content{
+					.roof_p{
+						width: 563px;
+						float: left;
+						text-align: left;
+						font-size: 16px;
+						color:#fff;
+						margin-top: 50px;
+					}
+				}
+			}
+	}
+/*/roof*/
+
+/*communication*/
+.communication{
+		height: 505px;
+			.communication_content{
+				height: 370px;
+				width: 100%;
+				margin-top: 50px;
+					p{
+						font-size: 25px;
+					}
+					.communication_items{
+						height: 225px;
+								.communication_items_item{
+									float:left;
+									height: 100%;
+									width: 25%;
+									text-align: center;
+									margin-top: 40px;
+										.communication_items_item_img{
+											width: 133px;
+											height: 133px;
+											background-color:#3F4044;
+											margin-left:37px;
+											border-radius:50%;
+												img{
+													height: 66px;
+													vertical-align: middle;
+													margin-top: 30px;
+												}
+
+										}
+								}
+					}
+			}
+	}
+/*/communication*/
+
+/*reports*/
+#reports{
+		height: 1870px;
+			.hr_gray{
+				width: 52px;
+	  			border:5px solid #A6A6A6;
+	  			margin-top: 45px;
+			}
+			.p_gray{
+				font-family: "MyriadProCondBold";
+				color:#A6A6A6;
+				padding:0;
+				font-size: 16px;
+			}
+			h3{
+				margin-top: -20px;
+				font-size:23px;
+
+			}
+			.reports_hr{
+				margin-top: 45px;
+				margin-bottom: 45px;
+			}
+			.hr_gray_second{
+				width: 52px;
+	  			border:5px solid #A6A6A6;
+	  			margin-top:-10px;
+			}
+
+			.reports_video_photo{
+				width: 100%;
+				height: 485px;
+				margin-top: 45px;
+					.reports_video{
+						float:left;
+						width: 637px;
+						height: 100%;
+					}
+					.reports_photo{
+						width: 176px;
+						height: 100%;
+						margin-left:10px;
+						float:right;
+							.reports_photo_img_div.arrow{
+								width: 100%;
+								height: 20px;
+								font-size:20px;
+							}
+							.reports_photo_img_div.arrow.down{
+								font-size:30px;
+							}
+
+							.reports_photo_img{
+								width: 100%;
+								height: 95px;
+								margin-top: 12px;
+								margin-bottom:12px;
+								background-image:url(../../images/reports_photo4.jpg);
+								background-repeat: no-repeat 0 0;
+								cursor: pointer;
+							}
+							.report_photo2{
+								background-position:  0 -123px;
+							}
+							.report_photo3{
+								background-position:  0 -247px;
+							}
+							.report_photo4{
+								background-position:  0 -372px;
+							}
+					}
+			}
+			.video_info{
+				text-align: justify;
+				font-size:14px;
+				font-family: "MyriadProRegular";
+			}
+	}
+/*/reports*/
+
+/*gallery*/
+.gallery{
+		height: 645px;
+			.photo_gallery{
+				width: 100%;
+				height: 580px;
+				margin-top: 45px;
+				float: left;
+			}
+	}
+/*/gallery*/
+
+/*choose_house*/
+.choose_house{
+		height: 1196px;
+		.choose_txt{
+			margin-top: 40px;
+			p{
+				font-family: "MyriadProCondRegular";
+				font-size: 18px;
+				line-height: 32px;
+				span{
+					color:$crimson;
+				}
+				strong{
+					color:$crimson;
+					font-size: 22px;
+					font-family: "MyriadProCondBold";
+				}
+				em{
+					font-size: 15px;
+				}
+			}
+		}
+		.choose_content{
+			width: 831px;
+			height: 628px;
+				div{
+					float:left;
+					height: 100%;
+						p{
+							text-align: left;
+						}
+				}
+				.choose_content_left{
+					width: 336px;
+					margin-right: 15px;
+					div{
+						background-position:50% 50%;
+						background-size:cover;
+					}
+					.choose_content_left_img_top{
+						width: 100%;
+						height: 250px;
+						background-image:url(../../images/choose_face.jpg);
+						margin-bottom: 15px;
+						position: relative;
+							.choose_view_face{
+								position:absolute;
+								width: 98px;
+								height: 25px;
+								background-color:#363636;
+								color:#FCCC40;
+										p{
+											margin:0;
+											font-family: "MyriadProCondBold";
+											font-size: 16px;
+											text-align: center;
+											padding-top:3px;
+										}
+							}
+					}
+					.choose_content_left_img_bottom{
+						width: 100%;
+						height: 314px;
+						background-image:url(../../images/choose_plan1floor.png);
+						margin-bottom:20px;
+					}
+					p{
+						font-family: "MyriadProCondBold";
+						font-size: 16px;
+					}
+				}
+				.choose_content_right{
+					width: 478px;
+					.choose_content_right_img_top{
+						width: 100%;
+						height: 357px;
+						background-image:url(../../images/choose_back.jpg);
+						margin-bottom: 15px;
+						position: relative;
+							.choose_view_face{
+								position:absolute;
+								width: 98px;
+								height: 25px;
+								background-color:#363636;
+								color:#FCCC40;
+								position: absolute;
+								bottom:0;
+								right: 0;
+										p{
+											margin:0;
+											font-family: "MyriadProCondBold";
+											font-size: 16px;
+											text-align: center;
+											padding-top:3px;
+										}
+							}
+					}
+					.choose_content_right_img_bottom{
+						width: 100%;
+						height: 209px;
+						padding-bottom:20px;
+						.choose_content_right_img_bottom_img{
+							width: 329px;
+							height: 100%;
+							background-image:url(../../images/choose_plan2floor.png);
+						}
+						.choose_content_right_img_bottom_txt{
+							width: 145px;
+							.choose_about_house{
+								font-size: 14px;
+								line-height: 20px;
+								padding-left:20px;
+								font-family: "MyriadProCondRegular";
+								font-size: 15px;
+								width: 95px;
+							}
+						}
+
+					}
+						p{
+						font-family: "MyriadProCondBold";
+						font-size: 16px;
+
+					}
+				}
+		}
+		.choose_form{
+			width: 100%;
+			height:170px;
+			background-color:#AB3953;
+			margin-top: 50px;
+				.h3_choose_form{
+					color:#fff;
+					font-size: 25px;
+					font-family: "MyriadProCondBold";
+					padding-top: 20px;
+				}
+				span{
+					color:#FCCC40;
+				}
+				form{
+					input{
+						width: 220px;
+						height: 38px;
+						border-radius:5px;
+						padding-left:10px;
+						margin-left:20px;
+						outline: none;
+
+					}
+					.button_submit{
+						background-color:#FCCC40;
+
+					}
+				}
+		}
+
+	}
+
+/*/choose_house*/
+
+/*dooplex*/
+.dooplex{
+		height: 1165px;
+		.dooplex_txt{
+			margin-top: 40px;
+			p{
+				font-family: "MyriadProCondRegular";
+				font-size: 18px;
+				line-height: 32px;
+				span{
+					color:$crimson;
+				}
+				strong{
+					color:$crimson;
+					font-size: 22px;
+					font-family: "MyriadProCondBold";
+				}
+				em{
+					font-size: 15px;
+				}
+			}
+		}
+		.dooplex_content{
+			width: 831px;
+			height: 623px;
+				div{
+					float:left;
+					height: 100%;
+						p{
+							text-align: left;
+						}
+				}
+				.dooplex_content_left{
+					width: 336px;
+					div{
+						background-position:50% 50%;
+						background-size:cover;
+					}
+					.dooplex_content_left_img_top{
+						width: 100%;
+						height: 250px;
+						background-image:url(../../images/dooplex_back.jpg);
+						margin-bottom: 15px;
+						position:relative;
+							.choose_view_face{
+								position:absolute;
+								width: 98px;
+								height: 25px;
+								background-color:#363636;
+								color:#FCCC40;
+										p{
+											margin:0;
+											font-family: "MyriadProCondBold";
+											font-size: 16px;
+											text-align: center;
+											padding-top:3px;
+										}
+							}
+					}
+					.dooplex_content_left_img_bottom{
+						width: 100%;
+						height: 314px;
+						background-image:url(../../images/dooplex_plan2floor.png);
+						background-position:112% 50%;
+						margin-bottom:20px;
+					}
+					p{
+						font-family: "MyriadProCondBold";
+						font-size: 16px;
+						text-align: right;
+
+					}
+				}
+				.dooplex_content_right{
+					width: 478px;
+					margin-right: 15px;
+					.dooplex_content_right_img_top{
+						width: 100%;
+						height: 357px;
+						background-image:url(../../images/dooplex_face.jpg);
+						margin-bottom: 15px;
+						position:relative;
+						.choose_view_face{
+								position:absolute;
+								width: 98px;
+								height: 25px;
+								background-color:#363636;
+								color:#FCCC40;
+								bottom:1px;
+										p{
+											margin:0;
+											font-family: "MyriadProCondBold";
+											font-size: 16px;
+											text-align: center;
+											padding-top:3px;
+										}
+							}
+					}
+					p{
+						font-family: "MyriadProCondBold";
+						font-size: 16px;
+						text-align: right;
+
+					}
+					.dooplex_content_right_img_bottom{
+						width: 100%;
+						height: 209px;
+						margin-bottom: 20px;
+						.dooplex_content_right_img_bottom_img{
+							width: 329px;
+							height: 100%;
+							background-image:url(../../images/dooplex_plan1floor.png);
+						}
+						.dooplex_content_right_img_bottom_txt{
+							width: 145px;
+							.dooplex_about_house{
+								font-size: 14px;
+								line-height: 20px;
+								padding-right:20px;
+							}
+							p{
+						font-family: "MyriadProCondRegular";
+								font-size: 15px;
+								width: 95px;
+
+							}
+						}
+
+					}
+				}
+		}
+		.choose_form{
+			width: 100%;
+			height:170px;
+			background-color:#555555;
+			margin-top: 50px;
+				.h3_choose_form{
+					color:#fff;
+					font-size: 25px;
+					font-family: "MyriadProCondBold";
+					padding-top: 20px;
+				}
+				span{
+					color:#FCCC40;
+				}
+				form{
+					input{
+						width: 220px;
+						height: 38px;
+						border-radius:5px;
+						padding-left:10px;
+						margin-left:20px;
+						outline: none;
+
+					}
+					.button_submit{
+						background-color:#FCCC40;
+						
+					}
+				}
+		}
+	}
+/*/dooplex*/
+
+/*layout*/
+.layout{
+		height: 717px;
+		background-image: url(../../images/layout_back.png);
+		background-size:cover;
+		margin-top: -170px;
+			.container{
+				hr{
+					margin-bottom:40px;
+				}
+				h2{
+					padding-top: 190px;
+				}
+				p{
+					font-family: "MyriadProRegular";
+					font-size:18px;
+					width: 590px;
+					margin-left: 100px;
+				}
+				.p_strong_color{
+					font-family: "MyriadProBold";
+					font-size:21px;
+					color:#B23045;
+					margin-top: 50px;
+				}
+				strong{
+					font-family: "MyriadProBold";
+					margin-top: 50px;
+				}
+			}
+	}
+/*/layout*/
+
+/*exchange*/
+.exchange{
+		height: 816px;
+		background-image:url(../../images/exchange_back.jpg);
+			p{
+				color:#fff;
+				text-align: center;
+				 font-family: "MyriadProRegular";
+				font-size:18px;
+				margin-top:36px;
+			}
+			.exchange_content{
+				width: 100%;
+				height: 290px;
+				margin-top: 50px;
+					div{
+						width: 290px;
+						height: 290px;
+						border-radius:50%;
+						float: left;
+					}
+					.exchange_content_old{
+						float: left;
+						background-image:url(../../images/exchange_old.png);
+					}
+
+					.exchange_content_new{
+						float: right;
+						background-image:url(../../images/exchange_new.png);
+					}
+					.echange_arrows{
+						width: 100px;
+						height: 100px;
+						border-radius:0;
+						margin-left: 70px;
+						margin-top: 100px;
+
+							img{
+								margin:0;
+								padding:0;
+
+								&:first-child{
+									margin-bottom: -43px;
+								}
+							}
+					}
+
+			}
+					}
+					.exchange_form{
+						width: 100%;
+						height: 150px;
+							h3{
+								color:#fff;
+								font-family: "MyriadProCondRegular";
+								font-size:25px;
+								text-transform:uppercase;
+							}
+							form{
+								input{
+									width: 220px;
+									height: 38px;
+									border-radius:5px;
+									padding-left:10px;
+									margin-left:20px;
+									outline: none;
+
+								}
+								.button_submit{
+									background-color:#FCCC40;
+									
+								}
+							}
+	}
+/*/exchange*/
+
+/*infrastructure*/
+.infrastructure{
+		height: 631px;
+		background-image:url(../../images/infastructure_back.jpg);
+		background-size:cover;
+		background-position:50% 50%;
+	}
+/*/infrastructure*/
+
+/*general_plan*/
+.general_plan{
+		height: 839px;
+		background-image:url(../../images/plan_back.jpg);
+		background-position:91% 380%;
+		.p_white{
+			color:#fff;
+			text-align: center;
+			width: 630px;
+			font-size: 20px;
+			padding-left:120px;
+			margin-top: 50px;
+		}
+		.plan_items{
+			width: 80%;
+			height: 153px;
+			margin-right:10%;
+			margin-left:10%;
+			background-image:url(../../images/plan_items.png);
+			background-repeat:no-repeat;
+			background-position: 50% 50%;
+			margin-top: 390px;
+		}
+	}
+/*/general_plan*/
+
+/*documents*/
+.documents{
+		height: 1063px;
+		hr{
+			margin-bottom: 50px;
+		}
+		.container{
+			div{
+				width: 270px;
+				height: 458px;
+				float:left;
+				&:hover > .documents_img_pdf_hidden{
+						display:block;
+					}
+
+			}
+			.documents_img_frame{
+				width: 100%;
+				height: 319px;
+				background-image:url(../../images/documents_frame.png);
+				background-size:contain;
+				background-position: 50% 50%;
+				background-repeat:no-repeat;
+					img{
+						margin-top: 48px;
+					}
+			}
+			.documents_img_txt{
+				width: 100%;
+				height: 48px;
+					p{
+						text-align: center;
+						font-family: "MyriadProRegular";
+						font-size:14px;
+						width: 245px;
+    					padding-left: 12px;
+					}
+			}
+			.documents_img_pdf_hidden{
+				width: 131px;
+				height: 28px;
+				border:2px solid #A62D46;
+				margin-left:69px;
+				margin-top: 10px;
+				display: none;
+				cursor: pointer;
+					p{
+						text-align: center;
+						color:#A62D46;
+						font-family: "MyriadProCondRegular";
+						font-size:15px;
+						line-height: 0px;
+					}
+			}
+
+		}
+	}
+/*/documents*/
+
+/*reliable_developer*/
+.reliable_developer{
+		height: 296px;
+		background-color:#F6F6F6;
+			.container{
+				.reliable_content{
+					height: 201px;
+					width: 100%;
+					margin-top: 47px;
+						div{
+							display: inline-block;
+							height: 100%;
+						}
+						.reliable_developer_logo{
+							width: 227px;
+							height: 100%;
+							background-image:url(../../images/reliable_logo.png);
+							background-size:210px;
+							background-position:50% 50%;
+							background-repeat: no-repeat;
+						}
+						.reliable_developer_description{
+							width: 420px;
+							margin-left:43px;
+							.black_h2{
+								margin-top:0;
+								padding-top: 0;
+								text-align: left;
+								font-size: 32px;
+							}
+							p{
+								text-align: left;
+								font-size: 17px;
+							}
+						}
+				}
+			}
+	}
+
+/*/variable_developer*/
+/*our_objects*/
+.our_objects{
+		height: 1485px;
+		background-color:#E2E2E2;
+		.container{
+			hr{
+				margin-bottom:60px;
+			}
+			.objects_img{
+				height:  313px;
+				width: 50%;
+				float: left;
+				background-size: cover;
+				background-position:50% 50%;
+
+			}
+			.objects_txt{
+				height:  313px;
+				width: 50%;
+				float: left;
+				text-align: left;
+					em{
+						font-size: 10px;
+					}
+					p{
+						font-size: 14px;
+					}
+					h3{
+						font-size: 25px;
+					}
+			}
+			.objects_txt.left{
+				text-align: left;
+					h3{
+						text-align: left;
+						padding-left:50px;
+					}
+					p{
+						margin-left:50px;
+						width: 280px;
+					}
+			}
+			.objects_txt.right{
+				text-align: right;
+					h3{
+						text-align: right;
+						margin-right:50px;
+					}
+					p{
+						width: 280px;
+						margin-left:87px;
+					}
+			}
+			.objects_img.family{
+				background-image:url(../../images/objects_family.jpg);
+			}
+
+			.objects_img.panorama{
+				background-image:url(../../images/objects_panorama.jpg);
+			}
+
+			.objects_img.club{
+				background-image:url(../../images/objects_club.jpg);
+			}
+
+			.objects_img.malinovka{
+				background-image:url(../../images/objects_malinovka.jpg);
+			}
+
+		}
+	}
+/*/our_objects*/
+
+/*installments*/
+.installments{
+		height: 794px;
+			background-image:url(../../images/installments_back.jpg);
+			background-size:cover;
+			background-position:50% 50%;
+				.installments_consultation_block{
+					width: 554px;
+					height: 527px;
+					margin:0 auto;
+					margin-top: 121px;
+						div{
+							width: 100%;
+						}
+						.installments_consultation_block_main{
+							height: 230px;
+							background-color:rgba(255, 255, 255, .8);
+								h2{
+									padding-top: 30px;
+									margin-bottom: 0;
+								}
+								ul{
+										margin-left:54px;
+									li{
+										list-style-type: none;
+										text-align: left;
+										font-size: 20px;
+										font-family: "MyriadProRegular";
+										letter-spacing:1px;
+										line-height: 25px;
+									}
+									li:before{
+										content:"\2713";	
+										color:#B23045;
+										margin-right: 20px;
+										font-size: 20px;
+									}
+
+								}
+						}
+						.installments_consultation_block_ask_consultant{
+							height: 63px;
+							background-color:#FCCC40;
+								p{
+									margin:0;
+									padding:0;
+									box-sizing:border-box;
+									line-height: 67px;
+									 font-family: "MyriadProCondBold";
+									font-size:23px;
+								}
+						}
+						.installments_consultation_block_form{
+							height: 232px;
+							background-color:#B43148;
+								p{
+									color:#fff;
+									margin:0;
+
+									box-sizing:border-box;
+									font-family: "MyriadProRegular";
+									font-size: 22px;
+									font-weight: normal;
+									padding-top:18px;
+									padding-bottom:18px;
+								}
+								form{
+									input{
+										display: block;
+										width: 255px;
+										height: 30px;
+										margin:0 auto;
+										margin-bottom:10px;
+										padding-left: 10px;
+										font-family: "MyriadProRegular";
+										font-size: 13px;
+										outline: none;
+									}
+									.button_submit{
+										background-color:#FCCC40;
+										outline: none;
+										font-family: "MyriadProCondBold";
+										font-size: 19px;
+										padding-top: 4px;
+									}
+								}
+						}
+				}
+	}
+/*/installments*/
+
+/*footer*/
+footer{
+	height: 183px;
+	background-color:#fff;
+	.container{
+		div{
+			float:left;
+			height: 122px;
+			margin-top: 30px;
+		}
+		.footer_logo{
+			background-image:url(../../images/logo_footer.png);
+			background-size:contain;
+			background-repeat:no-repeat;
+			background-position:50% 50%;
+			width: 227px;
+		}
+		.footer_address{
+			width: 223px;
+			text-align: center;
+			margin-left: 50px;
+			p{
+				font-size: 13px;
+				font-family: "MyriadProRegular";
+				vertical-align: middle;
+				padding-top:30px;
+			}
+		}
+		.footer_logo_today{
+			background-image:url(../../images/footer_today.png);
+			background-size:contain;
+			background-repeat:no-repeat;
+			background-position:50% 50%;
+			width: 79px;
+			margin-left: 50px;
+		}
+		.footer_logo_contacts{
+			width: 144px;
+			margin-left: 50px;
+			margin-top: 45px;
+				p{
+					text-align: left;
+					 font-family: "MyriadProRegular";
+					font-size: 16px;
+
+					strong{
+						 font-family: "MyriadProBold";
+					}
+				}
+		}
+	}
+}
+/*/footer*/
+
+#top {
+  width:50px;
+  height: 50px;
+  border-radius:5px;
+  background-color:#A62D46;
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+  font-size: 150%;
+  position: fixed;
+  right: 35px;
+  color:#fff;
+  font-weight: bold;
+  font-size:40px;
+}

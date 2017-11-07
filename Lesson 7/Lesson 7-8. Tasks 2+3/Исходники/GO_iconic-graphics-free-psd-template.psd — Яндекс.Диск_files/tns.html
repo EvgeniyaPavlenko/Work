@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://yadi.sk/tns.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        (function(){
+            // этот документ нужно загружать только с публичных страниц:
+            // - yadi.sk
+            var reYadisk = /(\/\/|\.)yadi\.sk\//;
+            // - disk.yandex.{ tld }
+            var reDisk = /\.yandex\.(ru|com|com\.tr|ua)\//;
+
+            if (!(reYadisk.test(document.referrer) || reDisk.test(document.referrer))) {
+                return;
+            }
+
+            var ID_SERVICE = 'yandex_disk';
+            // нужно передавать в tns информацию
+            // о том, как человек пришел на публичную страницу: по прямой ссылке или с другого сайта
+            // Здесь реферер — это адрес страницы **откуда** пришли на публиную страницу, а не адрес самой страницы
+            var referrer = window.parent.document.referrer.replace(/\*/g,'%2a');
+
+            var url = [
+                '//www.tns-counter.ru/V13a***R>',
+                referrer,
+                '*yandex_ru/ru/CP1251/tmsec=',
+                ID_SERVICE,
+                '/',
+                Date.now()
+            ].join('');
+            
+            // делаем запрос к счетчику
+            (new Image()).src = url;
+        }());
+    </script>
+</head>
+<body>
+
+</body></html>

@@ -1,0 +1,349 @@
+/* font-family: "SansationRegular"; */
+@font-face {
+  font-family: "SansationRegular";
+  src: url("../../fonts/SansationRegular/SansationRegular.eot");
+  src: url("../../fonts/SansationRegular/SansationRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/SansationRegular/SansationRegular.woff") format("woff"), url("../../fonts/SansationRegular/SansationRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "SansationBold"; */
+@font-face {
+  font-family: "SansationBold";
+  src: url("../../fonts/SansationBold/SansationBold.eot");
+  src: url("../../fonts/SansationBold/SansationBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/SansationBold/SansationBold.woff") format("woff"), url("../../fonts/SansationBold/SansationBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 22, ../sass/main.scss */
+section,
+div,
+p,
+h1,
+h2,
+h3,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 34, ../sass/main.scss */
+a,
+a:visited,
+a:link,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* line 44, ../sass/main.scss */
+section {
+  width: 100%;
+}
+
+/* line 48, ../sass/main.scss */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 53, ../sass/main.scss */
+.row {
+  width: 100%;
+  clear: both;
+}
+
+/*HEADER*/
+/* line 60, ../sass/main.scss */
+header {
+  background-image: url(../../img/top_back.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 74px;
+}
+/* line 64, ../sass/main.scss */
+header .logo_section {
+  position: absolute;
+  top: 1px;
+}
+/* line 67, ../sass/main.scss */
+header .logo_section img {
+  padding-top: 10px;
+}
+/* line 71, ../sass/main.scss */
+header h1 {
+  font-family: "SansationBold";
+  color: #fff;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  padding: 100px 0 159px 0;
+}
+
+/*HEADER_END*/
+/*ADVANTAGES*/
+/* line 83, ../sass/main.scss */
+.advantages {
+  padding-top: 150px;
+}
+/* line 86, ../sass/main.scss */
+.advantages .container .advantages_items {
+  text-align: center;
+  font-family: "SansationRegular";
+  color: #393F4B;
+  font-size: 24px;
+  line-height: 30px;
+}
+/* line 92, ../sass/main.scss */
+.advantages .container .advantages_items p {
+  font-size: 18px;
+}
+/* line 95, ../sass/main.scss */
+.advantages .container .advantages_items h3 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+/* line 99, ../sass/main.scss */
+.advantages .container .advantages_items .point {
+  width: 105px;
+  height: 105px;
+  background-color: #F68C2F;
+  border-radius: 50%;
+  margin: 0 auto;
+  color: #fff;
+}
+/* line 106, ../sass/main.scss */
+.advantages .container .advantages_items .point i {
+  font-size: 40px;
+  padding-top: 28px;
+}
+/* line 112, ../sass/main.scss */
+.advantages .container .advantages_items:nth-of-type(2) .point {
+  background-color: #266C66;
+}
+/* line 117, ../sass/main.scss */
+.advantages .container .advantages_items:nth-of-type(3) .point {
+  background-color: #DB3928;
+}
+/* line 122, ../sass/main.scss */
+.advantages .container .row {
+  padding: 90px;
+}
+/* line 124, ../sass/main.scss */
+.advantages .container .row p {
+  text-align: center;
+  font-size: 24px;
+  font-family: "SansationRegular";
+  color: #2F3542;
+  position: relative;
+}
+/* line 130, ../sass/main.scss */
+.advantages .container .row p:after {
+  content: "";
+  width: 150px;
+  height: 5px;
+  background-color: #DB3928;
+  display: block;
+  margin: 30px auto;
+}
+
+/*ADVANTAGES_END*/
+/*SERVICES*/
+/* line 148, ../sass/main.scss */
+.services .container .left-section h2 {
+  font-family: "SansationBold";
+  font-size: 26px;
+  color: #2F3542;
+  text-transform: uppercase;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+/* line 156, ../sass/main.scss */
+.services .container .left-section ul {
+  margin-left: 25px;
+}
+/* line 158, ../sass/main.scss */
+.services .container .left-section ul li {
+  font-family: "SansationRegular";
+  font-size: 16px;
+  list-style-type: disc;
+  line-height: 30px;
+}
+/* line 165, ../sass/main.scss */
+.services .container .left-section p {
+  color: #2F3542;
+  text-decoration: underline;
+  font-family: "SansationBold";
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+/* line 175, ../sass/main.scss */
+.services .container .right-section {
+  height: 600px;
+  background: url(../../img/back_3.jpg) no-repeat 50%;
+  background-size: contain;
+}
+
+/*SERVICES_END*/
+/*MISSION*/
+/* line 186, ../sass/main.scss */
+.mission {
+  padding-bottom: 250px;
+  color: #fff;
+  font-family: "SansationBold";
+  font-size: 37px;
+  background: url(../../img/back_4.jpg) no-repeat 50%;
+  background-size: cover;
+  padding-top: 70px;
+}
+/* line 194, ../sass/main.scss */
+.mission .container {
+  	/*background: url(../../img/back_4.jpg) no-repeat 50%;
+      background-size: cover;
+      padding-top: 131px;
+      padding-bottom: 143px;*/
+}
+/* line 199, ../sass/main.scss */
+.mission .container p {
+  font-size: 20px;
+  line-height: 35px;
+  padding-top: 41px;
+}
+/* line 204, ../sass/main.scss */
+.mission .container .left_column {
+  text-align: left;
+}
+/* line 207, ../sass/main.scss */
+.mission .container .right_column {
+  text-align: right;
+}
+/* line 210, ../sass/main.scss */
+.mission .container .middle_column {
+  text-align: center;
+  padding-top: 85px;
+}
+
+/*MISSION_end*/
+/*TEAM*/
+/* line 219, ../sass/main.scss */
+.team {
+  background: url(../../img/back_5.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+/* line 224, ../sass/main.scss */
+.team .container {
+  padding-bottom: 180px;
+}
+/* line 226, ../sass/main.scss */
+.team .container h2 {
+  font-family: "SansationBold";
+  font-size: 24px;
+  line-height: 35px;
+  padding-left: 15%;
+  text-transform: uppercase;
+  padding-bottom: 125px;
+}
+/* line 234, ../sass/main.scss */
+.team .container .team_item {
+  text-align: center;
+}
+/* line 236, ../sass/main.scss */
+.team .container .team_item h4 {
+  font-family: "SansationBold";
+  font-size: 22px;
+}
+/* line 240, ../sass/main.scss */
+.team .container .team_item p {
+  font-family: "SansationRegular";
+  line-height: 35px;
+  font-size: 20px;
+}
+/* line 245, ../sass/main.scss */
+.team .container .team_item img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/*TEAM END*/
+/*LASKOM*/
+/* line 255, ../sass/main.scss */
+.laskom {
+  margin-top: 20px;
+  padding-bottom: 100px;
+}
+/* line 258, ../sass/main.scss */
+.laskom .top_div {
+  color: #fff;
+  font-family: "SansationBold";
+  background: url(../../img/back_6.jpg) no-repeat;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+/* line 264, ../sass/main.scss */
+.laskom .top_div .top_div_content {
+  width: 60%;
+  margin-left: 35%;
+}
+/* line 267, ../sass/main.scss */
+.laskom .top_div .top_div_content h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 35px;
+}
+/* line 272, ../sass/main.scss */
+.laskom .top_div .top_div_content p {
+  font-size: 14px;
+  font-family: "SansationRegular";
+  line-height: 25px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/* line 279, ../sass/main.scss */
+.laskom .top_div .top_div_content a {
+  font-size: 22px;
+  font-family: "SansationBold";
+  text-decoration: underline;
+  float: right;
+}
+/* line 287, ../sass/main.scss */
+.laskom .bottom_div {
+  font-size: 16px;
+  font-family: "SansationRegular";
+  line-height: 20px;
+}
+/* line 292, ../sass/main.scss */
+.laskom .img_div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*LASKOM_END*/
+/*FOOTER*/
+/* line 300, ../sass/main.scss */
+footer {
+  background: #2B0F26 url(../../img/footer.png) no-repeat;
+}
+/* line 302, ../sass/main.scss */
+footer .container {
+  color: #fff;
+  font-family: "SansationRegular";
+}
+/* line 305, ../sass/main.scss */
+footer .container h3 {
+  font-size: 24px;
+  font-family: "SansationBold";
+  padding-bottom: 35px;
+  text-transform: uppercase;
+}
+/* line 311, ../sass/main.scss */
+footer .container p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*FOOTER_END*/

@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+  /* line 2, ../sass/media.sass */
+  .logo_container {
+    display: none;
+  }
+}

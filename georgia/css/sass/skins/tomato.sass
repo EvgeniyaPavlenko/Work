@@ -1,0 +1,106 @@
+@import "../bourbon/bourbon"
+
+$color: #FF6347 //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+p,
+body .main_footer,
+.s_guide li
+	color: $text_color
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+.bg_light
+	background-color: $bg_light
+.bg_dark
+	background-color: $main_color
+	color: #fff
+	.s_descr
+		a
+			color: #fff
+		&::after
+			background-color: #fff
+
+svg
+	z-index: 100
+	path
+		fill: $bg_light
+
+.top_menu
+	a:hover
+		color: $color
+	a
+		+kerning(4)
+
+.top_wrapper 
+	.top_center 
+		.top_text 
+			p
+				color: $bg_light
+				+kerning(5)
+ 
+.s_descr
+	+kerning(5)
+	&::after
+		background-color: $main_color
+
+.s_route
+	a
+		border: 1px solid $color
+		&:hover
+			background-color: $color
+			color: #fff
+
+section
+	h3
+		+kerning(3)
+		color: $text_color
+
+
+.about_me
+	p:nth-child(even)
+		color: $color
+
+.h2_personal
+	+kerning(2)
+
+.contacts_icon, .text-danger
+	color: $color
+
+form
+	input:focus, 
+	textarea:focus
+		border: 1px solid $color
+	input,
+	textarea
+		+kerning(2)
+	button
+		background-color: $color
+		+kerning(2)
+
+.form-group
+	color: $text_color
+	+kerning(2)
+
+.s_sign
+	.section_content
+		.col-md-4
+			span
+				color: $color

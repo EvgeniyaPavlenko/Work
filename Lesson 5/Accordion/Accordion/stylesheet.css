@@ -1,0 +1,84 @@
+.topic{
+	margin: 0;
+	border: 0;
+}
+
+label{
+	width: 580px;
+	height: 55px;
+	display: block;
+	border: 1px solid #C9CCCC;
+	border-bottom: 0;
+	color:#777777;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 60px;
+	font-weight: bold;
+	font-family: arial;
+	font-size:20px;
+	background-image: linear-gradient(#ffffff, #EBEBEB);
+}
+
+.last{
+	border-bottom: 1px solid #C9CCCC;
+}
+
+input{
+	display: none;
+}
+
+span{
+	display: block;
+	background-color: #F9FAFD;
+	width: 580px;
+	height: 240px;
+	font-style: italic;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	color:#77777F;
+	padding-left: 10px;
+	margin: 0;
+}
+
+label:hover{
+	background-image:linear-gradient(#ffffff, #ffffff);
+}
+
+
+.form{
+	display: none;
+}
+
+#about:checked~.about{
+	display: block;
+}
+
+#work:checked~.work{
+	display: block;
+}
+
+
+#references:checked~.references{
+	display: block;
+}
+
+#contact:checked~.contact{
+	display: block;
+}
+
+#about:checked~label{
+	background-image: linear-gradient(#C6E1EC, #C6E1EC);
+}
+
+#work:checked~label{
+	background-image: linear-gradient(#C6E1EC, #C6E1EC);
+}
+
+#references:checked~label{
+	background-image: linear-gradient(#C6E1EC, #C6E1EC);
+}
+
+#contact:checked~label{
+	background-image: linear-gradient(#C6E1EC, #C6E1EC);
+}

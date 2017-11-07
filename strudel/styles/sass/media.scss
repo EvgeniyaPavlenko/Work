@@ -1,0 +1,91 @@
+@media screen and (max-width: 991px) {
+	.advantages {
+   		padding-top: 50px;
+	}
+
+	.advantages .container .advantages_items {
+		margin-bottom: 50px;
+	}
+
+	.advantages .container .row {
+	    padding: 10px;
+	}
+
+	.services .container .left-section h2 {
+		text-align: center;
+	}
+
+	.mission_h{
+		padding-top: 95px;
+	}
+
+	.mission .container .middle_column {
+	    text-align: center;
+	    padding-top: 159px;
+	}
+
+	.laskom .container .top_div .top_div_content {
+	    width: 97%;
+	    margin-left: 1%;
+	}
+	.laskom .top_div {
+	    background: #2A7670;
+	}
+	.laskom .container .top_div .top_div_content p {
+	    margin-bottom: 25px;
+	}
+	.bottom_div {
+		p{
+	    	text-align: center;
+    		padding-top: 20px;
+	    }
+	}
+	.laskom .img_div img{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width : 680px) {
+	.mission_h {
+	    padding-top: 126px;
+	    font-size: 20px;
+	}
+
+	.mission .container p {
+	    font-size: 16px;
+	}
+
+	.laskom .top_div .top_div_content {
+	    width: 100%;
+	    margin-left: 0;
+	}
+}
+
+@media screen and (max-width : 480px) {
+	header h1{
+		font-size: 30px;
+	}
+	
+	.team .container {
+	    padding-bottom: 10px;
+	}
+
+	.mission_h {
+	    padding-top: 155px;
+	    font-size: 18px;
+	}
+
+	.services .container .left-section p{
+		margin-bottom: 10px;
+	}
+	.services .container .right-section {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width : 360px) {
+	.mission_h {
+	    padding-top: 165px;
+	    font-size: 16px;
+	}
+}

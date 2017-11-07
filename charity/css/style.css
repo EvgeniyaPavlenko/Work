@@ -1,0 +1,1008 @@
+/* font-family: "DroidSerifRegular"; */
+@font-face {
+  font-family: "DroidSerifRegular";
+  src: url("../fonts/DroidSerifRegular/DroidSerifRegular.eot");
+  src: url("../fonts/DroidSerifRegular/DroidSerifRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/DroidSerifRegular/DroidSerifRegular.woff") format("woff"), url("../fonts/DroidSerifRegular/DroidSerifRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "DroidSerifBold"; */
+@font-face {
+  font-family: "DroidSerifBold";
+  src: url("../fonts/DroidSerifBold/DroidSerifBold.eot");
+  src: url("../fonts/DroidSerifBold/DroidSerifBold.eot?#iefix") format("embedded-opentype"), url("../fonts/DroidSerifBold/DroidSerifBold.woff") format("woff"), url("../fonts/DroidSerifBold/DroidSerifBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "DroidSansRegular"; */
+@font-face {
+  font-family: "DroidSansRegular";
+  src: url("../fonts/DroidSansRegular/DroidSansRegular.eot");
+  src: url("../fonts/DroidSansRegular/DroidSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/DroidSansRegular/DroidSansRegular.woff") format("woff"), url("../fonts/DroidSansRegular/DroidSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "DroidSansBold"; */
+@font-face {
+  font-family: "DroidSansBold";
+  src: url("../fonts/DroidSansBold/DroidSansBold.eot");
+  src: url("../fonts/DroidSansBold/DroidSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/DroidSansBold/DroidSansBold.woff") format("woff"), url("../fonts/DroidSansBold/DroidSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansRegular"; */
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansBold"; */
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansSemiBold"; */
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "MyriadProRegular"; */
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+  font-family: "MyriadProSemiBold";
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"), url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*GENERAL*/
+*:-moz-placeholder {
+  font-family: "OpenSansRegular";
+  font-size: 13px;
+}
+*::-moz-placeholder {
+  font-family: "OpenSansRegular";
+  font-size: 13px;
+}
+*:-ms-input-placeholder {
+  font-family: "OpenSansRegular";
+  font-size: 13px;
+}
+*::-webkit-input-placeholder {
+  font-family: "OpenSansRegular";
+  font-size: 13px;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+div,
+p,
+section {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "DroidSerifRegular";
+  font-size: 45px;
+  line-height: 50px;
+  color: #2B2B2A;
+  text-transform: uppercase;
+}
+
+.h2_red {
+  font-family: "DroidSerifRegular";
+  font-size: 40px;
+  color: #DD3A30;
+}
+
+.h2_black {
+  font-size: 48px;
+  color: #2D2E2D;
+  font-family: "DroidSerifRegular";
+}
+
+p, span {
+  font-family: "DroidSerifRegular";
+  font-size: 14px;
+}
+
+.span_gray_bold {
+  font-size: 14px;
+  color: #555;
+  font-family: "OpenSansBold";
+}
+
+.span_red {
+  font-family: "DroidSerifRegular";
+  font-size: 14px;
+  color: #DD3A30;
+}
+
+.span_blue {
+  color: #0E568B;
+}
+
+section, header, footer {
+  width: 100%;
+}
+
+.center {
+  width: 100%;
+  max-width: 966px;
+  margin: 0 auto;
+}
+
+.column_2 {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.column_4 {
+  width: 23%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contacts {
+  line-height: 44px;
+  padding-left: 29px;
+  position: relative;
+}
+.contacts:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(../images/items/call.png) no-repeat;
+  left: 2%;
+  top: 14px;
+}
+
+.letter {
+  padding-left: 29px;
+  position: relative;
+}
+.letter:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(../images/items/letter.png) no-repeat;
+  left: 1%;
+  top: 2px;
+}
+
+.donetion_button {
+  display: block;
+  width: 20%;
+  background-color: #fff;
+  color: #ED3F34;
+  font-size: 20px;
+  padding: 24px 40px 24px 40px;
+  margin-top: 52px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.all_pages .header {
+  background-color: #F9F8F4;
+  padding: 60px 0 54px 0;
+}
+.all_pages .header h1 {
+  font-size: 36px;
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: top;
+  line-height: 42px;
+  padding-left: 42px;
+  margin-top: -10px;
+}
+.all_pages .header .header_left {
+  width: 67%;
+  display: inline-block;
+  vertical-align: top;
+}
+.all_pages .header .header_left div {
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+}
+.all_pages .header .header_left div span {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  margin-left: 42px;
+  margin-top: 6px;
+}
+.all_pages .header .header_left div .letter {
+  margin-top: 17px;
+  padding-left: 39px;
+  margin-top: 18px;
+  padding-left: 35px;
+}
+.all_pages .header .header_right {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+}
+.all_pages .header .header_right .donetion_button {
+  font-family: "OpenSansSemiBold";
+  font-size: 18px;
+  display: block;
+  margin-left: 58px;
+  background-color: #fff;
+  color: #ED3F34;
+  font-size: 20px;
+  padding: 19px 34px 16px 33px;
+  margin-top: 27px;
+  width: 63%;
+}
+
+/*MAIN PAGE*/
+/*SLIDER*/
+.slider {
+  background: url(../images/slider/slider1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0 0 152px 0;
+}
+.slider .cotacts_top {
+  padding-left: 3%;
+  padding-top: 25px;
+}
+.slider .cotacts_top li {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "DroidSerifRegular";
+  color: #2D2E2D;
+  font-size: 16px;
+  margin-right: 8.3%;
+  list-style-type: none;
+  position: relative;
+}
+.slider .cotacts_top li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url(../images/items/call.png) no-repeat;
+  left: -22px;
+  top: 2px;
+}
+.slider .cotacts_top li:nth-of-type(2) {
+  color: #0E578C;
+}
+.slider .cotacts_top li:nth-of-type(2):before {
+  background: url(../images/items/letter.png) no-repeat;
+  left: -36px;
+  top: 4px;
+}
+.slider .logo {
+  margin-top: 65px;
+}
+.slider h1 {
+  width: 35%;
+  margin-top: 21px;
+}
+
+/*NAV*/
+.cmn-toggle-switch {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  display: none;
+  z-index: 300;
+}
+
+.cmn-toggle-switch:focus {
+  outline: none;
+}
+
+.cmn-toggle-switch span {
+  display: block;
+  position: absolute;
+  top: 19px;
+  left: 9px;
+  right: 5px;
+  height: 3px;
+  background: white;
+}
+
+.cmn-toggle-switch span::before,
+.cmn-toggle-switch span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+}
+
+.cmn-toggle-switch span::before {
+  top: -11px;
+}
+
+.cmn-toggle-switch span::after {
+  bottom: -10px;
+}
+
+.cmn-toggle-switch__htx {
+  background-color: transparent;
+}
+
+.cmn-toggle-switch__htx span {
+  -webkit-transition: background 0 0.3s;
+  transition: background 0 0.3s;
+}
+
+.cmn-toggle-switch__htx span::before,
+.cmn-toggle-switch__htx span::after {
+  -webkit-transition-duration: 0.3s, 0.3s;
+  transition-duration: 0.3s, 0.3s;
+  -webkit-transition-delay: 0.3s, 0;
+  transition-delay: 0.3s, 0;
+}
+
+.cmn-toggle-switch__htx span::before {
+  -webkit-transition-property: top, -webkit-transform;
+  transition-property: top, transform;
+}
+
+.cmn-toggle-switch__htx span::after {
+  -webkit-transition-property: bottom, -webkit-transform;
+  transition-property: bottom, transform;
+}
+
+.cmn-toggle-switch__htx.active {
+  background-color: transparent;
+}
+
+.cmn-toggle-switch__htx.active span {
+  background: none;
+}
+
+.cmn-toggle-switch__htx.active span::before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cmn-toggle-switch__htx.active span::after {
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.cmn-toggle-switch__htx.active span::before,
+.cmn-toggle-switch__htx.active span::after {
+  -webkit-transition-delay: 0, 0.3s;
+  transition-delay: 0, 0.3s;
+}
+
+.main_nav {
+  margin-top: -19px;
+}
+
+nav {
+  background-color: rgba(236, 32, 50, 0.9);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 31px 0 31px 0;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  list-style-type: none;
+  font-size: 16px;
+  margin-right: 5%;
+  position: relative;
+}
+nav ul li:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #fff;
+  left: -25px;
+  top: 6px;
+}
+nav ul li:first-child:before {
+  content: none;
+}
+nav ul .bold_nav {
+  font-weight: bold;
+}
+
+/*MAIN*/
+main {
+  padding: 81px 0 120px 0;
+  background-color: #F4F3ED;
+}
+main .center .column_2 p {
+  line-height: 30px;
+  margin-top: 28px;
+}
+main .center .column_2 .calendar {
+  color: #0E578C;
+  font-size: 16px;
+  font-family: "DroidSerifRegular";
+  display: block;
+  margin-top: 43px;
+  margin-left: 8%;
+  position: relative;
+}
+main .center .column_2 .calendar:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(../images/items/calendar.png) no-repeat;
+  left: -8%;
+}
+main .center .column_2 .member_block {
+  font-family: "DroidSansRegular";
+  font-size: 14px;
+  line-height: 20px;
+  width: 84%;
+  display: block;
+  background-color: #fff;
+  padding: 15px 0 15px 20px;
+  box-sizing: border-box;
+  margin-top: 13px;
+}
+main .center .right_column {
+  float: right;
+  padding-top: 7px;
+}
+main .center .right_column span {
+  display: block;
+  font-size: 14px;
+}
+main .center .right_column .right_column {
+  padding-top: 0;
+}
+main .center .right_column .right_column span {
+  padding-left: 12%;
+}
+main .center .right_column .right_column .contacts {
+  padding-left: 25%;
+}
+main .center .right_column .right_column .contacts:before {
+  left: 13%;
+}
+main .center .right_column img {
+  width: 100%;
+}
+main .center .right_column .organization {
+  margin-top: 52px;
+  line-height: 20px;
+  color: #868685;
+  font-family: "MyriadProRegular";
+}
+
+footer {
+  padding: 47px 0 85px 0;
+  background-color: #EEEDE8;
+}
+footer p {
+  font-family: "DroidSansBold";
+  font-size: 14px;
+  line-height: 20px;
+  color: #575757;
+}
+footer span {
+  font-family: "DroidSansRegular";
+  color: #8D8D8D;
+  display: block;
+  margin-top: 21px;
+}
+footer span:nth-of-type(3) {
+  margin-top: 11px;
+}
+footer .bold_span {
+  font-family: "DroidSansRegular";
+  color: #535352;
+  margin-top: 3px;
+}
+footer .legal {
+  font-family: "DroidSansRegular";
+  color: #C0C0BD;
+  margin-top: 61px;
+}
+footer .right_column {
+  padding-left: 3.4%;
+}
+
+footer .right_column .legal {
+  text-align: right;
+}
+
+/*PAGE ABOUT US*/
+.about_us main {
+  padding: 73px 0 46px 0;
+}
+.about_us main .center {
+  max-width: 980px;
+  border-bottom: 1px solid #E8E7E1;
+  padding-bottom: 40px;
+}
+.about_us main .center .column_2 {
+  width: 54%;
+}
+.about_us main .center .column_2 p {
+  font-family: "DroidSansRegular";
+}
+.about_us main .center .column_2 p:nth-of-type(1) {
+  margin-top: 34px;
+}
+.about_us main .center .column_2 p:nth-of-type(2) {
+  margin-top: 21px;
+}
+.about_us main .center .column_2 p:nth-of-type(3) {
+  margin-top: 40px;
+}
+.about_us main .center .column_2 p:nth-of-type(4) {
+  margin-top: 20px;
+}
+.about_us main .column_2.right_column {
+  width: 37.7%;
+  margin-left: -2px;
+  margin-left: 6.9%;
+  float: none;
+  padding-top: 91px;
+}
+.about_us main .column_2.right_column img {
+  width: 100%;
+}
+.about_us .about_us_content {
+  background-color: #F4F3ED;
+  padding-bottom: 132px;
+}
+.about_us .about_us_content h3 {
+  font-family: "DroidSansBold";
+  font-size: 14px;
+  color: #373736;
+  margin-left: -6px;
+}
+.about_us .about_us_content h3:nth-of-type(2) {
+  margin-top: 47px;
+}
+.about_us .about_us_content h3:nth-of-type(3) {
+  margin-top: 56px;
+}
+.about_us .about_us_content ul {
+  margin: 16px 0 0 10px;
+  padding-left: 0px;
+}
+.about_us .about_us_content ul li {
+  line-height: 30px;
+  color: #ED3F36;
+  padding-left: 14px;
+}
+.about_us .about_us_content ul li span {
+  font-size: 14px;
+  font-family: "DroidSansRegular";
+  line-height: 30px;
+  color: #373736;
+}
+.about_us .about_us_content .column_2.right_column {
+  float: right;
+}
+.about_us .about_us_content .column_2.right_column h3:nth-of-type(2) {
+  margin-top: 138px;
+}
+
+/*EVENTS*/
+.current_events main {
+  background-color: #F4F3ED;
+  padding: 72px 0 100px 0;
+}
+.current_events main .center {
+  max-width: 984px;
+}
+.current_events main .center .pages {
+  margin-top: 54px;
+}
+.current_events main .center .pages ul li {
+  display: inline-block;
+  vertical-align: top;
+  list-style-type: none;
+}
+.current_events main .center .pages ul li:not(.txt_page) {
+  text-align: center;
+}
+.current_events main .center .pages ul li:not(.txt_page) a {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  color: #5A5958;
+  line-height: 27px;
+  display: inline-block;
+  vertical-align: top;
+}
+.current_events main .center .pages ul li:not(.txt_page) a:hover {
+  background-color: #E9E8E4;
+  color: #ED3F34;
+}
+.current_events main .center .pages ul .txt_page a {
+  color: #175E90;
+}
+.current_events main .center .pages ul .txt_page {
+  margin-right: 3%;
+  font-size: 14px;
+}
+.current_events main .center .pages ul .txt_page.next {
+  margin-left: 2%;
+}
+.current_events main span {
+  display: block;
+  font-family: "OpenSansRegular";
+}
+.current_events main .event_title {
+  font-size: 18px;
+  line-height: 30px;
+  color: #CCCBC7;
+  margin-top: 39px;
+}
+.current_events main .date {
+  font-size: 13px;
+  margin-top: 7px;
+}
+.current_events main .column_2 {
+  width: 54.1%;
+}
+.current_events main .column_2 p {
+  font-size: 13px;
+  margin-top: 20px;
+}
+.current_events main .column_2 p:nth-of-type(1) {
+  margin-top: 27px;
+}
+.current_events main .column_2 a {
+  color: #ED3F34;
+  font-size: 13px;
+  line-height: 30px;
+  font-family: "OpenSansRegular";
+  margin-top: 30px;
+  display: block;
+}
+.current_events main .column_2 a:nth-of-type(2) {
+  margin-top: 20px;
+}
+.current_events main .column_2 .event_title.next_title {
+  margin-top: 63px;
+}
+.current_events main .column_2 .first_p {
+  margin-top: 29px;
+}
+.current_events main .column_2.right_column {
+  width: 37.7%;
+  float: none;
+  margin-left: 6.5%;
+  padding-top: 174px;
+}
+.current_events main .column_2.right_column img {
+  width: 100%;
+}
+.current_events main .column_2.right_column .photo_title {
+  text-align: center;
+  color: #8F8F8D;
+  font-size: 14px;
+  font-family: "MyriadProRegular";
+  margin-top: 14px;
+}
+
+/*MEMBERSHIP*/
+.membership main {
+  padding: 72px 0 100px 0;
+}
+.membership main .center {
+  max-width: 985px;
+}
+.membership main .center .column_2 {
+  width: 57%;
+}
+.membership main .center .column_2 p {
+  margin-top: 20px;
+}
+.membership main .center .column_2 a {
+  color: #4F84A8;
+}
+.membership main .center .column_2 span {
+  color: #ED3F34;
+  font-weight: bold;
+}
+.membership main .column_2.right_column {
+  width: 30.5%;
+  padding-top: 84px;
+  float: none;
+  margin-left: 10.6%;
+}
+.membership main .column_2.right_column img {
+  width: 100%;
+}
+
+/*COMMEETTI*/
+.commitee main {
+  padding: 74px 0 100px 0;
+}
+.commitee main .column_2 {
+  border-bottom: 1px solid #ED3F34;
+  width: 40.5%;
+  padding-bottom: 28px;
+}
+.commitee main .center {
+  max-width: 984px;
+}
+.commitee main .center span {
+  font-size: 14px;
+  display: block;
+  font-family: "OpenSansRegular";
+}
+.commitee main .center .bold_span {
+  font-family: "OpenSansBold";
+  color: #555;
+  margin-top: 44px;
+}
+.commitee main .center .registered {
+  color: #777;
+  margin-top: 21px;
+}
+.commitee main .center .charity_registered {
+  margin-top: 12px;
+}
+.commitee main .column_2.right_column {
+  float: none;
+  margin-left: 9.8%;
+  padding-top: 52px;
+  border-bottom: 1px solid #ED3F34;
+  width: 37%;
+  padding-bottom: 77px;
+}
+.commitee main .bold_span.first_main_span {
+  margin-top: 38px;
+  line-height: 38px;
+}
+.commitee main .bold_span.comittee_span {
+  margin-top: 30px;
+  line-height: 41px;
+}
+.commitee main .comittee_span + span {
+  width: 75%;
+}
+.commitee main .officers .column_4 {
+  width: 20%;
+}
+.commitee main .officers .bold_span {
+  margin-top: 46px;
+}
+.commitee main .officers .span_red {
+  color: #ED3F34;
+  font-family: "DroidSansRegular";
+  font-size: 14px;
+  margin-top: 24px;
+}
+.commitee main .officers span {
+  color: #343433;
+  font-family: "DroidSansRegular";
+  font-size: 14px;
+}
+
+.gallery main {
+  padding: 73px 0 106px 0;
+}
+.gallery main .center {
+  text-align: center;
+  max-width: 999px;
+}
+.gallery main .center .h2_red {
+  text-align: left;
+  margin-left: 9px;
+}
+.gallery main .center ul {
+  margin-top: 29px;
+}
+.gallery main .center ul li {
+  display: inline-block;
+  vertical-align: top;
+  list-style-type: none;
+  margin-right: 3%;
+  margin-bottom: 31px;
+  /* position of shadow behind the image */
+  /* padding for main container */
+}
+.gallery main .center ul li .mfp-no-margins img.mfp-img {
+  padding: 0;
+}
+.gallery main .center ul li .mfp-no-margins .mfp-figure:after {
+  top: 0;
+  bottom: 0;
+}
+.gallery main .center ul li .mfp-no-margins .mfp-container {
+  padding: 0;
+}
+.gallery main .load_photos {
+  display: block;
+  background-color: #E1E0DA;
+  color: #7F7F7F;
+  font-family: "OpenSansSemiBold";
+  font-size: 14px;
+  line-height: 30px;
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.contacts_page main {
+  padding: 47px 0 100px 0;
+}
+.contacts_page main .center {
+  max-width: 985px;
+}
+.contacts_page main .center .column_2 {
+  width: 65%;
+}
+.contacts_page main .center .column_2 p {
+  width: 83%;
+  font-size: 18px;
+  font-family: "DroidSerifRegular";
+  border-bottom: 1px solid #ED3F34;
+  padding-bottom: 25px;
+}
+.contacts_page main .center .column_2 div {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+}
+.contacts_page main .center .column_2 div span {
+  font-family: "OpenSansRegular";
+  font-size: 18px;
+  margin-top: 7px;
+}
+.contacts_page main .center .column_2 div .position_span {
+  color: #838382;
+  font-family: "OpenSansRegular";
+  margin-top: 24px;
+  font-size: 14px;
+}
+.contacts_page main .center .column_2 div .span_blue.letter {
+  font-size: 14px;
+  font-family: "OpenSansRegular";
+  margin-top: 10px;
+}
+.contacts_page main .center .column_2 div .contacts {
+  margin-top: -3px;
+}
+.contacts_page main .center .column_2 div span {
+  display: block;
+}
+.contacts_page main .center .column_2 .left_column {
+  margin-right: 1.8%;
+}
+.contacts_page main .center .column_2 .form_span {
+  font-family: "DroidSansRegular";
+  display: block;
+  margin-top: 67px;
+}
+.contacts_page main .center .column_2 .form_span a {
+  color: #1C6192;
+}
+.contacts_page main .center .column_2 .second_form_span {
+  margin-top: 38px;
+}
+.contacts_page main .center .column_2 form {
+  margin-top: 15px;
+}
+.contacts_page main .center .column_2 form .text_form {
+  font-family: "OpenSansRegular";
+  padding-left: 20px;
+  font-size: 13px;
+}
+.contacts_page main .center .column_2 form input {
+  width: 73%;
+  height: 35px;
+  margin-top: 20px;
+  outline: none;
+}
+.contacts_page main .center .column_2 form textarea {
+  width: 73%;
+  height: 96px;
+  margin-top: 20px;
+  outline: none;
+}
+.contacts_page main .center .column_2 form button {
+  width: 23%;
+  margin-top: 16px;
+  height: 38px;
+  background-color: #E1E0DA;
+  color: #7D7D7D;
+  outline: none;
+  border: none;
+  display: block;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "OpenSansSemiBold";
+}
+.contacts_page main .center .column_2.right_column {
+  width: 30.5%;
+  float: none;
+  margin-left: 2.7%;
+  padding-top: 35px;
+}
+.contacts_page main .center .column_2.right_column img {
+  width: 100%;
+}

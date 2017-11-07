@@ -1,0 +1,29 @@
+.menu{
+	height: 40px;
+	width: 100%;
+	background-color: #A64DFF;
+	border:2px solid #B672FB;
+	margin:0;
+	padding:0;
+}
+.button{
+	height: 40px;
+	width: 130px;
+	display: inline-block;
+	height: 40px;
+	width: 130px;
+	color:white;
+	font-family: Impact;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.button:hover{
+	background-color: #EEEEEE;
+	color:#9F9FA5;
+	height: 40px;
+	width: 130px;
+	border-radius: 5px;
+	cursor: pointer;
+}

@@ -1,0 +1,636 @@
+@media screen and (min-width: 320px) and (max-width: 960px)  {
+	/*GENERAL*/
+	.arrow, .arrow_blue, .arrow_gray, .arrow_abs, .blue_arrow{
+		display: none;
+	}
+	/*/GENERAL*/
+
+	.container{
+		width: 100%;
+	}
+
+	.disareare{
+		font-size: 0;
+	}
+
+	/*HEADER*/
+		header{
+			position:absolute;
+			nav{
+				display: none;
+			}
+			.contacts{
+				padding-right: 10px;
+				font-size: 20px;
+				span{
+					font-size: 10px;
+				}
+			}
+			.logo{
+				padding-left:10px;
+
+			}
+		}
+	/*/HEADER*/
+
+	/*APART_MAIN*/
+	.apart_main{
+		.container{
+			div{
+				display: block;
+				width: 100%;
+			}
+			.left_column{
+				min-width: 100%;
+				display: block;
+				.price{
+					h1{
+					font-size: 38px;
+					padding-left:20px;
+					padding-right:20px;
+					line-height: 40px;
+					margin-bottom:0;
+					}
+					.normal{
+						font-size: 32px;
+					    padding-left: 13px;
+					    padding-right: 0px;
+					    width: 285px;
+					    padding-top: 8px;
+					    padding-bottom: 8px;
+					    margin-bottom: 23px;
+					    margin-top: 13px;
+					}
+					.normal{
+						margin-left:20px;
+					}
+				}
+				.q_ty{
+					padding-bottom:6px;
+					margin-top: -8px;
+					ul{
+						margin-top: -6px;
+    					padding-top: 37px;
+						li{
+							width: 191px;
+							font-size: 24px;
+							padding-bottom:30px;
+							line-height: 28px;
+						}
+						.width{
+							width: 240px
+						}
+					}
+				}
+			}
+			.right_column{
+				min-width: 100%;
+				display: block;
+				padding-bottom:24px;
+				border-bottom: 53px solid #F2F2F2;
+				span{
+					font-size: 24px;
+					text-align: center;
+					margin-top: 33px;
+				}
+				p{
+					font-size: 18px;
+					padding-left:20px;
+					padding-right:20px;
+					text-align: center;
+					margin:0 auto;
+					line-height: 23px;
+					padding-bottom:9px;
+					span{
+						font-size: 18px;
+					}
+				}
+				.arrow{
+					display: none;
+				}
+				form{
+					margin-top: -2px;
+					p{
+						font-size: 18px;
+					}
+					input{
+						width: 250px;
+						padding-left:20px;
+						margin:0 auto;
+						margin-bottom: 13px;
+						padding-right: 12px;
+    					padding-left: 0px;
+					}
+					input[type="submit"]{
+						font-size: 18px;
+						padding-right: 12px;
+					    padding-left: 7px;
+					    width: 268px;
+					}
+				}
+			}
+		}
+	}
+	/*/APART MAIN*/
+
+	/*UNION*/
+		.union{
+			display: none;
+		}
+	/*/UNION*/
+
+	/*POPULAR*/
+	.popular{
+		clear: both;
+
+		h3{
+			font-size: 24px;
+			padding-top:34px;
+			padding-top:20px;
+			padding-bottom:20px;
+			margin:0 auto;
+			line-height: 31px;
+			padding-bottom:13px;
+		}
+		p{
+			font-size: 18px;
+			width: 300px;
+			margin:0 auto;
+			line-height: 22px;
+		}
+		.popular_container{
+			.popular_item{
+				min-width: 94%;
+				margin-right: 3%;
+				margin-left:3%;
+				padding-bottom:21px;
+				display: block;
+				.item_img{
+				width: 100%;
+				margin-bottom:14px;
+				}
+				.item_info{
+					width: 161px;
+				}
+				.item{
+					padding-bottom:17px !important;
+				}
+				.level{
+					font-size: 16px;
+					line-height: 8px;
+				}
+			}
+			.item_imfo{
+				.prise{
+					&:before{
+						left:-54px;
+					}
+				}
+			}
+		}
+	}
+	/*/POPULAR*/
+
+	/*CHOOSE_APARTAMENTS*/
+	.choose_apartaments{
+		padding-left:3%;
+		padding-right:3%;
+		padding-bottom: 20px;
+		clear: both;
+		margin-top: -23px;
+    	padding-top: 21px;
+    	.container{
+    		padding-bottom:39px;
+	    	h3{
+	    		font-size: 24px;
+	    		padding-left:10px;
+	    		padding-right:10px;
+	    		margin:0 auto;
+	    		text-align: center;
+	    	}
+	    	form{
+	    		width: 100%;
+	    		margin:0 auto;
+	    		padding-top:34px;
+	    		input[type="checkbox"] + label{
+	    			display: block;
+	    			text-align: left;
+	    			width: 200px;
+	    			margin:0 auto;
+	    			margin-bottom: 20px;
+	    		}
+	    		.price_form{
+	    			text-align: left;
+	    			margin-top: 15px;
+	    			width: 200px;
+	    			margin:0 auto;
+	    			margin-bottom: 20px;
+	    			padding-top: 8px;
+	    			input{
+	    				margin-top: 2px;
+	    				display: block;
+	    				padding-bottom:10px;
+	    			}
+	    			label{
+	    				display: block;
+	    			}
+	    		}
+	    		.to_the_sea{
+	    			margin-top: -37px;
+	    			p{
+	    				max-width: 258px;
+	    				margin:0 auto;
+	    				margin-bottom: -18px;
+	    			}
+	    		}
+	    		.leave_cont{
+	    			p{
+	    				font-size: 26px;
+	    				padding-left:20px;
+	    				padding-right:20px;
+	    			}
+	    			input[type="text"], button{
+	    					max-width: 280px;
+	    			}
+	    		}
+	    	}
+    	}
+	}
+	/*/CHOOSE_APARTAMENTS*/
+	/*SUNNY*/
+		.sunny{
+			width: 100% !important; 
+			background-image:none;
+			.container{
+				width: 100% !important; 
+			}
+			.sea_view{
+				display: block;
+				width: 100% !important; 
+				padding:0;
+				margin:0;
+				padding-left:0;
+				p{
+					font-size: 24px !important;
+					max-width: 320px !important;
+					margin-left: 0;
+				}
+				.sale_abs{
+					left: 277px !important;
+    				top: 65px;
+    				margin-right: 0;
+    				width: 20% !important;
+    				img{
+    					width: 100px;
+    				}
+				}
+			}
+			.house_img{
+				display: block;
+				width: 100% !important;
+				img{
+					width: 100%;
+				}
+			}
+			.right_column{
+				display: block;
+				min-width: 100% !important;
+				text-align: center;
+				margin-top:-4px;
+				p{
+					text-align: center;
+					font-size: 18px !important;
+				}
+				span{
+					font-size: 24px !important;
+				}
+			}
+		}
+	/*/SUNNY*/
+
+	/*SERTIFICATES*/
+		.sertificates{
+			padding-bottom:40px;
+			clear: both;
+			.container{
+				.sertificates_right{
+					display: none;
+				}
+				.sertificates_left{
+					display: block;
+					margin:0 auto;
+					width: 100%;
+					padding-top:20px;
+					mark{
+						font-size: 24px !important;
+						width: 281px;
+						margin:0 auto;
+    					&:first-child{
+    						display: block;
+
+    					}
+						&:nth-child(2){
+							width: 271px;
+						    line-height: 24px;
+						    padding-bottom: 10px
+						}
+					}
+					p{
+						font-size: 18px;
+						width: 100% !important;
+						padding-left:20px;
+						padding-right:20px;
+						padding-top:21px;
+    					line-height: 22px; 
+    					text-align: center;
+    					margin:0 auto;
+    					&+p{
+    						 padding-bottom: 19px;
+    						padding-top: 10px
+    					}
+					}
+					span{
+						font-size: 18px;
+						padding-top:10px;
+						padding-left:20px;
+						padding-right: 20px;
+						text-align: center;
+						padding-left: 13px;
+					}
+				}
+			}
+		}
+
+	/*/SERTIFICATES*/
+
+	/*COMMENTS*/
+
+		.comments{
+			padding-bottom:50px;
+			h3{
+				font-size: 24px;
+			    padding-top: 33px;
+			    padding-left:20px;
+	    		padding-right:20px;
+			    margin: 0 auto;
+			}
+			p{
+				font-size: 18px;
+				padding-left:20px;
+	    		padding-right:20px;
+			    margin: 0 auto;
+			    text-align: center;
+			}
+			
+		.owl-prev, 
+		.owl-next{
+			display: none !important;
+		}
+
+		}
+
+	/*/COMMENTS*/
+
+	/*MAP*/
+		.map{
+			display: none;
+		}
+	/*/MAP*/
+
+	/*TEAM*/
+		.team{
+			display: none;
+		}
+	/*/TEAM*/
+
+	/*CHIEF*/
+		.chief{
+			display: none;
+		}
+	/*/CHIEF*/
+
+	/*VISIT*/
+	.visit{
+		width: 100%;
+		.container{
+			width: 100%;
+			background-color:#fff;
+			padding-bottom:35px;
+			.visit_h4{
+				color:#23598F;
+				font-size: 24px;
+				padding-left:20px;
+	    		padding-right:20px;
+				text-align: center;
+				margin-left: 0;
+				width: 100%;
+			}
+			.visiting{
+				max-width: 100%;
+				width: 100%;
+				h4{
+					font-size: 18px;
+				}
+				ol{
+					width: 224px;
+					margin:0 auto;
+					li{
+						font-size: 18px;
+						margin-bottom:-9px;
+						&:before{
+							display: none;
+						}
+						span{
+							font-size: 18px;
+						}
+					}
+				}
+				button{
+					width: 300px;
+					margin:0 auto;
+					margin-top: 20px;
+					display: block;
+				}
+
+			}
+		}
+	}
+	/*/VISIT*/
+
+
+	/*FOOTER*/
+
+		.footer{
+			.map_ya{
+			display: none;
+			}	
+			.dont_find{
+				background-color:#F2F2F2;
+				min-width: 100%;
+				padding-bottom:10px;
+				h3{
+					padding-left:20px;
+	    			padding-right:20px;
+					text-align: center !important;
+					margin:0 auto;
+					font-size: 24px !important;
+				}
+			}
+			.we_have{
+				background-color:#F2F2F2;
+				width: 100% !important;
+				p{
+					width: 300px;
+					margin:0 auto;
+					font-size: 18px !important;
+				}
+			}
+			.add_appartaments{
+				width: 100%;
+				display: block;
+				text-align: center;
+				margin-top: -123px;
+				h3{
+					font-size: 24px;
+					text-align:center;
+				}
+				p{
+					font-size: 18px;
+					text-align: center;
+				}
+				.right_column{
+					min-width: 100%;
+					p{	
+						width: 100%;
+    					margin: 0 auto;
+    					padding-right:20px;
+    					padding-left:20px;
+					}
+				}
+			}
+		}
+	/*/FOOTER*/
+
+	#top{
+		display: none;
+		background-image: none !important;
+
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 960px)  {
+	.apart_main{
+		.container{
+			.left_column{
+				.q_ty{
+					ul{
+						width: 90%;
+						margin-left: 5%;
+						margin-right: 5%;
+						li{
+							display: inline-block;
+							text-align: center;
+							margin-left:3%;
+						}
+
+					}
+				}
+			}
+		}
+	}
+	.visit{
+		.visiting{
+			width: 100% !important;
+			width: 100%;
+			h4{
+				font-size: 18px;
+			}
+			ol{
+				width: 300px !important;
+				padding-left:10px;
+				padding-right:10px;
+				li{
+					text-align: center;
+					span{
+						display: inline;
+					}
+				}
+			}
+
+		}
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 827px)  {
+	.apart_main{
+		.container{
+			.left_column{
+				.q_ty{
+					ul{
+						width: 90%;
+						margin-left: 5%;
+						margin-right: 5%;
+						li{
+							display: block;
+							text-align: left;
+							padding-left:20px;
+							width: 250px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 443px)  {
+	.popular{
+		.sea:before{
+	          position:absolute;
+	          left:-50px !important;
+	        }
+	    .price:before{
+	    	left:-55px !important;
+	    }
+	    .room_3:before{
+	    	left:-50px !important;
+	    }
+	}
+}
+
+@media screen and (min-width: 672px) and (max-width: 960px)  {
+	
+	.choose_apartaments{
+			form{
+			width: 100%;
+			margin:0 auto;
+			padding-top:34px;
+			input[type="checkbox"] + label{
+				display: inline-block !important;
+				text-align: center;
+				width: 200px;
+				margin:0 auto;
+				margin-bottom: 20px;
+			}
+			.price_form{
+				text-align: center;
+				margin-top: 25px !important;
+				margin:0 auto;
+				padding-top: 8px;
+				width: 620px !important;
+				margin:0 auto;
+				padding-bottom:30px;
+				input{
+					margin-top: 2px;
+					display: inline-block !important;
+					padding-bottom:10px;
+					text-align: center !important;
+				}
+				label{
+					display: inline-block !important;
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,621 @@
+/*FONTS*/
+/* font-family: "Myriad Pro Bold SemiExtended"; */
+@font-face {
+  font-family: "Myriad_Pro_Bold";
+  src: url("../../fonts/MyriadProBold SemiExtended.ttf");
+  src: url("../../fonts/MyriadPro-BoldSemiExt.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "MyriadProRegular"; */
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*GENERAL STYLES*/
+/* line 29, ../sass/main.scss */
+a {
+  text-decoration: none;
+  color: inherit !important;
+  font-size: inherit;
+}
+/* line 33, ../sass/main.scss */
+a:visited, a:link, a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none !important;
+}
+
+/* line 44, ../sass/main.scss */
+h2 {
+  color: #F69431;
+  text-transform: uppercase;
+  font-size: 67px;
+  font-family: "Myriad_Pro_Bold";
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+}
+
+/* line 54, ../sass/main.scss */
+.h2_centered {
+  text-align: center;
+  position: relative;
+}
+/* line 57, ../sass/main.scss */
+.h2_centered:after {
+  content: "";
+  display: block;
+  width: 234px;
+  height: 20px;
+  background: url(../../img/heard.png) no-repeat;
+  margin: 0 auto;
+}
+
+/* line 67, ../sass/main.scss */
+p {
+  font-size: 18px;
+  font-family: "MyriadProRegular";
+  color: #616972;
+}
+
+/* line 73, ../sass/main.scss */
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* line 78, ../sass/main.scss */
+section {
+  display: block;
+  width: 100%;
+}
+
+/*PRELOADER*/
+/* line 86, ../sass/main.scss */
+.loader {
+  background: none repeat scroll 0 0 #fff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* line 97, ../sass/main.scss */
+.loader_inner {
+  background-image: url("../../img/preloader.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  height: 150px;
+  width: 150px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+/*HEADER*/
+/* line 112, ../sass/main.scss */
+header {
+  width: 100%;
+  height: 108px;
+  background-color: #292929;
+  color: #fff;
+}
+/* line 118, ../sass/main.scss */
+header .container div {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 122, ../sass/main.scss */
+header .container .logo {
+  padding-top: 24px;
+}
+/* line 126, ../sass/main.scss */
+header nav {
+  float: right;
+  padding-top: 43px;
+}
+/* line 130, ../sass/main.scss */
+header nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "MyriadProRegular";
+  margin-right: 37px;
+  transition: all .7s;
+}
+/* line 136, ../sass/main.scss */
+header nav ul li:hover {
+  color: #EE3F33;
+}
+
+/*TOP BANNER SECTION*/
+/* line 146, ../sass/main.scss */
+.top_banner {
+  background-color: #EE3F33;
+}
+/* line 148, ../sass/main.scss */
+.top_banner .item {
+  width: 100%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+/* line 153, ../sass/main.scss */
+.top_banner .carousel-control.left,
+.top_banner .carousel-control.right {
+  background-image: none;
+}
+/* line 157, ../sass/main.scss */
+.top_banner .carousel-caption {
+  top: 150px;
+  text-align: left;
+  max-width: 1600px;
+  left: 0;
+  right: 0;
+}
+/* line 163, ../sass/main.scss */
+.top_banner .carousel-caption h3 {
+  font-size: 41px;
+  text-transform: uppercase;
+  font-family: "Myriad_Pro_Bold";
+  color: #fff;
+}
+/* line 168, ../sass/main.scss */
+.top_banner .carousel-caption h3:after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 12px;
+  background-color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* line 178, ../sass/main.scss */
+.top_banner .carousel-caption p {
+  text-shadow: none;
+  color: #fff;
+  font-size: 17px;
+  font-family: "MyriadProRegular";
+  line-height: 22px;
+}
+/* line 187, ../sass/main.scss */
+.top_banner .carousel-inner {
+  position: relative;
+  width: 100%;
+  display: block;
+  padding-bottom: 100px;
+}
+/* line 193, ../sass/main.scss */
+.top_banner .carousel-control .glyphicon-chevron-right, .top_banner .carousel-control .icon-next,
+.top_banner .carousel-control .glyphicon-chevron-left, .top_banner .carousel-control .icon-prev {
+  color: #fff;
+}
+/* line 197, ../sass/main.scss */
+.top_banner .carousel-control {
+  width: 3%;
+}
+
+/*PORTFOLIO SECTION*/
+/* line 206, ../sass/main.scss */
+.portfolio h2 {
+  max-width: 1100px;
+  padding-bottom: 0;
+}
+/* line 209, ../sass/main.scss */
+.portfolio h2:after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 12px;
+  background-color: #F69431;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+/* line 219, ../sass/main.scss */
+.portfolio p {
+  font-size: 17px;
+  max-width: 800px;
+  line-height: 22px;
+  padding-bottom: 165px;
+}
+/* line 226, ../sass/main.scss */
+.portfolio .row {
+  margin: 0;
+}
+/* line 230, ../sass/main.scss */
+.portfolio .portfolio_nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* line 233, ../sass/main.scss */
+.portfolio .portfolio_nav li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 23px;
+  cursor: pointer;
+  font-family: "MyriadProRegular";
+  color: #062033;
+  padding: 10px 45px;
+}
+/* line 246, ../sass/main.scss */
+.portfolio .portfolio_nav .active {
+  color: #fff;
+  background-color: #EE3F33;
+}
+/* line 252, ../sass/main.scss */
+.portfolio .mix {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* line 256, ../sass/main.scss */
+.portfolio .mix img {
+  width: 100%;
+}
+/* line 261, ../sass/main.scss */
+.portfolio .portfolio_container {
+  font-size: 0;
+}
+/* line 265, ../sass/main.scss */
+.portfolio .mix:hover > .port_item_cont {
+  opacity: 1;
+  padding-top: 20%;
+}
+/* line 270, ../sass/main.scss */
+.portfolio .port_item_cont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(238, 63, 51, 0.9);
+  text-align: center;
+  padding-top: 113px;
+  opacity: 0;
+  transition: all 1s;
+}
+/* line 281, ../sass/main.scss */
+.portfolio .port_item_cont h4 {
+  font-size: 22px;
+  font-family: "MyriadProRegular";
+  color: #fff;
+  line-height: 29px;
+}
+/* line 287, ../sass/main.scss */
+.portfolio .port_item_cont p {
+  font-size: 17px;
+  font-family: "MyriadProRegular";
+  color: #fff;
+}
+/* line 292, ../sass/main.scss */
+.portfolio .port_item_cont i {
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/*TEAM SECTION*/
+/* line 307, ../sass/main.scss */
+.team .container {
+  text-align: center;
+  padding-bottom: 100px;
+}
+/* line 310, ../sass/main.scss */
+.team .container img {
+  width: 100%;
+}
+/* line 313, ../sass/main.scss */
+.team .container p {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  line-height: 24px;
+}
+/* line 320, ../sass/main.scss */
+.team .container .team_container p {
+  padding-bottom: 0;
+  font-size: 13px;
+  line-height: 24px;
+  color: #BCBFC2;
+}
+/* line 326, ../sass/main.scss */
+.team .container .team_container h4 {
+  line-height: 24px;
+  font-size: 18px;
+  font-family: "MyriadProRegular";
+  transition: all .7s;
+  margin-top: 20px;
+}
+/* line 333, ../sass/main.scss */
+.team .container .team_container .img_container:hover > .team_item_cont {
+  opacity: 1;
+  padding-top: 20%;
+}
+/* line 337, ../sass/main.scss */
+.team .container .team_container .team_item:hover > h4 {
+  color: #5DC7CE;
+}
+/* line 341, ../sass/main.scss */
+.team .container .team_container .team_item {
+  margin-top: 50px;
+  list-style-type: none;
+}
+/* line 344, ../sass/main.scss */
+.team .container .team_container .team_item .img_container {
+  position: relative;
+}
+/* line 347, ../sass/main.scss */
+.team .container .team_container .team_item .team_item_cont {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(93, 199, 206, 0.97);
+  opacity: 0;
+  transition: all 1s;
+  text-align: center;
+}
+/* line 357, ../sass/main.scss */
+.team .container .team_container .team_item .team_item_cont p {
+  color: #fff;
+  font-family: "MyriadProRegular";
+  font-size: 16px;
+  padding: 27px;
+  line-height: 20px;
+}
+/* line 365, ../sass/main.scss */
+.team .container .team_container .team_item .team_item_cont .social_icons li {
+  list-style-type: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #41888D;
+  color: #fff;
+}
+/* line 372, ../sass/main.scss */
+.team .container .team_container .team_item .team_item_cont .social_icons li i {
+  padding-top: 12px;
+}
+
+/*FEATURES SECTION*/
+/* line 385, ../sass/main.scss */
+.features {
+  background-color: #F4F7F9;
+}
+/* line 387, ../sass/main.scss */
+.features .container {
+  padding-bottom: 100px;
+}
+/* line 389, ../sass/main.scss */
+.features .container .features_item {
+  font-family: "MyriadProRegular";
+}
+/* line 391, ../sass/main.scss */
+.features .container .features_item h3 {
+  font-size: 20px;
+  padding-bottom: 24px;
+  position: relative;
+}
+/* line 395, ../sass/main.scss */
+.features .container .features_item h3:before {
+  content: "";
+  width: 47px;
+  height: 47px;
+  background-image: url(../../img/features_1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -53px;
+  top: 0px;
+}
+/* line 407, ../sass/main.scss */
+.features .container .features_item p {
+  font-size: 13px;
+  line-height: 21px;
+  width: 80%;
+}
+/* line 414, ../sass/main.scss */
+.features .container li:nth-of-type(2) h3:before {
+  background-image: url(../../img/features_2.png);
+}
+/* line 417, ../sass/main.scss */
+.features .container li:nth-of-type(3) h3:before {
+  background-image: url(../../img/features_3.png);
+}
+
+/* line 423, ../sass/main.scss */
+.contacts {
+  padding-bottom: 83px;
+}
+/* line 425, ../sass/main.scss */
+.contacts .container {
+  text-align: center;
+}
+/* line 427, ../sass/main.scss */
+.contacts .container p {
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 431, ../sass/main.scss */
+.contacts .container .contacts_content {
+  font-size: 0;
+  margin-top: 80px;
+}
+/* line 434, ../sass/main.scss */
+.contacts .container .contacts_content div {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+/* line 441, ../sass/main.scss */
+.contacts .container .contacts_content .left_section {
+  width: 25%;
+  text-align: left;
+}
+/* line 444, ../sass/main.scss */
+.contacts .container .contacts_content .left_section h5 {
+  color: #062033;
+  font-size: 22px;
+  font-family: "MyriadProRegular";
+  padding-bottom: 40px;
+}
+/* line 450, ../sass/main.scss */
+.contacts .container .contacts_content .left_section p {
+  color: #838A91;
+  line-height: 24px;
+  font-size: 13px;
+}
+/* line 456, ../sass/main.scss */
+.contacts .container .contacts_content .right_section {
+  width: 25%;
+}
+/* line 458, ../sass/main.scss */
+.contacts .container .contacts_content .right_section .social_icons {
+  display: block;
+}
+/* line 460, ../sass/main.scss */
+.contacts .container .contacts_content .right_section .social_icons li {
+  list-style-type: none;
+  font-size: 30px;
+  color: #CDD2D6;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+/* line 466, ../sass/main.scss */
+.contacts .container .contacts_content .right_section .social_icons li:hover {
+  color: #5DC7CE;
+}
+/* line 472, ../sass/main.scss */
+.contacts .container .contacts_content .form_section {
+  width: 50%;
+}
+/* line 474, ../sass/main.scss */
+.contacts .container .contacts_content .form_section h5 {
+  color: #062033;
+  font-size: 22px;
+  font-family: "MyriadProRegular";
+  padding-bottom: 40px;
+  text-align: left;
+}
+/* line 481, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form {
+  font-size: 13px;
+  font-family: "MyriadProRegular";
+}
+/* line 484, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form input {
+  float: left;
+  width: 47%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 17px;
+  transition: all .5s;
+}
+/* line 492, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form input:focus {
+  border-bottom: 1px solid #5DC7CE;
+}
+/* line 496, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form input:nth-of-type(1) {
+  margin-right: 6%;
+}
+/* line 500, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 17px;
+  margin-top: 30px;
+  transition: all .5s;
+}
+/* line 508, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form textarea:focus {
+  border-bottom: 1px solid #5DC7CE;
+}
+/* line 512, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form button {
+  font-size: 16px;
+  font-family: "MyriadProRegular";
+  color: #000;
+  float: right;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  margin-top: 30px;
+}
+/* line 521, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form button:hover {
+  color: #5DC7CE;
+}
+/* line 524, ../sass/main.scss */
+.contacts .container .contacts_content .form_section form button:before {
+  content: "";
+  width: 26px;
+  height: 16px;
+  display: inline-block;
+  background-image: url(../../img/envelope.png);
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  margin-bottom: -4px;
+}
+
+/* line 542, ../sass/main.scss */
+.map .map_container {
+  position: relative;
+}
+/* line 545, ../sass/main.scss */
+.map .overlay {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  height: 260px;
+  top: 0;
+  z-index: 10;
+}
+
+/* line 556, ../sass/main.scss */
+.work_1 .top_banner {
+  width: 100%;
+  background-color: transparent;
+}
+/* line 561, ../sass/main.scss */
+.work_1 .work_1_items .container {
+  text-align: center;
+}
+/* line 563, ../sass/main.scss */
+.work_1 .work_1_items .container h3 {
+  font-size: 30px;
+  font-family: "MyriadProRegular";
+  padding: 20px;
+  color: #5DC7CE;
+}
+/* line 571, ../sass/main.scss */
+.work_1 .work_1_items li img {
+  width: 100%;
+}
+/* line 577, ../sass/main.scss */
+.work_1 .work_1_description h4 {
+  color: #062033;
+  font-size: 22px;
+  font-family: "MyriadProRegular";
+  padding: 20px;
+}

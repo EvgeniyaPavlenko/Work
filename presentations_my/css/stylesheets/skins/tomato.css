@@ -1,0 +1,83 @@
+/* line 11, ../../sass/skins/tomato.sass */
+body {
+  color: #222;
+  letter-spacing: 1px;
+}
+
+/* line 15, ../../sass/skins/tomato.sass */
+a {
+  color: #FF6347;
+}
+
+/* line 18, ../../sass/skins/tomato.sass */
+p,
+body .main_footer {
+  color: #888;
+}
+
+/* line 22, ../../sass/skins/tomato.sass */
+.color_element {
+  color: #FF6347;
+}
+
+/* line 24, ../../sass/skins/tomato.sass */
+.color_bg {
+  background-color: #FF6347;
+}
+
+/* line 26, ../../sass/skins/tomato.sass */
+.color_border {
+  border-color: #FF6347;
+}
+
+/* line 29, ../../sass/skins/tomato.sass */
+.bg_light {
+  background-color: #FAFAFA;
+}
+
+/* line 31, ../../sass/skins/tomato.sass */
+.bg_dark {
+  background-color: #222;
+  color: #fff;
+}
+/* line 35, ../../sass/skins/tomato.sass */
+.bg_dark .s_descr a {
+  color: #fff;
+}
+/* line 37, ../../sass/skins/tomato.sass */
+.bg_dark .s_descr::after {
+  background-color: #fff;
+}
+
+/* line 40, ../../sass/skins/tomato.sass */
+svg {
+  z-index: 100;
+}
+/* line 42, ../../sass/skins/tomato.sass */
+svg path {
+  fill: #FAFAFA;
+}
+
+/* line 46, ../../sass/skins/tomato.sass */
+.top_menu a:hover {
+  color: #FF6347;
+}
+/* line 48, ../../sass/skins/tomato.sass */
+.top_menu a {
+  letter-spacing: 4px;
+}
+
+/* line 54, ../../sass/skins/tomato.sass */
+.top_wrapper .top_center .top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px;
+}
+
+/* line 58, ../../sass/skins/tomato.sass */
+.s_descr {
+  letter-spacing: 5px;
+}
+/* line 60, ../../sass/skins/tomato.sass */
+.s_descr::after {
+  background-color: #222;
+}

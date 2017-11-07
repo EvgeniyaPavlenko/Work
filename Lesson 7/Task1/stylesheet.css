@@ -1,0 +1,71 @@
+body{
+	font-family:'Open Sans', sans-serif; 
+}
+.wrapper{
+	width: 402px;
+}
+div{
+	text-shadow: #3E3E3E 0 0 15px;
+    color: rgba(30,30,30, .03);
+}
+
+.a1{
+	font-size: 7.3em;
+	word-spacing: 1.5171em;
+}
+
+.a2{
+	font-size: 7.02em;
+	word-spacing: 0.4em;
+}
+
+.a3{
+	font-size: 5.879em;
+	word-spacing: 0.031em;
+}
+
+.a4{
+	font-size: 5em;
+	word-spacing: 0.066em;
+}
+
+.a5{
+	font-size: 4.5em;
+	word-spacing: 0.12em;
+}
+
+.a6{
+	font-size: 4em;
+	word-spacing: 0.07em;
+}
+
+.a7{
+	font-size: 3.5em;
+	word-spacing: 0.25em;
+}
+
+.a8{
+	font-size: 2em;
+	word-spacing: 0.914em;
+}
+
+.a9{
+	font-size: 1.5em;
+	word-spacing: 1.599em;
+}
+
+.a10{
+	font-size: 1.3em;
+	word-spacing: 1.62em;
+	border-bottom:1px solid red;
+}
+
+.a11{
+	font-size: 1em;
+	word-spacing: 2.42em;
+}
+
+.a12{
+	font-size: 0.8em;
+	word-spacing: 3.33em;
+}

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "LatoRegular";
+    src: url("fonts/LatoRegular/LatoRegular.eot");
+    src: url("fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/LatoRegular/LatoRegular.woff") format("woff"),
+    url("fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LatoLight";
+    src: url("fonts/LatoLight/LatoLight.eot");
+    src: url("fonts/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("fonts/LatoLight/LatoLight.woff") format("woff"),
+    url("fonts/LatoLight/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.body{
+	background-color: #F6F9F9;
+}
+
+.wrapper{
+	width: 1200px;
+	height: 704px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	color:#2D3950;
+	font-family: "LatoLight";
+	font-weight: normal;
+	padding-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p{
+	font-family: "LatoLight";
+	font-size: 15px;
+}
+
+.works{
+	width: 80%;
+	height: 510px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+}
+
+.works div{
+	width: 363px;
+	height: 263px;
+	margin:10px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img{
+	width: 363px;
+	height: 263px;
+}
+
+.bluebike{
+	background-image: url(images/bluebike.png);
+}
+
+.girl{
+	background-image: url(images/girl.png);
+}
+
+.cups{
+	background-image: url(images/cups.png);
+}
+
+.cup{
+	background-image: url(images/cup.png);
+}
+
+.redbike{
+	background-image: url(images/redbike.png);
+}
+
+.blackbike{
+	background-image: url(images/blackbike.png);
+}
+
+div img{
+	visibility: hidden;
+}
+
+div:hover > img{
+	visibility: visible;
+}
+
+.zoom{
+	display: inline-block;
+	width:40px;
+	height: 40px;
+	background-image: url(images/zoom1.png);
+	position: relative;
+	top:-150px;
+	left:105px;
+	visibility: hidden;
+	border:1px solid #fff;
+	border-radius: 5%;
+}
+
+div:hover > .zoom{
+	visibility: visible;
+}
+
+.normal{
+	display: inline-block;
+	width:40px;
+	height: 40px;
+	background-image: url(images/NormalLink1.png);
+	background-repeat: no-repeat;
+	position: relative;
+	top:-150px;
+	left:155px;
+	visibility: hidden;
+	border:1px solid #fff;
+	background-position: 6px 6px;
+	border-radius: 5%;
+}
+
+div:hover > .normal{
+	visibility: visible;
+}
+
+.normal:active{
+	border:1px solid #838383;
+}
+
+.normal:hover{
+	background-color: #299AE0;
+}
+
+.zoom:active{
+	border:1px solid #838383;
+}
+
+.zoom:hover{
+	background-color: #299AE0;
+}
+
+
+

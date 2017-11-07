@@ -1,0 +1,111 @@
+@media screen and (max-width: 991px) {
+  /* line 2, ../sass/media.scss */
+  .advantages {
+    padding-top: 50px;
+  }
+
+  /* line 6, ../sass/media.scss */
+  .advantages .container .advantages_items {
+    margin-bottom: 50px;
+  }
+
+  /* line 10, ../sass/media.scss */
+  .advantages .container .row {
+    padding: 10px;
+  }
+
+  /* line 14, ../sass/media.scss */
+  .services .container .left-section h2 {
+    text-align: center;
+  }
+
+  /* line 18, ../sass/media.scss */
+  .mission_h {
+    padding-top: 95px;
+  }
+
+  /* line 22, ../sass/media.scss */
+  .mission .container .middle_column {
+    text-align: center;
+    padding-top: 159px;
+  }
+
+  /* line 27, ../sass/media.scss */
+  .laskom .container .top_div .top_div_content {
+    width: 97%;
+    margin-left: 1%;
+  }
+
+  /* line 31, ../sass/media.scss */
+  .laskom .top_div {
+    background: #2A7670;
+  }
+
+  /* line 34, ../sass/media.scss */
+  .laskom .container .top_div .top_div_content p {
+    margin-bottom: 25px;
+  }
+
+  /* line 38, ../sass/media.scss */
+  .bottom_div p {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* line 43, ../sass/media.scss */
+  .laskom .img_div img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 680px) {
+  /* line 49, ../sass/media.scss */
+  .mission_h {
+    padding-top: 126px;
+    font-size: 20px;
+  }
+
+  /* line 54, ../sass/media.scss */
+  .mission .container p {
+    font-size: 16px;
+  }
+
+  /* line 58, ../sass/media.scss */
+  .laskom .top_div .top_div_content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 65, ../sass/media.scss */
+  header h1 {
+    font-size: 30px;
+  }
+
+  /* line 69, ../sass/media.scss */
+  .team .container {
+    padding-bottom: 10px;
+  }
+
+  /* line 73, ../sass/media.scss */
+  .mission_h {
+    padding-top: 155px;
+    font-size: 18px;
+  }
+
+  /* line 78, ../sass/media.scss */
+  .services .container .left-section p {
+    margin-bottom: 10px;
+  }
+
+  /* line 81, ../sass/media.scss */
+  .services .container .right-section {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* line 87, ../sass/media.scss */
+  .mission_h {
+    padding-top: 165px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,1077 @@
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("fonts/HelveticaRegular/HelveticaRegular.eot");
+    src: url("fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+    url("fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "HelveticaBold"; */
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("fonts/HelveticaBold/HelveticaBold.eot");
+    src: url("fonts/HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/HelveticaBold/HelveticaBold.woff") format("woff"),
+    url("fonts/HelveticaBold/HelveticaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body, div, h2, h3, p, h1, blockquote, legend{
+	margin: 0;
+	padding: 0;
+	}
+p{
+	font-family: HelveticaRegular;
+	color:#333333;
+	}
+
+h1{
+	font-family: "HelveticaBold";
+	color:#fff;
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 50px;
+	}
+
+h2{
+	font-family: HelveticaRegular;
+	color:#3899D9;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+h3{
+	font-family: HelveticaRegular;
+	color:#333333;
+	text-transform: uppercase;
+	}
+
+header{
+	height: 78px;
+	background-color: #3598DB;
+	}
+
+.logo_info{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.logo_info div, span{
+	display: inline-block;
+	}
+
+.logo, .footer_logo{
+	color:#fff;
+	padding-top: 10px;
+	width: 100%;
+	font-size: 20px;
+	font-family:HelveticaRegular; 
+	}
+
+.circle{
+	display: inline-block;
+	border:1px solid #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 52px;
+	color:#fff;
+	font-family: HelveticaRegular; 
+	font-size:21px;
+	}
+
+	.abc{
+		font-size: 26px;
+	}
+
+.social{
+	display: inline-block;
+	float: right;
+	margin-top: -35px;
+	}
+
+
+.social p{
+	display: inline-block;
+	color: #fff;
+	vertical-align: top;
+	line-height: 27px;
+	font-size: 13px;
+	font-family: HelveticaRegular; 
+	}
+
+
+
+.network{
+	width: 22px;
+	height: 21px;
+	display: inline-block;
+	cursor: pointer;
+	}
+
+.social div{
+	background-image: url(images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+	}
+
+.fb{
+    background-position: -5px -5px;
+	}
+
+.gl{
+	 background-position: -37px -5px;
+	}
+
+.tw{
+	background-position: -5px -36px;
+	}
+
+.welcome_banner{
+	width: 100%;
+	height: 355px;
+	background-image:url(images/bannerBackground.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+.welcome_banner_info{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.welcome_banner p{
+	width: 52%;
+	font-size: 30px;
+	color:#fff;
+	padding-top: 20px;
+	}
+
+form{
+	width: 354px;
+	height: 540px;
+	background-color: white;
+	position: absolute;
+	left: 62.5%;
+	top:107px;
+	font-family: HelveticaRegular;
+	border-bottom:4px solid #3598DB;
+	}
+
+input, select, textarea{
+	display: block;
+	height: 33px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 7px;
+	padding-left: 7px;
+	background-color: #F2F2F2;
+	outline:none;
+	border: 1px solid #BCCAD3;
+	font-size: 15px;
+	font-family: HelveticaRegular;
+	}
+
+select{
+	height: 36px;
+	width: 83%;
+	}
+
+input:first-child{
+	margin-top: 50%;
+	}
+
+
+legend{
+	margin-top: 10%;
+	text-transform: uppercase;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10%;
+	font-size: 25px;
+	text-align: center;
+	}
+
+.address{
+	height: 80px;
+	color:black;
+	}
+
+textarea::-webkit-input-placeholder{
+	color:#0F1220;
+	font-family: HelveticaRegular;
+	font-size: 15px;
+}
+
+textarea:-moz-placeholder { 
+	color: #0F1220; 
+	font-family: HelveticaRegular;
+	font-size: 15px;
+}
+
+input::-webkit-input-placeholder{
+	color:#0F1220;
+	font-family: HelveticaRegular;
+	font-size: 15px;
+}
+
+input:-moz-placeholder { 
+	color: #0F1220; 
+	font-family: HelveticaRegular;
+	font-size: 15px;
+}
+
+input:last-child{
+	background-color: #E84C3D;
+	border:none;
+	width: 45%;
+	height: 45px;
+	margin-top: 20px;
+	color:#fff;
+	font-size: 25px;
+	}
+
+input:last-child:hover{
+	background-color: #FAA68C;
+	cursor: pointer;
+	}
+
+.about_university{
+	width: 100%;
+	height: 250px;
+	background-color: #F2F2F2;
+	}
+
+.about_university_info{
+	max-width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+.about_university_text{
+	width: 55%;
+	font-size: 13px;
+	line-height: 22px;
+	}
+
+.about_university h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+.why_best{
+	height: 532px;
+	background-color: #FFF;
+	}
+
+
+.about_university_content{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.why_best h3{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	}
+
+.why_best_content{
+	max-width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+.why_best_content h2{
+	padding-top: 20px;
+	}
+
+.why_best h3{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	}
+
+.why_best p{
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: 20px;
+	font-size: 13px;
+	}
+
+.best_group{
+	width: 280px;
+	height: 532px;
+	display: inline-block;
+	margin-right: 4%;
+	}
+
+.photo{
+	width: 100%;
+	height: 158px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+.environment_photo{
+	background-image: url(images/environment.png);
+	}
+	
+.programs_photo{
+	background-image: url(images/programs.png);
+	}
+
+.teachers_photo{
+	background-image: url(images/teachers.png);
+	}
+
+.why_best_text{
+	height: 40%;
+	font-size: 13px;
+	}
+
+.view{
+	display: block;
+	height: 50px;
+	width: 50px;
+	border:1px solid #F2F2F2;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 52px;
+	font-family: HelveticaRegular;
+	font-size: 13px;
+	}
+
+.view:hover{
+	background-color:#46A1DE;
+	color:#fff; 
+	cursor: pointer;
+	}
+
+.student_says{
+	width: 100%;
+	height: 270px;
+	background-color: #FFF;
+	border-top:1px solid #F2F2F2;
+	}
+
+.student_says_info{
+	max-width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+blockquote:before {  
+    content: "\201C";  
+    font-size: 75px;    
+    color: #EAEAEA;   
+    float: left;  
+    position: absolute;  
+    top: 23px;  
+    left:1px;
+    font-family: arial;
+	}
+
+.blockquote_p:after {  
+   	content: "\201E";  
+	font-size: 55px;  
+	text-align: center;    
+	color: #EAEAEA;   
+	position: relative;  
+	font-family: "HelveticaBold";
+	bottom:-23px;
+	left:-24px;
+	}
+
+	blockquote{
+	padding-top: 30px;
+	width: 60%;
+	line-height: 20px;
+	margin-left: -20px;
+	font-family: HelveticaRegular;
+	position: relative;
+	}
+
+.blockquote_p{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 50%;
+	}
+
+.pages{
+	width: 100px;
+	height: 50px;
+	position: relative;
+	right: -93%;
+	font-size: 30px;
+	margin-top:-5%;
+	}
+
+	.page_next{
+		background-image: url(images/left.png);
+		background-repeat: no-repeat;
+		background-size: 11px;
+		background-position: 50% 10px;
+	}
+
+	.page_prev{
+		background-image: url(images/right.png);
+		background-repeat: no-repeat;
+		background-size: 11px;
+		background-position: 50% 10px;
+	}
+
+.pages div{
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	border:1px solid #F2F2F2;
+	border-radius: 50%;
+	text-align: center;
+	font-family: arial;
+	}
+
+.pages div:hover{
+	cursor:pointer;
+	background-color: #F2F2F2;
+	}
+
+.page_next{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	}
+
+.page_prev{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	}
+
+.click2start{
+	width: 100%;
+	height: 192px;
+	background-color: #F2F2F2;
+	}
+
+.click2start_info{
+	max-width: 1100px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	}
+
+button:after{
+	content: url(images/right.white.png);  
+	font-size: 30px;  
+	border:2px solid #fff;
+	border-radius: 50%;
+	line-height: 20px;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	line-height: 23px;
+	margin-left: 14px;
+	text-align: center;
+	}
+
+button{
+	width: 538px;
+	height: 58px;
+	background-color: #E74C3C;
+	margin-top: 65px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	z-index: 100;
+	position: relative;
+	outline:none;
+	border: none;
+	line-height: 25px;
+	padding-top: 2px;
+	font-size: 25px;
+	position: absolute;
+	}
+
+button:hover{
+	background-color: #FAA68C;
+	}
+
+button:active{
+	background-color: #E74C3C;
+	}
+
+.boy{
+	width: 230px;
+	height: 360px;
+	background-image: url(images/boy.png);
+	position: absolute;
+	right: 0;
+	bottom:0;
+	background-repeat: no-repeat;
+	z-index: 1;
+	}
+
+footer{
+	width: 100%;
+	height: 190px;
+	background-color: #3598DB;
+	}
+
+.footer_info{
+	max-width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	}
+
+.footer_info .circle{
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	}
+
+.abc_footer{
+	width: 100px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+	border-right: 1px solid #6D82B6;
+	padding-right: 85px;
+	}
+
+.footer_info .circle{
+	display: inline-block;
+	}
+
+.footer_logo{
+	padding-top:60px;
+	}
+
+.social_footer{
+	position: absolute;
+	top:110px;
+	left:280px;
+	}
+
+.legal{
+	margin-left: 1px;
+	color:#fff;
+	position: absolute;
+	left:280px;
+	top:112px;
+	font-size: 13px;
+	font-family: HelveticaRegular;
+	}
+
+@media screen and (max-width:1000px){	
+
+	.logo_info{
+		max-width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.welcome_banner_info{
+		max-width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	form{
+		position: absolute;
+		top:14%;
+		left: 55%;
+	}
+
+	.about_university{
+		height: 255px;
+	}
+
+	.about_university_info{
+		max-width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.why_best_content{
+		max-width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.student_says_info{
+		max-width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+
+	.photo{
+		margin-right: 10px;
+	}
+
+	.why_best{
+		height: 751px;
+	}
+
+	.why_best h2{
+		margin-left: 5%;
+	}
+
+	.why_best_info{
+		height: 711px;
+	}
+
+		.why_best p{
+		text-align: left;
+	}
+
+		.why_best h3{
+		text-align: left;
+		padding-top: 0;
+	}
+
+	.best_group{
+		display: inline-block;
+		width: 90%;
+		height: 30%;
+		margin-left: 5%;
+	}
+
+	.best_group	.photo{
+		width: 40%;
+		height: 90%;
+		display: inline-block;
+
+	}
+
+	.best_group	.why_best_text{
+		width: 55%;
+		height: 60%;
+		display: inline-block;
+		vertical-align:top;
+	}
+	
+	.best_group:first-child{
+		margin-left: 5%;
+	}
+
+	.view{
+		display: inline-block;
+		position: relative;
+		left:43%;
+		top:-25%;
+	}
+
+	.student_says{
+		height: 255px;
+		max-width: 1000px;
+	}
+
+	.student_says_info{
+		width: 100%;
+	}
+
+		blockquote:before {  
+    	content: "\201C";  
+    	font-size: 75px;    
+    	color: #EAEAEA;   
+    	float: left;  
+    	position: absolute;  
+    	top: 25px;  
+    	left:-2px;
+    	font-family: arial;
+	}
+
+	blockquote{
+		width: 80%;
+		margin-left: 20px;
+		position: relative;
+	}
+
+	.blockquote_p{
+		text-align: right;
+		width: 75%;
+		margin:0;
+		padding: 0;
+	}
+
+	button{
+		width: 65%;
+	}
+
+	.click2start{
+		height: 195px;
+	}
+
+	.click2start_info{
+		max-width: 800px;
+	}
+
+
+	.legal{
+		width: 450px;
+		color:#fff;
+	}
+
+	.social_footer{
+		position: absolute;
+		top:110px;
+		left:280px;
+	}
+
+	.legal{
+		margin-left: 1px;
+		color:#fff;
+		top:99px;
+	}
+
+	.boy{
+		right: 0;
+		bottom:0;
+	}
+
+	.footer_info{
+		max-width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media screen and (max-width:799px){	
+
+	h1{
+		font-size: 40px;
+	}
+
+	header{
+		height: 156px;
+		max-width: 800px;
+	}
+
+	.logo_info{
+		max-width: 270px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo_content{
+		width: 240px;
+		margin-left: 10px;
+		border-bottom: 1px solid #6D82B6;
+		padding-bottom: 10px;
+	}
+
+	.logo{
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.logo span{
+		display: block;
+		text-align: center;
+
+	}
+
+	.social{
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding-top: 10px;
+
+	}
+
+	.circle{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+
+	form{
+		height: 558px;
+		width: 200px;
+	}
+
+	h2{
+		text-align: center;
+	}
+	
+	
+	.welcome_banner{
+		height: 378px;
+	}
+
+	.welcome_banner_info{
+		max-width: 320px; 
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.welcome_banner p{
+		font-size: 20px;
+		width: 100%; 
+	}
+
+	form{
+		position: absolute;
+		height: 510px;
+		width: 280px;
+		margin-right: auto;
+		margin-left: auto;
+		right: 0;
+		left: 0;
+		top: 400px;
+		bottom: 0;
+	}
+
+	.about_university{
+		height: 691px;
+	}
+
+	.about_university_info{
+		width: 100%;
+		text-align: center;
+		max-width: 320px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.about_university_text{
+		width: 100%;
+		padding-top: 370px;
+	}
+
+	.about_university h3{
+		width: 100%;
+		text-align: center;
+	}
+
+	.why_best{
+		height: 1428px;
+		width: 100%;
+	}
+
+
+	.why_best_content{
+		max-width:320px;
+	}
+
+	.why_best_info{
+		height: 711px;
+		width: 100%;
+	}
+
+	.best_group {
+  		margin-left: 0%;
+	}
+
+	.best_group:first-child {
+ 		 margin-left: 0%;
+	}
+
+	.best_group{
+		display: block;
+		width: 100%;
+		height: 450px;
+		margin-top: 15px;
+	}
+
+	.best_group	.photo{
+		width: 100%;
+		height:180px;
+	}
+
+	.best_group	.why_best_text{
+		width: 100%;
+		height: 180px;
+	}
+
+	.why_best p{
+		text-align: center;
+	}
+
+	.why_best h3{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.view{
+		display: block;
+		background-color: #fff;
+		left: 0;
+		top: 5px;
+	}
+
+	.student_says{
+		height: 530px;
+	}
+
+	.student_says_info{
+		max-width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.pages{
+		display: block;
+		width: 100%;
+		right: 0;
+		text-align: center;
+		margin-top: 10px;
+	}
+	
+	.page_next{
+		background-image:url(images/left.png);
+	}
+
+	blockquote{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+		padding-top:15px;
+		padding-left: 0;
+		position: relative;
+	}
+
+	.blockquote_p{
+		margin: 0;
+		margin-top: -20px;
+		text-align: right;
+	}
+
+	.blockquote_p:after {  
+	    content: "\201E";  
+	    font-size: 55px;  
+	    text-align: center;    
+	    color: #EAEAEA;  
+	    float: rightright;  
+	    position: relative;  
+	    font-family: "HelveticaBold";
+	    margin-top:-10px;
+	    left:-4%;
+	}
+	.boy{
+		bottom:0;
+		width: 250px;
+	}
+
+	.click2start{
+		height: 240px;
+	}
+
+	.click2start_info{
+		max-width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	button{
+		width: 299px;
+		height: 128px;
+		font-size: 23px;
+		text-align: center;
+		line-height: 1.6em;
+		left: -9%;
+		top:-46px;
+	}
+
+	button:after{  
+	    font-size: 30px;  
+	    line-height: 20px;
+	    display: block;
+	    height: 30px;
+	    width: 30px;
+	    text-align: center;
+	    line-height: 25px;
+	    vertical-align: middle;
+	    margin-left: 20px;
+	    margin-top: 5px;
+	   	margin-left: auto;
+	   	margin-right: auto;
+	}
+
+	.click2start{
+		height: 195px;
+	}
+
+	footer{
+		height: 313px;
+	}
+
+	.footer_info{
+		max-width: 320px;
+	}
+
+	.footer_logo .circle{
+		display: block;
+	}
+
+	.footer_logo{
+		width: 100%;
+		margin: auto;
+		margin-left: auto;
+		padding-top: 40px;
+	}
+
+	.abc_footer{
+		width: 322px;
+		text-align: center;
+		padding: 0;
+		border-bottom: 1px solid #6D82B6;
+		border-right: none;
+		padding-bottom: 10px;
+	}
+
+	footer .social{
+		display: block;
+		max-width: 320px;
+		top:186px;
+		left:2px;
+		padding: 0;
+		margin: 0;
+		padding-top: -5px;
+	}
+
+	.legal{
+		width:257px;
+		top:242px;
+		max-width: 320px;
+		left:39px;
+		text-align: center;
+	}
+
+	blockquote:before {  
+    	content: "\201C";  
+    	font-size: 75px;    
+    	color: #EAEAEA;   
+    	float: left;  
+    	position: absolute;  
+    	top: 10px;  
+    	left:-2px;
+    	font-family: arial;
+    }
+
+	}

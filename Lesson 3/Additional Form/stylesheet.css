@@ -1,0 +1,26 @@
+select{
+	border:1px solid gray;
+	height:38px;
+	font-weight: bold;
+	padding:10px;
+	width:200px;
+ 	background: transparent;
+}
+
+.menu{
+	margin:auto;
+	height:45px;
+	width:177px;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	border-left:0;
+	border-right:0;
+	padding-top:10px;
+	padding-bottom:2px;
+	border-radius: 0;
+    overflow: hidden;
+    background:url(./arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 38px;
+}

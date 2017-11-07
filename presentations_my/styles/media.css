@@ -1,0 +1,162 @@
+@media screen and (max-width: 720px) {
+  /* line 3, ../sass/media.scss */
+  .container {
+    text-align: center;
+  }
+
+  /* line 7, ../sass/media.scss */
+  h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+
+  /* line 12, ../sass/media.scss */
+  h2 {
+    font-size: 35px;
+    padding-bottom: 0;
+  }
+
+  /* line 17, ../sass/media.scss */
+  h2 span {
+    font-size: 30px;
+    text-transform: none;
+    line-height: 60px;
+  }
+
+  /* line 23, ../sass/media.scss */
+  button {
+    width: 100%;
+  }
+
+  /* line 27, ../sass/media.scss */
+  .image_div {
+    display: none;
+  }
+
+  /* line 31, ../sass/media.scss */
+  .main span {
+    font-size: 30px;
+  }
+
+  /* line 35, ../sass/media.scss */
+  .about_me .container .row .col-md-4 img {
+    display: none;
+  }
+
+  /* line 39, ../sass/media.scss */
+  .about_me .container .row .col-md-7 .about_me_content p {
+    padding-top: 10px;
+  }
+
+  /* line 43, ../sass/media.scss */
+  .clients .container .clients_content .row {
+    padding-top: 0;
+  }
+
+  /* line 47, ../sass/media.scss */
+  .clients_content .row .col-md-4 .img_icon {
+    display: none;
+  }
+
+  /* line 51, ../sass/media.scss */
+  .clients .container .logos .row div img {
+    width: 30%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  /* line 58, ../sass/media.scss */
+  .education .col-md-6 {
+    margin: 30px 0;
+  }
+
+  /* line 63, ../sass/media.scss */
+  .mechanic h2 {
+    padding-bottom: 20px;
+  }
+
+  /* line 67, ../sass/media.scss */
+  .mechanic .container .col-md-7 ul li:before {
+    display: block;
+    position: static;
+    margin: 0 auto;
+  }
+
+  /* line 73, ../sass/media.scss */
+  .mechanic .container .col-md-7 ul li {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  /* line 78, ../sass/media.scss */
+  .mechanic .container .col-md-7 ul {
+    padding-bottom: 7px;
+  }
+
+  /* line 82, ../sass/media.scss */
+  .mechanic .container .col-md-7 p {
+    padding-bottom: 0;
+  }
+
+  /* line 86, ../sass/media.scss */
+  .trainings .container ul {
+    margin-left: 0;
+  }
+
+  /* line 90, ../sass/media.scss */
+  .trainings .container ul li:before {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+  }
+
+  /* line 97, ../sass/media.scss */
+  .trainings .container ul li {
+    padding-bottom: 0px;
+    padding-top: 16px;
+  }
+
+  /* line 102, ../sass/media.scss */
+  .trainings_details .container .col-md-6 ul li:before {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+
+  /* line 109, ../sass/media.scss */
+  .trainings_details .container .col-md-6 ul li {
+    margin-left: 0;
+    padding-top: 0;
+  }
+
+  /* line 114, ../sass/media.scss */
+  .price .container .col-md-7 ul li:before {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  /* line 121, ../sass/media.scss */
+  .price .container .col-md-7 ul li {
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+
+  /* line 126, ../sass/media.scss */
+  .price h2 {
+    padding-bottom: 20px;
+  }
+
+  /* line 130, ../sass/media.scss */
+  .contacts h2 {
+    padding-bottom: 20px;
+  }
+
+  /* line 134, ../sass/media.scss */
+  .contacts ul {
+    text-align: left;
+  }
+}
